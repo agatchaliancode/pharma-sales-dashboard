@@ -1,0 +1,1964 @@
+hcp_id,npi_number,hcp_name,credential,specialty,city,priority_tier,territory_id
+1,1403542490,"Eric Turner, MD",MD,Neurology,Cambridge,NP,1
+2,1387820854,"David Chen, MD",MD,Psychiatry,Framingham,C,1
+3,1175857839,"Sofia Edwards, MD",MD,Internal Medicine,Shrewsbury,B,1
+4,1787161650,"Daniel Dunn, DO",DO,Family Medicine,Cambridge,NP,1
+5,1507039636,"Kevin Xu, MD",MD,Cardiology,Boston,NP,1
+6,1095151859,"Priya Mitchell, MD",MD,Neurology,Shrewsbury,C,1
+7,1139525986,"Marcus Reyes, MD",MD,Internal Medicine,Shrewsbury,NP,1
+8,1445346709,"Maria Lopez, MD",MD,Internal Medicine,Boston,NP,1
+9,1035081530,"Carlos Dunn, MD",MD,Internal Medicine,North Chelmsford,C,1
+10,1157195786,"Rachel Owens, MD",MD,Sports Medicine (Internal Medicine),Quincy,A,1
+11,1663266924,"Jennifer Kim, DO",DO,Internal Medicine,Newton,C,1
+12,1851493993,"Patricia Xu, PA",PA,Family Medicine,Quincy,B,1
+13,1033783761,"Linda Dunn, MD",MD,Neurology,Newton,NP,1
+14,1324103953,"Maria Owens, MD",MD,Family Medicine,Boston,C,1
+15,1801413196,"Tyler Singh, MD",MD,Cardiology,Cambridge,NP,1
+16,1708953962,"Patricia Hughes, MD",MD,Family Medicine,Boston,NP,1
+17,1660279601,"Tyler Ellis, MD",MD,Psychiatry,North Chelmsford,NP,1
+18,1301295312,"Michael Mitchell, DO",DO,Family Medicine,Boston,NP,1
+19,1027271384,"Kevin Singh, MD",MD,Pediatrics,Shrewsbury,NP,1
+20,1300520205,"Eric Diaz, MD",MD,Psychiatry,Boston,NP,1
+21,1887258530,"Brian Garcia, MD",MD,Cardiology,Shrewsbury,C,1
+22,1069753216,"Nina Johnson, MD",MD,Family Medicine,Boston,NP,1
+23,1170138660,"Jennifer Owens, MD",MD,Family Medicine,Quincy,NP,1
+24,1410935739,"Marcus Bennett, MD",MD,Family Medicine,Shrewsbury,NP,1
+25,1544302049,"Alyssa Kim, MD",MD,Internal Medicine,Concord,B,1
+26,1194871151,"James Kim, PA",PA,Psychiatry,Shrewsbury,B,1
+27,1240479038,"Aisha Walker, NP",NP,Pediatrics,Boston,B,1
+28,1218000724,"Grace Usman, MD",MD,Internal Medicine,North Chelmsford,B,1
+29,1249385173,"Hannah Walker, MD",MD,Neurology,Framingham,NP,1
+30,1868832341,"Jennifer Kim, MD",MD,Psychiatry,Concord,C,1
+31,1405023516,"Linda Kim, MD",MD,Endocrinology,Concord,NP,1
+32,1259358143,"Tyler Chen, NP",NP,Rheumatology,Cambridge,C,1
+33,1202631439,"Marcus Vargas, MD",MD,Endocrinology,North Chelmsford,C,1
+34,1071666403,"Eric Singh, DO",DO,Family Medicine,Framingham,B,1
+35,1494524401,"Priya Ellis, MD",MD,Internal Medicine,Concord,C,1
+36,1814635635,"Hannah Mitchell, MD",MD,Neurology,Quincy,NP,1
+37,1586888304,"Kevin Vargas, MD",MD,Family Medicine,Framingham,NP,1
+38,1070535614,"Nina Patel, MD",MD,Cardiology,Cambridge,B,1
+39,1496238091,"Victor Ito, MD",MD,Internal Medicine,Shrewsbury,C,1
+40,1243612810,"James Kim, NP",NP,Family Medicine,North Chelmsford,C,1
+41,1443642545,"Patricia Singh, MD",MD,Internal Medicine,Quincy,C,1
+42,1517499557,"Brian Patel, PA",PA,Internal Medicine,Newton,A,1
+43,1182787662,"Victor Anderson, NP",NP,Internal Medicine,Shrewsbury,C,1
+44,1265739141,"Marcus Owens, MD",MD,Pediatrics,Framingham,NP,1
+45,1851564674,"Sofia Anderson, PA",PA,Internal Medicine,Concord,A,1
+46,1445191034,"Michael Diaz, MD",MD,Psychiatry,Cambridge,NP,1
+47,1146005701,"Jennifer Anderson, MD",MD,Cardiology,Cambridge,NP,1
+48,1319260109,"Omar Brooks, NP",NP,Endocrinology,Framingham,NP,1
+49,1455214916,"Tyler Zimmerman, MD",MD,Rheumatology,Newton,B,1
+50,1463445356,"Hannah Xu, MD",MD,Cardiology,Boston,A,1
+51,1843983032,"Tyler Brooks, PA",PA,Family Medicine,Boston,NP,1
+52,1009208711,"Brian Edwards, MD",MD,Pediatrics,Quincy,NP,1
+53,1153656798,"Brian Bennett, MD",MD,Family Medicine,Cambridge,NP,1
+54,1276423080,"Victor Young, PA",PA,Family Medicine,Concord,C,1
+55,1387636302,"Marcus Kim, NP",NP,Family Medicine,North Chelmsford,B,1
+56,1114188469,"Marcus Hughes, MD",MD,Family Medicine,Quincy,C,1
+57,1442996851,"Jason Bennett, MD",MD,Pediatrics,Cambridge,NP,1
+58,1065219860,"Grace Lopez, MD",MD,Neurology,Boston,NP,1
+59,1771570899,"Derek Patel, NP",NP,Neurology,Boston,NP,1
+60,1087763634,"Aisha Quinn, MD",MD,Cardiology,Shrewsbury,C,1
+61,1095471923,"Eric Dunn, MD",MD,Pediatrics,Shrewsbury,C,1
+62,1365095945,"Patricia Bennett, DO",DO,Cardiology,Newton,C,1
+63,1361516471,"Tyler Usman, MD",MD,Rheumatology,Quincy,NP,1
+64,1393053148,"Sofia Dunn, NP",NP,Psychiatry,Quincy,NP,1
+65,1700617556,"Jennifer Walker, MD",MD,Neurology,Concord,B,1
+66,1710234429,"Omar Xu, MD",MD,Psychiatry,Shrewsbury,C,1
+67,1263624287,"Marcus Anderson, MD",MD,Internal Medicine,Newton,NP,1
+68,1591882083,"Daniel Quinn, MD",MD,Family Medicine,North Chelmsford,NP,1
+69,1390890464,"Grace Lopez, NP",NP,Sports Medicine (Internal Medicine),New York,B,2
+70,1851565654,"Victor Lopez, MD",MD,Internal Medicine,White Plains,NP,2
+71,1196320171,"Alyssa Edwards, NP",NP,Neurology,Bronx,NP,2
+72,1863990933,"Patricia Anderson, MD",MD,Psychiatry,Bronx,C,2
+73,1229414787,"Sofia Johnson, MD",MD,Family Medicine,White Plains,B,2
+74,1251006069,"Grace Walker, MD",MD,Pediatrics,Queens,NP,2
+75,1349486706,"Priya Usman, MD",MD,Family Medicine,Yonkers,NP,2
+76,1501424385,"Victor Garcia, MD",MD,Psychiatry,Bronx,A,2
+77,1608076530,"Kevin Turner, MD",MD,Psychiatry,Yonkers,NP,2
+78,1112049650,"Tanya Garcia, NP",NP,Family Medicine,White Plains,C,2
+79,1864808550,"Aisha Anderson, DO",DO,Internal Medicine,New York,A,2
+80,1257784004,"Linda Nguyen, MD",MD,Neurology,Yonkers,B,2
+81,1048250327,"Grace Johnson, MD",MD,Cardiology,White Plains,NP,2
+82,1018397444,"Rachel Chen, MD",MD,Psychiatry,White Plains,B,2
+83,1590851412,"Alyssa Xu, MD",MD,Internal Medicine,Bronx,NP,2
+84,1083066247,"Tyler Owens, DO",DO,Neurology,Bronx,B,2
+85,1894531088,"Maria Walker, MD",MD,Family Medicine,Queens,NP,2
+86,1295128841,"Daniel Chen, MD",MD,Pediatrics,Queens,B,2
+87,1534430963,"Tyler Bennett, DO",DO,Psychiatry,Brooklyn,NP,2
+88,1029619176,"Sofia Reyes, NP",NP,Neurology,Queens,B,2
+89,1575906567,"Kevin Mitchell, MD",MD,Internal Medicine,New York,C,2
+90,1603084079,"Brian Usman, MD",MD,Pediatrics,White Plains,NP,2
+91,1784278335,"Michael Young, NP",NP,Cardiology,Brooklyn,B,2
+92,1886924648,"David Lopez, MD",MD,Psychiatry,Bronx,NP,2
+93,1754285764,"Derek Anderson, MD",MD,Psychiatry,New York,NP,2
+94,1681782907,"Grace Garcia, MD",MD,Rheumatology,New York,NP,2
+95,1314967768,"Nina Garcia, MD",MD,Psychiatry,Bronx,C,2
+96,1804627601,"Victor Reyes, MD",MD,Psychiatry,Yonkers,C,2
+97,1718148616,"Linda Johnson, MD",MD,Internal Medicine,New York,B,2
+98,1489523191,"Monica Usman, PA",PA,Internal Medicine,Brooklyn,NP,2
+99,1103742280,"Grace Quinn, MD",MD,Cardiology,Queens,NP,2
+100,1317260157,"Alyssa Hughes, MD",MD,Endocrinology,Bronx,C,2
+101,1842117899,"Monica Turner, DO",DO,Cardiology,Yonkers,NP,2
+102,1678165935,"Patricia Edwards, MD",MD,Internal Medicine,Yonkers,NP,2
+103,1762506309,"Grace Johnson, DO",DO,Psychiatry,White Plains,NP,2
+104,1169902581,"Jason Edwards, MD",MD,Internal Medicine,Bronx,NP,2
+105,1091891946,"Tanya Brooks, MD",MD,Cardiology,New York,NP,2
+106,1537534103,"Omar Ito, MD",MD,Internal Medicine,Bronx,NP,2
+107,1320177045,"Emily Reyes, MD",MD,Family Medicine,Yonkers,C,2
+108,1878927835,"Brian Chen, MD",MD,Family Medicine,Brooklyn,NP,2
+109,1528673413,"Derek Lopez, MD",MD,Neurology,Queens,NP,2
+110,1053150686,"David Turner, MD",MD,Family Medicine,Brooklyn,A,2
+111,1146848677,"Carlos Bennett, MD",MD,Internal Medicine,New York,B,2
+112,1776237099,"Grace Reyes, MD",MD,Pediatrics,New York,NP,2
+113,1146146676,"Monica Ellis, MD",MD,Family Medicine,Queens,NP,2
+114,1059903398,"Aisha Nguyen, MD",MD,Family Medicine,Queens,C,2
+115,1730364289,"Emily Brooks, MD",MD,Cardiology,New York,NP,2
+116,1571031300,"Jennifer Garcia, NP",NP,Psychiatry,Queens,NP,2
+117,1774548471,"Eric Young, MD",MD,Internal Medicine,Yonkers,C,2
+118,1049876383,"Nina Vargas, DO",DO,Rheumatology,Yonkers,C,2
+119,1659406509,"Eric Singh, MD",MD,Neurology,Yonkers,NP,2
+120,1101939392,"Jason Xu, MD",MD,Cardiology,Queens,NP,2
+121,1639647808,"Robert Ellis, NP",NP,Family Medicine,Queens,C,2
+122,1205251025,"Eric Johnson, MD",MD,Neurology,New York,NP,2
+123,1352369159,"Grace Vargas, DO",DO,Psychiatry,New York,NP,2
+124,1452304545,"Eric Owens, MD",MD,Cardiology,Brooklyn,NP,2
+125,1825750192,"David Ellis, PA",PA,Cardiology,Yonkers,NP,2
+126,1479696840,"Emily Turner, MD",MD,Sports Medicine (Internal Medicine),White Plains,C,2
+127,1291561543,"James Patel, PA",PA,Sports Medicine (Internal Medicine),Brooklyn,NP,2
+128,1669788906,"Brian Xu, MD",MD,Psychiatry,Bronx,C,2
+129,1891313680,"Hannah Lopez, MD",MD,Neurology,New York,C,2
+130,1410354356,"Emily Quinn, DO",DO,Internal Medicine,White Plains,NP,2
+131,1548015905,"Brian Cohen, MD",MD,Family Medicine,Queens,NP,2
+132,1756033137,"Brian Owens, DO",DO,Internal Medicine,White Plains,NP,2
+133,1345029444,"Rachel Ito, MD",MD,Endocrinology,White Plains,C,2
+134,1644534664,"Marcus Foster, MD",MD,Internal Medicine,Queens,C,2
+135,1090824504,"Carlos Chen, PA",PA,Cardiology,New York,A,2
+136,1026830583,"Linda Patel, DO",DO,Family Medicine,Queens,B,2
+137,1090602877,"Rachel Zimmerman, MD",MD,Sports Medicine (Internal Medicine),White Plains,NP,2
+138,1369017583,"Jason Young, PA",PA,Family Medicine,Yonkers,NP,2
+139,1617718704,"Jason Patel, MD",MD,Psychiatry,New York,C,2
+140,1355401068,"Robert Ito, MD",MD,Neurology,White Plains,NP,2
+141,1526601436,"Aisha Hughes, MD",MD,Internal Medicine,Babylon,NP,3
+142,1375549953,"Monica Diaz, MD",MD,Family Medicine,Garden City,B,3
+143,1560209309,"Jason Zimmerman, MD",MD,Psychiatry,Hempstead,NP,3
+144,1323424804,"Sofia Zimmerman, NP",NP,Cardiology,Babylon,NP,3
+145,1066437454,"Tyler Dunn, MD",MD,Endocrinology,Huntington,A,3
+146,1183939267,"David Reyes, NP",NP,Family Medicine,Babylon,C,3
+147,1664726130,"Patricia Ito, MD",MD,Internal Medicine,Islip,NP,3
+148,1333701090,"Jason Quinn, MD",MD,Internal Medicine,Garden City,C,3
+149,1826497743,"Marcus Xu, NP",NP,Psychiatry,Garden City,NP,3
+150,1678979161,"Kevin Owens, MD",MD,Family Medicine,Garden City,C,3
+151,1256094364,"Tyler Xu, MD",MD,Family Medicine,Hempstead,NP,3
+152,1350403178,"Carlos Zimmerman, MD",MD,Internal Medicine,Garden City,NP,3
+153,1281915817,"Jason Cohen, PA",PA,Cardiology,Hempstead,C,3
+154,1004554657,"Monica Lopez, MD",MD,Family Medicine,Babylon,C,3
+155,1846194296,"Eric Bennett, MD",MD,Family Medicine,Babylon,NP,3
+156,1314074697,"Maria Patel, MD",MD,Cardiology,Babylon,NP,3
+157,1406683211,"Priya Johnson, MD",MD,Neurology,Huntington,A,3
+158,1865628945,"Maria Young, MD",MD,Family Medicine,Babylon,NP,3
+159,1679251964,"Jason Nguyen, MD",MD,Family Medicine,Hempstead,NP,3
+160,1554763540,"Priya Owens, MD",MD,Psychiatry,Garden City,NP,3
+161,1774193238,"Sofia Ellis, MD",MD,Pediatrics,Huntington,NP,3
+162,1376669711,"Nina Bennett, DO",DO,Internal Medicine,Huntington,NP,3
+163,1236499573,"Derek Singh, MD",MD,Family Medicine,Islip,B,3
+164,1145784615,"Eric Chen, MD",MD,Family Medicine,Babylon,NP,3
+165,1752407299,"Jason Chen, MD",MD,Psychiatry,Islip,NP,3
+166,1124241970,"Tyler Garcia, MD",MD,Family Medicine,Islip,NP,3
+167,1798647169,"David Xu, MD",MD,Internal Medicine,Huntington,C,3
+168,1445102374,"Eric Vargas, MD",MD,Family Medicine,Islip,C,3
+169,1160932051,"Sofia Zimmerman, DO",DO,Sports Medicine (Internal Medicine),Babylon,NP,3
+170,1053635039,"Priya Turner, DO",DO,Endocrinology,Babylon,C,3
+171,1083990133,"Emily Lopez, MD",MD,Psychiatry,Garden City,NP,3
+172,1376434551,"Jason Kim, PA",PA,Neurology,Hempstead,NP,3
+173,1257201562,"Omar Garcia, MD",MD,Family Medicine,Garden City,NP,3
+174,1412268515,"Robert Kim, MD",MD,Cardiology,Garden City,NP,3
+175,1585234033,"Michael Usman, MD",MD,Internal Medicine,Huntington,C,3
+176,1263950669,"Tanya Johnson, MD",MD,Cardiology,Huntington,B,3
+177,1177580144,"Emily Vargas, MD",MD,Internal Medicine,Babylon,C,3
+178,1619660275,"Patricia Turner, PA",PA,Psychiatry,Garden City,B,3
+179,1858146248,"James Chen, MD",MD,Neurology,Hempstead,B,3
+180,1673042955,"Brian Turner, PA",PA,Neurology,Huntington,NP,3
+181,1408784549,"David Cohen, MD",MD,Psychiatry,Babylon,NP,3
+182,1463783447,"Monica Xu, MD",MD,Cardiology,Huntington,C,3
+183,1711052770,"Aisha Singh, DO",DO,Psychiatry,Hempstead,C,3
+184,1873253728,"Tyler Reyes, MD",MD,Pediatrics,Hempstead,NP,3
+185,1108706813,"Hannah Chen, MD",MD,Neurology,Garden City,B,3
+186,1846209184,"Nina Dunn, PA",PA,Family Medicine,Islip,NP,3
+187,1717837654,"Priya Zimmerman, DO",DO,Psychiatry,Babylon,NP,3
+188,1208631311,"Omar Singh, MD",MD,Internal Medicine,Islip,B,3
+189,1632023416,"Eric Usman, MD",MD,Family Medicine,Hempstead,NP,3
+190,1139919063,"Michael Usman, NP",NP,Psychiatry,Babylon,C,3
+191,1190530412,"Rachel Edwards, NP",NP,Internal Medicine,Huntington,NP,3
+192,1725017996,"Hannah Anderson, MD",MD,Internal Medicine,Garden City,NP,3
+193,1510966118,"Linda Garcia, MD",MD,Neurology,Huntington,NP,3
+194,1631014066,"David Anderson, PA",PA,Neurology,Babylon,A,3
+195,1598329891,"Omar Hughes, NP",NP,Rheumatology,Garden City,B,3
+196,1836775650,"Hannah Hughes, MD",MD,Internal Medicine,Babylon,NP,3
+197,1415713610,"Jason Johnson, MD",MD,Psychiatry,Garden City,NP,3
+198,1049310580,"Alyssa Quinn, MD",MD,Cardiology,Huntington,C,3
+199,1620339693,"Kevin Patel, MD",MD,Internal Medicine,Babylon,NP,3
+200,1628980767,"Tanya Foster, DO",DO,Family Medicine,Islip,C,3
+201,1534223147,"Tyler Chen, MD",MD,Psychiatry,King of Prussia,B,4
+202,1735166339,"Tanya Young, MD",MD,Psychiatry,King of Prussia,A,4
+203,1180774175,"Aisha Walker, MD",MD,Endocrinology,Media,NP,4
+204,1541304384,"Maria Vargas, MD",MD,Neurology,Doylestown,NP,4
+205,1847876268,"Michael Garcia, MD",MD,Pediatrics,Norristown,B,4
+206,1283037176,"Daniel Nguyen, NP",NP,Psychiatry,Doylestown,A,4
+207,1132210302,"Eric Patel, DO",DO,Cardiology,Norristown,NP,4
+208,1649628077,"Jennifer Edwards, MD",MD,Cardiology,Norristown,NP,4
+209,1414512205,"Nina Owens, MD",MD,Pediatrics,Doylestown,B,4
+210,1814167723,"Rachel Mitchell, MD",MD,Family Medicine,Doylestown,A,4
+211,1761760533,"Nina Cohen, MD",MD,Psychiatry,Norristown,C,4
+212,1742467396,"Grace Cohen, MD",MD,Cardiology,Media,NP,4
+213,1556796399,"Tanya Quinn, DO",DO,Psychiatry,King of Prussia,NP,4
+214,1091303115,"Hannah Usman, MD",MD,Neurology,Norristown,NP,4
+215,1669883973,"Jennifer Bennett, MD",MD,Family Medicine,Philadelphia,C,4
+216,1710779516,"Sofia Young, MD",MD,Family Medicine,Media,NP,4
+217,1626103743,"Kevin Ellis, MD",MD,Neurology,Philadelphia,NP,4
+218,1508484192,"Monica Anderson, MD",MD,Psychiatry,Norristown,A,4
+219,1613235720,"Robert Anderson, MD",MD,Pediatrics,King of Prussia,NP,4
+220,1476092385,"Grace Chen, MD",MD,Family Medicine,Norristown,C,4
+221,1598795411,"Tanya Vargas, MD",MD,Rheumatology,Philadelphia,B,4
+222,1263689838,"Tyler Quinn, MD",MD,Family Medicine,Philadelphia,NP,4
+223,1548541064,"Brian Anderson, MD",MD,Sports Medicine (Internal Medicine),Media,NP,4
+224,1136843261,"Jason Lopez, MD",MD,Pediatrics,King of Prussia,B,4
+225,1653217707,"Rachel Singh, DO",DO,Neurology,Norristown,B,4
+226,1856177498,"Daniel Nguyen, PA",PA,Neurology,Doylestown,NP,4
+227,1672397620,"Derek Anderson, DO",DO,Family Medicine,Norristown,NP,4
+228,1826203552,"Emily Ellis, MD",MD,Psychiatry,Philadelphia,C,4
+229,1846024386,"Michael Chen, MD",MD,Pediatrics,King of Prussia,C,4
+230,1548943152,"Grace Young, DO",DO,Internal Medicine,Norristown,NP,4
+231,1331246350,"Aisha Vargas, MD",MD,Psychiatry,Doylestown,NP,4
+232,1227811907,"Jason Dunn, MD",MD,Internal Medicine,Doylestown,B,4
+233,1724572095,"Tyler Patel, MD",MD,Family Medicine,Media,NP,4
+234,1806306410,"Michael Owens, NP",NP,Internal Medicine,King of Prussia,B,4
+235,1209380456,"David Kim, DO",DO,Neurology,Media,NP,4
+236,1248238781,"Marcus Turner, MD",MD,Internal Medicine,King of Prussia,C,4
+237,1493186481,"Victor Patel, MD",MD,Family Medicine,King of Prussia,C,4
+238,1856075425,"Michael Mitchell, MD",MD,Rheumatology,Norristown,C,4
+239,1704351431,"Michael Young, MD",MD,Psychiatry,Doylestown,B,4
+240,1507528512,"Brian Mitchell, NP",NP,Neurology,Doylestown,C,4
+241,1122530180,"Rachel Brooks, MD",MD,Family Medicine,King of Prussia,NP,4
+242,1421273563,"Alyssa Lopez, DO",DO,Family Medicine,Media,C,4
+243,1058753355,"Daniel Vargas, MD",MD,Neurology,Norristown,C,4
+244,1537661829,"Priya Garcia, MD",MD,Neurology,Doylestown,NP,4
+245,1280736278,"Victor Turner, PA",PA,Endocrinology,King of Prussia,NP,4
+246,1824619981,"Alyssa Cohen, PA",PA,Pediatrics,King of Prussia,B,4
+247,1168477979,"Carlos Cohen, MD",MD,Sports Medicine (Internal Medicine),King of Prussia,NP,4
+248,1808828890,"Tanya Ito, MD",MD,Psychiatry,King of Prussia,NP,4
+249,1255666782,"Emily Vargas, NP",NP,Cardiology,Norristown,B,4
+250,1048579307,"Victor Vargas, NP",NP,Psychiatry,Media,NP,4
+251,1827676418,"Hannah Reyes, MD",MD,Rheumatology,Philadelphia,NP,4
+252,1196919026,"Derek Vargas, MD",MD,Internal Medicine,Media,A,4
+253,1231556357,"Emily Young, MD",MD,Psychiatry,Media,C,4
+254,1617395502,"Aisha Garcia, MD",MD,Internal Medicine,Media,B,4
+255,1288260720,"Michael Bennett, MD",MD,Neurology,Norristown,B,4
+256,1229652621,"Brian Bennett, DO",DO,Pediatrics,Philadelphia,NP,4
+257,1691414653,"Aisha Kim, MD",MD,Family Medicine,Philadelphia,NP,4
+258,1564242528,"Maria Chen, PA",PA,Neurology,King of Prussia,NP,4
+259,1283790685,"Linda Chen, PA",PA,Family Medicine,King of Prussia,NP,4
+260,1307211186,"David Kim, NP",NP,Family Medicine,Media,C,4
+261,1019791012,"Rachel Nguyen, MD",MD,Family Medicine,Norristown,C,4
+262,1413041584,"Alyssa Turner, NP",NP,Neurology,Media,NP,4
+263,1567334170,"Carlos Edwards, MD",MD,Family Medicine,Philadelphia,C,4
+264,1795916817,"Maria Usman, MD",MD,Neurology,Media,NP,4
+265,1213476805,"Carlos Ellis, MD",MD,Family Medicine,King of Prussia,B,4
+266,1781090246,"Monica Owens, MD",MD,Neurology,Norristown,C,4
+267,1773990720,"Hannah Johnson, MD",MD,Psychiatry,Media,NP,4
+268,1171411317,"Sofia Vargas, MD",MD,Pediatrics,King of Prussia,A,4
+269,1265943977,"Tanya Garcia, MD",MD,Cardiology,Doylestown,NP,4
+270,1774022515,"Grace Dunn, MD",MD,Cardiology,King of Prussia,NP,4
+271,1348875437,"Priya Anderson, NP",NP,Psychiatry,Doylestown,B,4
+272,1696906452,"Maria Diaz, MD",MD,Internal Medicine,Philadelphia,B,4
+273,1393804707,"Aisha Brooks, MD",MD,Cardiology,Philadelphia,NP,4
+274,1144784819,"Hannah Diaz, MD",MD,Family Medicine,Bethel Park,C,5
+275,1735273087,"James Usman, MD",MD,Psychiatry,Pittsburgh,NP,5
+276,1410748086,"Tyler Lopez, NP",NP,Psychiatry,Cranberry Township,NP,5
+277,1653303966,"Eric Chen, DO",DO,Rheumatology,Cranberry Township,B,5
+278,1683724157,"Priya Anderson, MD",MD,Neurology,Bethel Park,NP,5
+279,1445908739,"Kevin Lopez, MD",MD,Family Medicine,Pittsburgh,C,5
+280,1286814823,"Robert Dunn, NP",NP,Psychiatry,Bethel Park,C,5
+281,1371734524,"Emily Anderson, NP",NP,Internal Medicine,Cranberry Township,B,5
+282,1808263339,"Jennifer Chen, PA",PA,Internal Medicine,Monroeville,NP,5
+283,1851802172,"Daniel Owens, NP",NP,Psychiatry,Bethel Park,C,5
+284,1463777216,"Derek Brooks, MD",MD,Rheumatology,Cranberry Township,B,5
+285,1354207183,"Rachel Reyes, MD",MD,Rheumatology,Bethel Park,A,5
+286,1615422195,"Grace Xu, MD",MD,Psychiatry,Monroeville,B,5
+287,1186007224,"Derek Dunn, NP",NP,Neurology,Cranberry Township,B,5
+288,1392233342,"David Ito, MD",MD,Pediatrics,Pittsburgh,A,5
+289,1110649885,"Marcus Brooks, NP",NP,Family Medicine,Monroeville,NP,5
+290,1789676303,"Monica Johnson, MD",MD,Endocrinology,Bethel Park,C,5
+291,1855111999,"James Bennett, DO",DO,Internal Medicine,Pittsburgh,C,5
+292,1438305184,"Carlos Garcia, MD",MD,Psychiatry,Monroeville,C,5
+293,1581493374,"James Vargas, MD",MD,Rheumatology,Monroeville,NP,5
+294,1244989166,"Priya Foster, MD",MD,Pediatrics,Monroeville,NP,5
+295,1424487584,"Daniel Kim, MD",MD,Neurology,Pittsburgh,NP,5
+296,1117982316,"Jennifer Turner, MD",MD,Family Medicine,Bethel Park,NP,5
+297,1160925915,"Robert Zimmerman, MD",MD,Pediatrics,Pittsburgh,NP,5
+298,1002852217,"Robert Reyes, DO",DO,Cardiology,Bethel Park,C,5
+299,1538107015,"Rachel Johnson, MD",MD,Pediatrics,Bethel Park,NP,5
+300,1562350601,"Daniel Walker, MD",MD,Cardiology,Monroeville,B,5
+301,1286005245,"Hannah Turner, NP",NP,Internal Medicine,Cranberry Township,B,5
+302,1666173621,"Sofia Mitchell, NP",NP,Family Medicine,Monroeville,B,5
+303,1703149315,"Priya Lopez, MD",MD,Neurology,Bethel Park,B,5
+304,1659239579,"Derek Young, MD",MD,Cardiology,Pittsburgh,NP,5
+305,1854989998,"Robert Owens, MD",MD,Pediatrics,Monroeville,NP,5
+306,1610577402,"Monica Reyes, MD",MD,Family Medicine,Cranberry Township,NP,5
+307,1345177859,"Alyssa Johnson, PA",PA,Psychiatry,Pittsburgh,NP,5
+308,1786826899,"Priya Edwards, MD",MD,Sports Medicine (Internal Medicine),Monroeville,NP,5
+309,1241659802,"Michael Johnson, MD",MD,Neurology,Pittsburgh,C,5
+310,1707122394,"Patricia Ellis, MD",MD,Neurology,Monroeville,C,5
+311,1138301099,"Tanya Cohen, MD",MD,Psychiatry,Pittsburgh,NP,5
+312,1277222513,"James Reyes, MD",MD,Internal Medicine,Monroeville,B,5
+313,1886415555,"Monica Bennett, MD",MD,Sports Medicine (Internal Medicine),Monroeville,C,5
+314,1106211053,"Patricia Diaz, PA",PA,Neurology,Cranberry Township,NP,5
+315,1795507266,"Jennifer Singh, MD",MD,Psychiatry,Pittsburgh,NP,5
+316,1429562769,"Priya Singh, MD",MD,Pediatrics,Cranberry Township,A,5
+317,1560874045,"Brian Nguyen, NP",NP,Psychiatry,Bethel Park,C,5
+318,1237593775,"Nina Brooks, MD",MD,Psychiatry,Cranberry Township,NP,5
+319,1393284140,"Priya Xu, PA",PA,Neurology,Pittsburgh,NP,5
+320,1728708329,"Jennifer Hughes, DO",DO,Neurology,Monroeville,C,5
+321,1886720226,"Patricia Mitchell, MD",MD,Family Medicine,Pittsburgh,C,5
+322,1785801891,"Omar Cohen, MD",MD,Family Medicine,Pittsburgh,B,5
+323,1038828670,"Alyssa Mitchell, MD",MD,Cardiology,Bethel Park,NP,5
+324,1230184932,"Daniel Usman, MD",MD,Cardiology,Bethel Park,C,5
+325,1472950840,"Patricia Quinn, MD",MD,Family Medicine,Bethel Park,NP,5
+326,1466653575,"Monica Brooks, MD",MD,Psychiatry,Cranberry Township,NP,5
+327,1691786531,"Victor Owens, MD",MD,Psychiatry,Monroeville,NP,5
+328,1665723897,"Hannah Patel, MD",MD,Internal Medicine,Cranberry Township,C,5
+329,1321626383,"Brian Xu, PA",PA,Family Medicine,Bethel Park,NP,5
+330,1715385708,"Derek Brooks, DO",DO,Family Medicine,Pittsburgh,A,5
+331,1103141090,"Alyssa Dunn, NP",NP,Endocrinology,Cranberry Township,C,5
+332,1376625695,"Victor Nguyen, DO",DO,Psychiatry,Cranberry Township,C,5
+333,1865145707,"Rachel Garcia, NP",NP,Psychiatry,Bethel Park,C,5
+334,1002870329,"David Young, MD",MD,Neurology,Cranberry Township,C,5
+335,1157342756,"Alyssa Johnson, MD",MD,Psychiatry,Monroeville,B,5
+336,1557860000,"Grace Usman, PA",PA,Family Medicine,Monroeville,B,5
+337,1253651061,"Jennifer Young, MD",MD,Neurology,Cranberry Township,NP,5
+338,1504689668,"James Singh, DO",DO,Internal Medicine,Bethel Park,NP,5
+339,1375242716,"David Singh, MD",MD,Cardiology,Monroeville,NP,5
+340,1225310971,"Sofia Bennett, MD",MD,Cardiology,Hackensack,B,6
+341,1884749544,"Rachel Garcia, PA",PA,Pediatrics,Hackensack,C,6
+342,1453686255,"Sofia Xu, MD",MD,Psychiatry,Paramus,NP,6
+343,1887279022,"Derek Garcia, MD",MD,Pediatrics,Hackensack,B,6
+344,1374762396,"Eric Nguyen, MD",MD,Family Medicine,Newark,C,6
+345,1528974299,"Kevin Zimmerman, MD",MD,Pediatrics,Newark,A,6
+346,1277903296,"Aisha Reyes, DO",DO,Internal Medicine,Edison,B,6
+347,1796761270,"Patricia Garcia, MD",MD,Family Medicine,Edison,C,6
+348,1617542679,"Emily Singh, MD",MD,Rheumatology,Hackensack,C,6
+349,1572630617,"Michael Anderson, MD",MD,Family Medicine,Hackensack,B,6
+350,1216845144,"Linda Brooks, MD",MD,Rheumatology,Edison,C,6
+351,1064132551,"Hannah Owens, MD",MD,Endocrinology,Morristown,NP,6
+352,1651991745,"Eric Zimmerman, MD",MD,Sports Medicine (Internal Medicine),Paramus,B,6
+353,1433591592,"Jason Usman, MD",MD,Neurology,Newark,NP,6
+354,1541069556,"Alyssa Owens, DO",DO,Psychiatry,Edison,NP,6
+355,1585002181,"Michael Ito, MD",MD,Family Medicine,Hackensack,B,6
+356,1870999572,"Tyler Brooks, DO",DO,Rheumatology,Newark,C,6
+357,1059358003,"Sofia Xu, NP",NP,Internal Medicine,Newark,NP,6
+358,1759408008,"Sofia Dunn, MD",MD,Endocrinology,Hackensack,B,6
+359,1731624845,"Grace Singh, MD",MD,Family Medicine,Paramus,C,6
+360,1687274382,"Daniel Anderson, MD",MD,Psychiatry,Morristown,NP,6
+361,1744062114,"Grace Hughes, MD",MD,Internal Medicine,Paramus,NP,6
+362,1624541348,"Michael Reyes, MD",MD,Family Medicine,Paramus,C,6
+363,1846940496,"Carlos Brooks, MD",MD,Pediatrics,Edison,C,6
+364,1326766575,"Maria Johnson, MD",MD,Family Medicine,Hackensack,C,6
+365,1377616430,"Kevin Foster, MD",MD,Neurology,Hackensack,NP,6
+366,1292082221,"Alyssa Edwards, MD",MD,Family Medicine,Morristown,B,6
+367,1497406066,"Emily Cohen, NP",NP,Pediatrics,Edison,C,6
+368,1678079474,"Carlos Anderson, PA",PA,Family Medicine,Newark,C,6
+369,1106649675,"Robert Brooks, MD",MD,Neurology,Morristown,A,6
+370,1576298520,"Priya Xu, MD",MD,Internal Medicine,Hackensack,NP,6
+371,1835707442,"Linda Diaz, NP",NP,Endocrinology,Edison,NP,6
+372,1098730709,"Victor Brooks, PA",PA,Internal Medicine,Paramus,NP,6
+373,1707002732,"Daniel Ellis, MD",MD,Psychiatry,Morristown,B,6
+374,1732811701,"David Brooks, MD",MD,Internal Medicine,Newark,C,6
+375,1765934013,"Rachel Johnson, DO",DO,Pediatrics,Hackensack,B,6
+376,1838810351,"Brian Zimmerman, MD",MD,Neurology,Morristown,NP,6
+377,1437284620,"Grace Mitchell, DO",DO,Rheumatology,Paramus,NP,6
+378,1817394731,"Rachel Anderson, MD",MD,Family Medicine,Hackensack,NP,6
+379,1752596339,"James Zimmerman, DO",DO,Neurology,Hackensack,C,6
+380,1502733634,"Jason Quinn, DO",DO,Neurology,Edison,C,6
+381,1605554587,"Kevin Cohen, MD",MD,Family Medicine,Morristown,B,6
+382,1328388298,"Jason Owens, MD",MD,Internal Medicine,Newark,NP,6
+383,1760654868,"Tyler Edwards, MD",MD,Family Medicine,Newark,C,6
+384,1247771809,"Carlos Anderson, MD",MD,Family Medicine,Hackensack,NP,6
+385,1894451385,"James Johnson, DO",DO,Psychiatry,Newark,NP,6
+386,1703835232,"Tanya Mitchell, MD",MD,Endocrinology,Hackensack,B,6
+387,1311440643,"Carlos Hughes, MD",MD,Psychiatry,Newark,B,6
+388,1783715158,"Robert Foster, MD",MD,Internal Medicine,Edison,NP,6
+389,1352371884,"Emily Ito, MD",MD,Psychiatry,Newark,A,6
+390,1498544239,"Michael Vargas, MD",MD,Internal Medicine,Morristown,B,6
+391,1165484253,"Jason Quinn, PA",PA,Family Medicine,Hackensack,NP,6
+392,1747726894,"Brian Diaz, PA",PA,Psychiatry,Paramus,NP,6
+393,1147137105,"Nina Quinn, MD",MD,Neurology,Morristown,NP,6
+394,1579955802,"Carlos Usman, MD",MD,Family Medicine,Morristown,NP,6
+395,1416677766,"Marcus Reyes, DO",DO,Cardiology,Newark,C,6
+396,1235910212,"Alyssa Brooks, MD",MD,Sports Medicine (Internal Medicine),Paramus,C,6
+397,1718543678,"Victor Young, MD",MD,Psychiatry,Morristown,NP,6
+398,1616143385,"Victor Chen, MD",MD,Sports Medicine (Internal Medicine),Morristown,NP,6
+399,1366247542,"Carlos Nguyen, NP",NP,Internal Medicine,Edison,B,6
+400,1519995374,"Robert Johnson, MD",MD,Family Medicine,Hackensack,NP,6
+401,1722437342,"Derek Bennett, MD",MD,Cardiology,Morristown,C,6
+402,1338021210,"Maria Reyes, MD",MD,Pediatrics,Paramus,NP,6
+403,1169788684,"Eric Chen, PA",PA,Internal Medicine,Morristown,NP,6
+404,1862599879,"Sofia Quinn, MD",MD,Cardiology,Hackensack,A,6
+405,1678404358,"Michael Edwards, MD",MD,Neurology,Paramus,C,6
+406,1821232142,"Jason Young, DO",DO,Internal Medicine,Paramus,NP,6
+407,1222781459,"Kevin Walker, MD",MD,Psychiatry,Morristown,NP,6
+408,1569794218,"Daniel Anderson, NP",NP,Neurology,Paramus,NP,6
+409,1852871028,"Jason Lopez, PA",PA,Internal Medicine,Paramus,NP,6
+410,1019908297,"Brian Ellis, DO",DO,Cardiology,Edison,A,6
+411,1223306981,"Victor Zimmerman, MD",MD,Rheumatology,Newark,C,6
+412,1388136749,"Linda Ito, DO",DO,Psychiatry,Morristown,NP,6
+413,1113441553,"Rachel Edwards, MD",MD,Rheumatology,Paramus,C,6
+414,1161490578,"Nina Kim, MD",MD,Psychiatry,Newark,C,6
+415,1844514525,"Alyssa Usman, NP",NP,Internal Medicine,Morristown,C,6
+416,1210168185,"Robert Garcia, MD",MD,Neurology,Hackensack,A,6
+417,1407858428,"Linda Foster, MD",MD,Psychiatry,Atlanta,NP,7
+418,1308971221,"Tyler Dunn, PA",PA,Endocrinology,Roswell,C,7
+419,1528097768,"Alyssa Bennett, MD",MD,Psychiatry,Decatur,NP,7
+420,1288946798,"Nina Chen, DO",DO,Internal Medicine,Roswell,C,7
+421,1188427652,"Linda Ellis, MD",MD,Psychiatry,Marietta,B,7
+422,1640221717,"Jason Diaz, DO",DO,Neurology,Roswell,C,7
+423,1716254487,"Monica Singh, DO",DO,Sports Medicine (Internal Medicine),Decatur,A,7
+424,1101990669,"Kevin Diaz, PA",PA,Pediatrics,Decatur,NP,7
+425,1828761265,"Patricia Cohen, NP",NP,Internal Medicine,Atlanta,NP,7
+426,1047715539,"David Mitchell, MD",MD,Family Medicine,Roswell,C,7
+427,1446508811,"Maria Vargas, PA",PA,Pediatrics,Decatur,NP,7
+428,1717293303,"Emily Hughes, MD",MD,Cardiology,Marietta,NP,7
+429,1405297113,"Jennifer Zimmerman, MD",MD,Cardiology,Atlanta,NP,7
+430,1237129708,"Aisha Dunn, MD",MD,Family Medicine,Marietta,B,7
+431,1046684737,"Michael Walker, MD",MD,Internal Medicine,Decatur,NP,7
+432,1686837813,"David Quinn, MD",MD,Family Medicine,Roswell,B,7
+433,1051381375,"Robert Lopez, MD",MD,Internal Medicine,Decatur,NP,7
+434,1181718438,"Robert Reyes, MD",MD,Family Medicine,Alpharetta,NP,7
+435,1401414224,"Carlos Cohen, PA",PA,Internal Medicine,Alpharetta,A,7
+436,1130084433,"Michael Owens, MD",MD,Family Medicine,Atlanta,A,7
+437,1830693234,"Marcus Singh, PA",PA,Family Medicine,Decatur,A,7
+438,1204927596,"Brian Kim, MD",MD,Psychiatry,Marietta,C,7
+439,1809215082,"James Xu, DO",DO,Cardiology,Roswell,NP,7
+440,1676319007,"Eric Walker, MD",MD,Family Medicine,Atlanta,NP,7
+441,1511853269,"Sofia Cohen, MD",MD,Family Medicine,Atlanta,C,7
+442,1087102646,"Patricia Patel, MD",MD,Cardiology,Atlanta,NP,7
+443,1653248740,"Brian Vargas, NP",NP,Family Medicine,Roswell,NP,7
+444,1631000162,"Hannah Foster, NP",NP,Internal Medicine,Marietta,NP,7
+445,1088370107,"Patricia Johnson, NP",NP,Endocrinology,Decatur,C,7
+446,1810807108,"Sofia Foster, MD",MD,Internal Medicine,Decatur,NP,7
+447,1183229639,"Tyler Young, NP",NP,Family Medicine,Alpharetta,C,7
+448,1779442625,"Hannah Chen, PA",PA,Internal Medicine,Roswell,NP,7
+449,1801023698,"Emily Kim, MD",MD,Internal Medicine,Decatur,NP,7
+450,1278166231,"Brian Foster, MD",MD,Psychiatry,Decatur,NP,7
+451,1124965693,"Aisha Usman, MD",MD,Family Medicine,Alpharetta,A,7
+452,1743781328,"Jason Kim, MD",MD,Psychiatry,Atlanta,NP,7
+453,1093207189,"Alyssa Singh, MD",MD,Neurology,Decatur,NP,7
+454,1063472945,"Rachel Singh, MD",MD,Family Medicine,Decatur,B,7
+455,1526950239,"Alyssa Patel, MD",MD,Internal Medicine,Alpharetta,C,7
+456,1350975777,"Michael Patel, MD",MD,Psychiatry,Roswell,C,7
+457,1606799836,"Jennifer Johnson, MD",MD,Psychiatry,Alpharetta,NP,7
+458,1047481818,"Sofia Walker, MD",MD,Internal Medicine,Marietta,C,7
+459,1246866076,"Eric Ito, MD",MD,Family Medicine,Alpharetta,NP,7
+460,1852666912,"Aisha Diaz, DO",DO,Pediatrics,Decatur,NP,7
+461,1207698061,"Omar Walker, MD",MD,Internal Medicine,Atlanta,C,7
+462,1019564451,"Sofia Diaz, MD",MD,Psychiatry,Decatur,B,7
+463,1349579794,"Monica Hughes, PA",PA,Internal Medicine,Alpharetta,C,7
+464,1861585346,"Tanya Walker, MD",MD,Family Medicine,Roswell,B,7
+465,1493978737,"Patricia Zimmerman, MD",MD,Family Medicine,Alpharetta,B,7
+466,1849645865,"Omar Garcia, DO",DO,Internal Medicine,Atlanta,C,7
+467,1138019853,"Linda Nguyen, PA",PA,Internal Medicine,Alpharetta,B,7
+468,1385685998,"Hannah Kim, MD",MD,Internal Medicine,Roswell,C,7
+469,1637685863,"Monica Cohen, MD",MD,Neurology,Roswell,B,7
+470,1375738104,"Linda Walker, MD",MD,Internal Medicine,Decatur,NP,7
+471,1386359854,"Linda Kim, NP",NP,Cardiology,Decatur,NP,7
+472,1671654921,"Alyssa Young, MD",MD,Psychiatry,Marietta,NP,7
+473,1262943719,"Tyler Reyes, DO",DO,Psychiatry,Alpharetta,NP,7
+474,1640682073,"James Kim, MD",MD,Family Medicine,Marietta,NP,7
+475,1055013720,"Daniel Garcia, MD",MD,Internal Medicine,Marietta,B,7
+476,1815870172,"Patricia Vargas, NP",NP,Family Medicine,Roswell,A,7
+477,1489625663,"David Reyes, MD",MD,Neurology,Atlanta,B,7
+478,1842741782,"Hannah Hughes, DO",DO,Internal Medicine,Atlanta,NP,7
+479,1112416880,"Maria Edwards, PA",PA,Neurology,Decatur,A,7
+480,1505555990,"Jennifer Hughes, NP",NP,Family Medicine,Atlanta,NP,7
+481,1840335925,"Alyssa Lopez, MD",MD,Neurology,Atlanta,C,7
+482,1706040803,"Emily Usman, MD",MD,Family Medicine,Roswell,NP,7
+483,1817391670,"James Nguyen, MD",MD,Internal Medicine,Decatur,C,7
+484,1583548878,"Jennifer Foster, PA",PA,Psychiatry,Atlanta,B,7
+485,1450864141,"Eric Lopez, MD",MD,Family Medicine,Marietta,C,7
+486,1399991563,"Carlos Diaz, MD",MD,Internal Medicine,Marietta,C,7
+487,1313001673,"Daniel Lopez, MD",MD,Pediatrics,Decatur,NP,7
+488,1250743419,"Marcus Nguyen, MD",MD,Cardiology,Decatur,C,7
+489,1014236973,"Omar Foster, MD",MD,Pediatrics,Marietta,C,7
+490,1540275251,"Omar Kim, MD",MD,Internal Medicine,Marietta,C,7
+491,1592781383,"Omar Quinn, NP",NP,Internal Medicine,Decatur,C,7
+492,1550806952,"Priya Hughes, MD",MD,Neurology,Decatur,C,7
+493,1855503310,"Aisha Reyes, MD",MD,Pediatrics,Hialeah,NP,8
+494,1139453479,"Alyssa Cohen, MD",MD,Cardiology,Coral Gables,NP,8
+495,1893120363,"Tyler Singh, DO",DO,Family Medicine,Hollywood,B,8
+496,1282903089,"Daniel Reyes, MD",MD,Cardiology,Hollywood,NP,8
+497,1513254006,"Jason Cohen, MD",MD,Internal Medicine,Fort Lauderdale,NP,8
+498,1861224161,"Robert Young, MD",MD,Psychiatry,Hialeah,C,8
+499,1863479633,"Priya Young, MD",MD,Internal Medicine,Coral Gables,B,8
+500,1202639189,"Tyler Kim, PA",PA,Rheumatology,Coral Gables,NP,8
+501,1000536165,"Alyssa Foster, MD",MD,Psychiatry,Fort Lauderdale,NP,8
+502,1758754630,"Grace Turner, MD",MD,Internal Medicine,Coral Gables,NP,8
+503,1307875572,"Nina Reyes, MD",MD,Internal Medicine,Coral Gables,B,8
+504,1738203617,"Michael Kim, MD",MD,Cardiology,Fort Lauderdale,B,8
+505,1084003750,"Michael Dunn, MD",MD,Internal Medicine,Miami,NP,8
+506,1622803808,"Hannah Quinn, MD",MD,Internal Medicine,Fort Lauderdale,NP,8
+507,1464246460,"Sofia Bennett, DO",DO,Pediatrics,Miami,C,8
+508,1703136663,"Linda Mitchell, MD",MD,Internal Medicine,Coral Gables,NP,8
+509,1837965665,"Linda Anderson, MD",MD,Neurology,Fort Lauderdale,C,8
+510,1398558865,"Maria Johnson, PA",PA,Sports Medicine (Internal Medicine),Hialeah,NP,8
+511,1359099713,"Robert Cohen, MD",MD,Cardiology,Miami,C,8
+512,1033570805,"Jason Garcia, NP",NP,Endocrinology,Coral Gables,NP,8
+513,1408747774,"Derek Johnson, MD",MD,Neurology,Miami,NP,8
+514,1664502124,"Sofia Singh, MD",MD,Pediatrics,Fort Lauderdale,NP,8
+515,1294095939,"Eric Kim, DO",DO,Family Medicine,Coral Gables,NP,8
+516,1155288487,"Kevin Nguyen, MD",MD,Neurology,Miami,NP,8
+517,1821943552,"Grace Ito, NP",NP,Psychiatry,Coral Gables,B,8
+518,1262426439,"Robert Kim, NP",NP,Internal Medicine,Miami,NP,8
+519,1848848836,"Daniel Young, MD",MD,Rheumatology,Hialeah,C,8
+520,1462870819,"Rachel Vargas, MD",MD,Pediatrics,Fort Lauderdale,C,8
+521,1649841760,"Emily Garcia, MD",MD,Family Medicine,Hollywood,NP,8
+522,1842876066,"Daniel Hughes, MD",MD,Family Medicine,Hollywood,C,8
+523,1758006286,"Hannah Vargas, MD",MD,Endocrinology,Hialeah,B,8
+524,1331030966,"Sofia Brooks, MD",MD,Family Medicine,Hollywood,B,8
+525,1399394770,"Monica Edwards, MD",MD,Family Medicine,Fort Lauderdale,C,8
+526,1021939032,"Rachel Young, MD",MD,Internal Medicine,Miami,C,8
+527,1558853100,"Aisha Johnson, MD",MD,Internal Medicine,Miami,NP,8
+528,1152032333,"Priya Zimmerman, MD",MD,Neurology,Miami,B,8
+529,1249051837,"Grace Hughes, NP",NP,Endocrinology,Fort Lauderdale,C,8
+530,1491788534,"Jennifer Lopez, MD",MD,Cardiology,Miami,C,8
+531,1620021851,"Monica Nguyen, MD",MD,Family Medicine,Hollywood,C,8
+532,1898858005,"Patricia Brooks, MD",MD,Rheumatology,Hialeah,NP,8
+533,1082535399,"Maria Mitchell, MD",MD,Psychiatry,Miami,C,8
+534,1139801513,"Rachel Vargas, DO",DO,Family Medicine,Hollywood,NP,8
+535,1188060935,"Robert Owens, NP",NP,Internal Medicine,Hollywood,NP,8
+536,1213436700,"Victor Vargas, MD",MD,Rheumatology,Miami,NP,8
+537,1191060274,"Monica Mitchell, MD",MD,Rheumatology,Coral Gables,B,8
+538,1259454284,"Nina Zimmerman, MD",MD,Sports Medicine (Internal Medicine),Miami,NP,8
+539,1402828197,"David Kim, MD",MD,Family Medicine,Fort Lauderdale,NP,8
+540,1792892869,"Rachel Usman, PA",PA,Neurology,Hollywood,NP,8
+541,1899651448,"Monica Diaz, NP",NP,Internal Medicine,Coral Gables,B,8
+542,1710505041,"Omar Patel, PA",PA,Internal Medicine,Hollywood,B,8
+543,1190482336,"Victor Singh, DO",DO,Family Medicine,Hollywood,NP,8
+544,1484899547,"Priya Walker, MD",MD,Neurology,Hollywood,C,8
+545,1170466235,"Linda Usman, MD",MD,Rheumatology,Miami,NP,8
+546,1677312102,"David Edwards, MD",MD,Internal Medicine,Coral Gables,C,8
+547,1308568933,"Tanya Foster, MD",MD,Family Medicine,Coral Gables,A,8
+548,1091774067,"Carlos Johnson, MD",MD,Cardiology,Fort Lauderdale,NP,8
+549,1282645448,"Victor Cohen, MD",MD,Internal Medicine,Hollywood,NP,8
+550,1608921524,"Derek Cohen, MD",MD,Neurology,Miami,C,8
+551,1809681812,"Maria Foster, MD",MD,Pediatrics,Coral Gables,NP,8
+552,1321333518,"Victor Walker, MD",MD,Internal Medicine,Hialeah,C,8
+553,1001779518,"Brian Ellis, MD",MD,Neurology,Hollywood,NP,8
+554,1752358769,"Robert Dunn, MD",MD,Cardiology,Hollywood,B,8
+555,1864561355,"Priya Foster, DO",DO,Cardiology,Coral Gables,NP,8
+556,1697434014,"James Young, DO",DO,Sports Medicine (Internal Medicine),Coral Gables,NP,8
+557,1327522880,"Alyssa Nguyen, MD",MD,Internal Medicine,Fort Lauderdale,NP,8
+558,1847834137,"Priya Cohen, MD",MD,Cardiology,Hialeah,C,8
+559,1194798783,"Tyler Foster, MD",MD,Neurology,Coral Gables,NP,8
+560,1493070297,"Derek Quinn, DO",DO,Neurology,Miami,NP,8
+561,1594988349,"Marcus Dunn, MD",MD,Internal Medicine,Hollywood,B,8
+562,1204023938,"Robert Anderson, PA",PA,Internal Medicine,Hialeah,A,8
+563,1654683389,"Eric Cohen, MD",MD,Internal Medicine,Hialeah,NP,8
+564,1242142280,"Daniel Cohen, MD",MD,Cardiology,Fort Lauderdale,NP,8
+565,1534253766,"Omar Quinn, MD",MD,Pediatrics,Coral Gables,B,8
+566,1236295512,"Maria Dunn, NP",NP,Cardiology,Coral Gables,C,8
+567,1448594501,"Brian Johnson, MD",MD,Pediatrics,Coral Gables,NP,8
+568,1005024838,"Brian Reyes, PA",PA,Endocrinology,Fort Lauderdale,NP,8
+569,1891134131,"Grace Bennett, NP",NP,Neurology,Lakeland,NP,9
+570,1884373921,"Emily Foster, MD",MD,Neurology,Clearwater,NP,9
+571,1238880680,"Kevin Young, DO",DO,Internal Medicine,Clearwater,A,9
+572,1343518630,"Kevin Brooks, MD",MD,Family Medicine,St. Petersburg,NP,9
+573,1528968484,"Marcus Ito, MD",MD,Family Medicine,St. Petersburg,NP,9
+574,1813038702,"Daniel Bennett, MD",MD,Family Medicine,Lakeland,NP,9
+575,1897136051,"Linda Quinn, MD",MD,Internal Medicine,St. Petersburg,NP,9
+576,1868674899,"Aisha Turner, DO",DO,Neurology,Tampa,NP,9
+577,1835176922,"Maria Turner, MD",MD,Family Medicine,Clearwater,C,9
+578,1562039364,"James Lopez, NP",NP,Neurology,Brandon,NP,9
+579,1514499552,"David Anderson, MD",MD,Psychiatry,Lakeland,NP,9
+580,1712537055,"Daniel Johnson, NP",NP,Family Medicine,Clearwater,NP,9
+581,1052538666,"Nina Brooks, DO",DO,Endocrinology,Tampa,NP,9
+582,1198763992,"Priya Brooks, MD",MD,Psychiatry,Tampa,NP,9
+583,1553924967,"Linda Bennett, MD",MD,Pediatrics,Tampa,C,9
+584,1123555659,"Tanya Anderson, MD",MD,Psychiatry,Tampa,NP,9
+585,1475474392,"Carlos Walker, MD",MD,Psychiatry,Tampa,B,9
+586,1428211725,"Nina Young, MD",MD,Internal Medicine,Brandon,C,9
+587,1079577780,"Kevin Reyes, MD",MD,Pediatrics,Tampa,NP,9
+588,1110064264,"Kevin Ito, DO",DO,Family Medicine,St. Petersburg,NP,9
+589,1185322749,"Patricia Foster, NP",NP,Internal Medicine,Lakeland,A,9
+590,1596878852,"Nina Nguyen, MD",MD,Family Medicine,Brandon,NP,9
+591,1419208148,"Kevin Garcia, MD",MD,Internal Medicine,Tampa,NP,9
+592,1889908989,"Tyler Bennett, MD",MD,Family Medicine,Tampa,NP,9
+593,1840366406,"Brian Patel, MD",MD,Internal Medicine,Lakeland,NP,9
+594,1564875937,"James Ito, MD",MD,Neurology,Brandon,NP,9
+595,1734141529,"Brian Quinn, MD",MD,Family Medicine,Clearwater,NP,9
+596,1818350484,"Linda Ellis, DO",DO,Internal Medicine,Lakeland,NP,9
+597,1811947604,"Tyler Nguyen, MD",MD,Pediatrics,Clearwater,C,9
+598,1048613978,"Jennifer Usman, MD",MD,Internal Medicine,Tampa,C,9
+599,1875309294,"Marcus Edwards, MD",MD,Neurology,Clearwater,C,9
+600,1220998772,"Tanya Foster, NP",NP,Cardiology,St. Petersburg,NP,9
+601,1341085746,"Linda Dunn, NP",NP,Cardiology,St. Petersburg,C,9
+602,1494505270,"Daniel Xu, MD",MD,Neurology,Lakeland,NP,9
+603,1579094599,"Kevin Hughes, MD",MD,Internal Medicine,Lakeland,C,9
+604,1652149532,"Emily Walker, MD",MD,Internal Medicine,St. Petersburg,NP,9
+605,1222657467,"Tyler Johnson, NP",NP,Internal Medicine,St. Petersburg,NP,9
+606,1835299481,"Tanya Kim, MD",MD,Psychiatry,Brandon,C,9
+607,1063563436,"Grace Cohen, NP",NP,Cardiology,Clearwater,C,9
+608,1063028882,"Marcus Usman, NP",NP,Endocrinology,Brandon,C,9
+609,1132519376,"Patricia Xu, NP",NP,Psychiatry,Tampa,A,9
+610,1193000270,"Kevin Dunn, MD",MD,Psychiatry,Clearwater,NP,9
+611,1213135924,"Alyssa Chen, DO",DO,Psychiatry,Clearwater,B,9
+612,1322422887,"Rachel Young, DO",DO,Endocrinology,Lakeland,C,9
+613,1700776839,"Monica Young, MD",MD,Internal Medicine,Clearwater,C,9
+614,1567906043,"Omar Edwards, DO",DO,Pediatrics,Clearwater,B,9
+615,1479107482,"Omar Vargas, MD",MD,Psychiatry,Clearwater,NP,9
+616,1806102387,"Tanya Zimmerman, MD",MD,Internal Medicine,Tampa,NP,9
+617,1017259774,"Robert Hughes, PA",PA,Endocrinology,Brandon,NP,9
+618,1411844365,"Jason Turner, MD",MD,Pediatrics,Brandon,NP,9
+619,1141110499,"Nina Lopez, MD",MD,Psychiatry,Clearwater,NP,9
+620,1037182593,"Brian Ito, MD",MD,Endocrinology,Brandon,C,9
+621,1635694985,"Robert Ellis, MD",MD,Psychiatry,Tampa,NP,9
+622,1706910578,"Victor Ito, NP",NP,Rheumatology,Brandon,B,9
+623,1702011226,"Priya Usman, PA",PA,Neurology,Lakeland,A,9
+624,1016831657,"Eric Patel, MD",MD,Psychiatry,Brandon,NP,9
+625,1856502635,"Aisha Ellis, MD",MD,Rheumatology,Tampa,B,9
+626,1778972505,"Jennifer Diaz, NP",NP,Psychiatry,Brandon,C,9
+627,1824879282,"Carlos Young, MD",MD,Pediatrics,Brandon,C,9
+628,1619749488,"Linda Usman, PA",PA,Pediatrics,Charlotte,NP,10
+629,1828793409,"Aisha Kim, DO",DO,Cardiology,Charlotte,NP,10
+630,1795048604,"Tanya Usman, MD",MD,Internal Medicine,Gastonia,NP,10
+631,1192132165,"David Owens, MD",MD,Family Medicine,Matthews,NP,10
+632,1847575004,"Robert Edwards, MD",MD,Internal Medicine,Gastonia,NP,10
+633,1516060686,"Maria Kim, DO",DO,Rheumatology,Concord,NP,10
+634,1629741221,"Carlos Nguyen, MD",MD,Internal Medicine,Gastonia,NP,10
+635,1465677073,"Eric Turner, PA",PA,Cardiology,Charlotte,NP,10
+636,1275803005,"Grace Zimmerman, MD",MD,Endocrinology,Matthews,NP,10
+637,1013558632,"James Cohen, MD",MD,Internal Medicine,Gastonia,NP,10
+638,1874499806,"Emily Turner, DO",DO,Sports Medicine (Internal Medicine),Charlotte,NP,10
+639,1531122694,"James Garcia, DO",DO,Rheumatology,Charlotte,C,10
+640,1560160653,"Victor Foster, MD",MD,Family Medicine,Gastonia,C,10
+641,1642176381,"Michael Nguyen, MD",MD,Endocrinology,Matthews,NP,10
+642,1875431235,"Hannah Mitchell, DO",DO,Internal Medicine,Huntersville,A,10
+643,1470384364,"Carlos Anderson, DO",DO,Internal Medicine,Concord,C,10
+644,1294555266,"Sofia Usman, MD",MD,Internal Medicine,Matthews,NP,10
+645,1728836589,"Brian Turner, MD",MD,Family Medicine,Charlotte,C,10
+646,1117425963,"Marcus Walker, MD",MD,Internal Medicine,Matthews,NP,10
+647,1593573743,"Omar Diaz, NP",NP,Family Medicine,Charlotte,C,10
+648,1872677418,"Sofia Walker, NP",NP,Family Medicine,Matthews,NP,10
+649,1645037761,"Jennifer Brooks, MD",MD,Internal Medicine,Concord,C,10
+650,1301212097,"James Anderson, MD",MD,Psychiatry,Concord,C,10
+651,1758810710,"Derek Chen, MD",MD,Internal Medicine,Concord,NP,10
+652,1669954257,"Derek Foster, MD",MD,Rheumatology,Concord,NP,10
+653,1569951920,"Daniel Dunn, NP",NP,Internal Medicine,Huntersville,B,10
+654,1889937998,"Kevin Young, MD",MD,Psychiatry,Matthews,C,10
+655,1237424633,"Jason Anderson, MD",MD,Endocrinology,Charlotte,A,10
+656,1736392949,"Emily Anderson, MD",MD,Family Medicine,Gastonia,NP,10
+657,1608705978,"Rachel Walker, MD",MD,Pediatrics,Gastonia,B,10
+658,1110810397,"Nina Bennett, MD",MD,Internal Medicine,Huntersville,NP,10
+659,1149395534,"Monica Bennett, PA",PA,Internal Medicine,Matthews,C,10
+660,1592645731,"Maria Mitchell, NP",NP,Neurology,Huntersville,NP,10
+661,1611400161,"Monica Turner, NP",NP,Internal Medicine,Gastonia,C,10
+662,1473864263,"Marcus Xu, DO",DO,Family Medicine,Gastonia,NP,10
+663,1496892122,"Eric Anderson, PA",PA,Pediatrics,Gastonia,C,10
+664,1737700206,"Daniel Diaz, MD",MD,Family Medicine,Matthews,C,10
+665,1168112397,"Kevin Bennett, PA",PA,Pediatrics,Concord,C,10
+666,1493232909,"Nina Bennett, NP",NP,Neurology,Huntersville,B,10
+667,1884714160,"Tyler Zimmerman, NP",NP,Internal Medicine,Concord,NP,10
+668,1755270069,"Tanya Owens, NP",NP,Psychiatry,Huntersville,B,10
+669,1869395666,"Marcus Quinn, MD",MD,Cardiology,Huntersville,B,10
+670,1390178740,"Daniel Vargas, NP",NP,Internal Medicine,Concord,NP,10
+671,1342780676,"Grace Walker, NP",NP,Sports Medicine (Internal Medicine),Concord,NP,10
+672,1855399310,"Aisha Turner, MD",MD,Internal Medicine,Huntersville,NP,10
+673,1379031463,"Kevin Johnson, MD",MD,Family Medicine,Charlotte,C,10
+674,1098445599,"Grace Vargas, MD",MD,Family Medicine,Charlotte,NP,10
+675,1180589108,"Maria Bennett, DO",DO,Family Medicine,Matthews,B,10
+676,1784427371,"Omar Mitchell, MD",MD,Internal Medicine,Charlotte,C,10
+677,1770315583,"Tanya Patel, MD",MD,Endocrinology,Charlotte,NP,10
+678,1061957773,"Jason Brooks, MD",MD,Internal Medicine,Gastonia,B,10
+679,1609392097,"Grace Foster, MD",MD,Family Medicine,Gastonia,NP,10
+680,1456253123,"Monica Turner, MD",MD,Internal Medicine,Concord,B,10
+681,1235302926,"Tanya Edwards, MD",MD,Family Medicine,Charlotte,NP,10
+682,1822333192,"Victor Mitchell, MD",MD,Family Medicine,Charlotte,B,10
+683,1392077508,"Derek Owens, MD",MD,Internal Medicine,Brentwood,NP,11
+684,1758482579,"Tyler Walker, MD",MD,Family Medicine,Brentwood,NP,11
+685,1719829548,"Marcus Lopez, MD",MD,Pediatrics,Brentwood,B,11
+686,1438642511,"Eric Quinn, MD",MD,Family Medicine,Franklin,NP,11
+687,1885900181,"Jennifer Walker, DO",DO,Cardiology,Murfreesboro,NP,11
+688,1490033103,"Grace Patel, MD",MD,Family Medicine,Nashville,NP,11
+689,1207792566,"Monica Xu, PA",PA,Psychiatry,Hendersonville,NP,11
+690,1257078463,"Brian Bennett, PA",PA,Psychiatry,Hendersonville,C,11
+691,1261510788,"Hannah Bennett, DO",DO,Rheumatology,Nashville,C,11
+692,1268337755,"Jennifer Reyes, MD",MD,Internal Medicine,Brentwood,B,11
+693,1219866970,"Omar Owens, MD",MD,Psychiatry,Franklin,C,11
+694,1187788689,"Brian Brooks, PA",PA,Cardiology,Brentwood,B,11
+695,1213002041,"James Edwards, MD",MD,Internal Medicine,Franklin,C,11
+696,1709190904,"Victor Edwards, MD",MD,Internal Medicine,Franklin,C,11
+697,1404684586,"Monica Quinn, NP",NP,Cardiology,Murfreesboro,C,11
+698,1175243808,"Emily Anderson, DO",DO,Psychiatry,Hendersonville,NP,11
+699,1558090715,"Jennifer Usman, PA",PA,Psychiatry,Murfreesboro,NP,11
+700,1443012836,"Omar Anderson, MD",MD,Family Medicine,Murfreesboro,C,11
+701,1065035723,"Priya Singh, DO",DO,Pediatrics,Murfreesboro,NP,11
+702,1551151903,"Tyler Ito, MD",MD,Neurology,Murfreesboro,B,11
+703,1204305505,"Emily Mitchell, MD",MD,Pediatrics,Nashville,NP,11
+704,1563449332,"Omar Diaz, MD",MD,Family Medicine,Nashville,C,11
+705,1503086317,"Hannah Brooks, NP",NP,Endocrinology,Franklin,A,11
+706,1554043589,"Rachel Xu, PA",PA,Internal Medicine,Murfreesboro,NP,11
+707,1538331647,"Tyler Garcia, DO",DO,Cardiology,Hendersonville,NP,11
+708,1434914132,"Aisha Edwards, MD",MD,Family Medicine,Franklin,B,11
+709,1472974483,"Michael Zimmerman, PA",PA,Cardiology,Nashville,NP,11
+710,1008800075,"James Hughes, MD",MD,Pediatrics,Franklin,NP,11
+711,1651716439,"Aisha Patel, MD",MD,Psychiatry,Nashville,NP,11
+712,1456841638,"Robert Patel, MD",MD,Neurology,Hendersonville,C,11
+713,1677310974,"Tyler Ito, NP",NP,Internal Medicine,Nashville,C,11
+714,1603146969,"David Foster, NP",NP,Pediatrics,Brentwood,C,11
+715,1215187454,"Sofia Bennett, NP",NP,Family Medicine,Nashville,NP,11
+716,1571748658,"Jason Foster, MD",MD,Rheumatology,Hendersonville,NP,11
+717,1591700037,"Michael Xu, MD",MD,Neurology,Hendersonville,NP,11
+718,1199604893,"Maria Nguyen, MD",MD,Family Medicine,Hendersonville,NP,11
+719,1200997807,"Maria Cohen, MD",MD,Cardiology,Franklin,C,11
+720,1274454080,"Derek Ito, MD",MD,Cardiology,Hendersonville,NP,11
+721,1600469121,"David Xu, NP",NP,Internal Medicine,Brentwood,NP,11
+722,1617518587,"Tanya Hughes, MD",MD,Pediatrics,Hendersonville,C,11
+723,1350121181,"Nina Ito, MD",MD,Psychiatry,Hendersonville,NP,11
+724,1182238297,"Maria Kim, MD",MD,Family Medicine,Brentwood,B,11
+725,1795895463,"Nina Edwards, MD",MD,Pediatrics,Hendersonville,NP,11
+726,1670287864,"Linda Reyes, MD",MD,Family Medicine,Franklin,C,11
+727,1048066273,"David Dunn, MD",MD,Internal Medicine,Murfreesboro,B,11
+728,1063180408,"Daniel Singh, MD",MD,Internal Medicine,Hendersonville,NP,11
+729,1811512414,"Maria Xu, MD",MD,Family Medicine,Hendersonville,NP,11
+730,1351324283,"David Usman, MD",MD,Rheumatology,Franklin,C,11
+731,1474549948,"Omar Usman, NP",NP,Psychiatry,Franklin,NP,11
+732,1031064248,"James Turner, MD",MD,Family Medicine,Franklin,NP,11
+733,1655674186,"Maria Garcia, MD",MD,Sports Medicine (Internal Medicine),Brentwood,NP,11
+734,1170875413,"Patricia Nguyen, MD",MD,Internal Medicine,Hendersonville,C,11
+735,1296717380,"Robert Mitchell, DO",DO,Family Medicine,Murfreesboro,NP,11
+736,1553044289,"Brian Reyes, MD",MD,Psychiatry,Murfreesboro,B,11
+737,1700732277,"Eric Edwards, MD",MD,Family Medicine,Winter Park,NP,12
+738,1023616800,"Aisha Mitchell, MD",MD,Psychiatry,Kissimmee,C,12
+739,1374375508,"Marcus Zimmerman, MD",MD,Internal Medicine,Winter Park,C,12
+740,1230701517,"Hannah Edwards, MD",MD,Rheumatology,Sanford,NP,12
+741,1744231399,"Derek Kim, PA",PA,Internal Medicine,Lake Mary,B,12
+742,1502897750,"Monica Zimmerman, MD",MD,Internal Medicine,Kissimmee,NP,12
+743,1716513697,"Linda Ito, NP",NP,Internal Medicine,Kissimmee,NP,12
+744,1566490675,"Grace Kim, MD",MD,Internal Medicine,Sanford,NP,12
+745,1601734648,"Rachel Patel, MD",MD,Endocrinology,Lake Mary,B,12
+746,1264894321,"Omar Dunn, NP",NP,Psychiatry,Sanford,C,12
+747,1095439159,"Priya Turner, MD",MD,Neurology,Winter Park,A,12
+748,1094632468,"Emily Garcia, DO",DO,Family Medicine,Orlando,NP,12
+749,1764464493,"Alyssa Zimmerman, DO",DO,Pediatrics,Lake Mary,NP,12
+750,1603416199,"Omar Reyes, MD",MD,Family Medicine,Orlando,C,12
+751,1627616170,"Monica Hughes, MD",MD,Neurology,Orlando,C,12
+752,1524858171,"Sofia Chen, MD",MD,Family Medicine,Lake Mary,C,12
+753,1102008082,"Priya Dunn, NP",NP,Internal Medicine,Winter Park,NP,12
+754,1433535399,"Derek Patel, MD",MD,Internal Medicine,Sanford,NP,12
+755,1115242497,"Brian Reyes, DO",DO,Psychiatry,Lake Mary,B,12
+756,1526745341,"Carlos Patel, MD",MD,Family Medicine,Sanford,B,12
+757,1352174379,"Daniel Chen, PA",PA,Neurology,Orlando,B,12
+758,1091555983,"Omar Bennett, MD",MD,Family Medicine,Kissimmee,NP,12
+759,1827698398,"Daniel Turner, MD",MD,Rheumatology,Lake Mary,C,12
+760,1654137771,"Michael Ellis, MD",MD,Family Medicine,Winter Park,NP,12
+761,1024933854,"Grace Dunn, NP",NP,Family Medicine,Lake Mary,NP,12
+762,1108849141,"Carlos Turner, MD",MD,Internal Medicine,Orlando,B,12
+763,1052222521,"Robert Ito, DO",DO,Pediatrics,Kissimmee,C,12
+764,1276063587,"Brian Owens, MD",MD,Family Medicine,Lake Mary,NP,12
+765,1680417233,"Linda Zimmerman, MD",MD,Endocrinology,Orlando,A,12
+766,1768081971,"Carlos Kim, MD",MD,Sports Medicine (Internal Medicine),Lake Mary,NP,12
+767,1059227573,"Jason Singh, MD",MD,Psychiatry,Orlando,NP,12
+768,1379883838,"Michael Reyes, NP",NP,Internal Medicine,Sanford,NP,12
+769,1236130462,"Tyler Xu, NP",NP,Pediatrics,Lake Mary,NP,12
+770,1490123484,"Monica Owens, DO",DO,Pediatrics,Winter Park,B,12
+771,1342676060,"Emily Xu, NP",NP,Rheumatology,Sanford,C,12
+772,1243268516,"Alyssa Walker, MD",MD,Cardiology,Orlando,NP,12
+773,1844692750,"Brian Johnson, NP",NP,Family Medicine,Winter Park,B,12
+774,1224859931,"Linda Reyes, NP",NP,Family Medicine,Lake Mary,NP,12
+775,1208025552,"Tyler Mitchell, MD",MD,Psychiatry,Lake Mary,NP,12
+776,1725709978,"Tyler Vargas, DO",DO,Pediatrics,Sanford,B,12
+777,1026773925,"Victor Nguyen, NP",NP,Pediatrics,Orlando,NP,12
+778,1671454136,"Daniel Zimmerman, MD",MD,Family Medicine,Kissimmee,NP,12
+779,1500069649,"Carlos Vargas, MD",MD,Pediatrics,Kissimmee,B,12
+780,1673291253,"Daniel Mitchell, NP",NP,Cardiology,Winter Park,C,12
+781,1174245067,"Priya Quinn, PA",PA,Family Medicine,Sanford,NP,12
+782,1416918649,"Tanya Bennett, MD",MD,Internal Medicine,Sanford,NP,12
+783,1122176091,"Derek Walker, MD",MD,Psychiatry,Orlando,NP,12
+784,1594641779,"Jennifer Reyes, NP",NP,Psychiatry,Kissimmee,C,12
+785,1275015793,"Alyssa Usman, PA",PA,Psychiatry,Lake Mary,B,12
+786,1736417495,"Maria Chen, MD",MD,Cardiology,Kissimmee,NP,12
+787,1804650836,"Rachel Usman, MD",MD,Rheumatology,Lake Mary,B,12
+788,1006274517,"James Ellis, DO",DO,Neurology,Sanford,NP,12
+789,1391060957,"Jennifer Dunn, MD",MD,Psychiatry,Lake Mary,NP,12
+790,1342842966,"Linda Anderson, NP",NP,Internal Medicine,Chicago,A,13
+791,1749344046,"Emily Walker, NP",NP,Family Medicine,Evanston,NP,13
+792,1032808558,"Eric Foster, MD",MD,Internal Medicine,Chicago,NP,13
+793,1478594650,"Aisha Mitchell, NP",NP,Family Medicine,Naperville,NP,13
+794,1683882714,"Linda Ito, MD",MD,Family Medicine,Schaumburg,NP,13
+795,1232474907,"Eric Kim, NP",NP,Family Medicine,Schaumburg,C,13
+796,1136289326,"Emily Garcia, NP",NP,Internal Medicine,Chicago,C,13
+797,1516328442,"Sofia Turner, DO",DO,Rheumatology,Oak Park,B,13
+798,1467159443,"Michael Ito, PA",PA,Psychiatry,Chicago,NP,13
+799,1013189519,"David Foster, MD",MD,Rheumatology,Schaumburg,B,13
+800,1282976680,"Aisha Young, MD",MD,Family Medicine,Evanston,B,13
+801,1310250480,"Hannah Young, MD",MD,Rheumatology,Oak Park,C,13
+802,1787571950,"Tanya Brooks, NP",NP,Endocrinology,Chicago,C,13
+803,1413532349,"Hannah Zimmerman, MD",MD,Cardiology,Schaumburg,B,13
+804,1254743520,"Robert Walker, DO",DO,Psychiatry,Oak Park,C,13
+805,1348505259,"Jennifer Chen, MD",MD,Internal Medicine,Chicago,B,13
+806,1241651715,"Carlos Dunn, PA",PA,Family Medicine,Chicago,NP,13
+807,1292809752,"Michael Patel, DO",DO,Psychiatry,Evanston,B,13
+808,1249339495,"Eric Hughes, MD",MD,Family Medicine,Oak Park,C,13
+809,1256765118,"Nina Ito, NP",NP,Family Medicine,Naperville,NP,13
+810,1612197961,"James Dunn, DO",DO,Neurology,Chicago,NP,13
+811,1885006741,"Sofia Nguyen, MD",MD,Psychiatry,Schaumburg,NP,13
+812,1025324657,"David Edwards, NP",NP,Neurology,Evanston,C,13
+813,1288804689,"Omar Brooks, MD",MD,Family Medicine,Evanston,NP,13
+814,1030026379,"Sofia Turner, MD",MD,Neurology,Oak Park,NP,13
+815,1023371783,"James Lopez, MD",MD,Psychiatry,Oak Park,B,13
+816,1224098661,"Robert Nguyen, MD",MD,Cardiology,Naperville,B,13
+817,1478049637,"Eric Reyes, DO",DO,Internal Medicine,Schaumburg,B,13
+818,1364036805,"Omar Young, MD",MD,Pediatrics,Oak Park,NP,13
+819,1199593075,"Alyssa Reyes, MD",MD,Family Medicine,Chicago,C,13
+820,1530804636,"Carlos Ito, PA",PA,Psychiatry,Chicago,C,13
+821,1555300892,"Eric Garcia, NP",NP,Cardiology,Oak Park,NP,13
+822,1179742996,"Marcus Xu, MD",MD,Psychiatry,Chicago,NP,13
+823,1071028932,"Tanya Mitchell, PA",PA,Internal Medicine,Evanston,NP,13
+824,1529327155,"David Singh, DO",DO,Family Medicine,Naperville,NP,13
+825,1885606714,"Emily Cohen, MD",MD,Family Medicine,Chicago,B,13
+826,1705958321,"Hannah Garcia, MD",MD,Internal Medicine,Schaumburg,C,13
+827,1285443245,"Tyler Turner, MD",MD,Neurology,Naperville,NP,13
+828,1638137038,"James Quinn, MD",MD,Family Medicine,Schaumburg,NP,13
+829,1509470560,"Omar Owens, DO",DO,Neurology,Chicago,C,13
+830,1001725975,"Tyler Anderson, NP",NP,Family Medicine,Schaumburg,B,13
+831,1265498813,"Rachel Reyes, NP",NP,Pediatrics,Schaumburg,NP,13
+832,1428105559,"Grace Diaz, MD",MD,Rheumatology,Schaumburg,C,13
+833,1103874501,"Linda Patel, MD",MD,Psychiatry,Naperville,NP,13
+834,1501117354,"Jennifer Usman, DO",DO,Internal Medicine,Evanston,C,13
+835,1373710862,"Rachel Bennett, MD",MD,Psychiatry,Oak Park,NP,13
+836,1429200012,"Grace Mitchell, MD",MD,Family Medicine,Chicago,NP,13
+837,1673834090,"Marcus Usman, MD",MD,Internal Medicine,Schaumburg,NP,13
+838,1332051018,"Aisha Ito, MD",MD,Pediatrics,Naperville,NP,13
+839,1116095744,"Robert Foster, DO",DO,Internal Medicine,Oak Park,NP,13
+840,1337166174,"Derek Garcia, NP",NP,Family Medicine,Oak Park,NP,13
+841,1622690538,"Hannah Johnson, DO",DO,Family Medicine,Evanston,C,13
+842,1572151515,"Sofia Zimmerman, MD",MD,Cardiology,Naperville,NP,13
+843,1273099903,"Kevin Quinn, MD",MD,Pediatrics,Chicago,NP,13
+844,1823978434,"Daniel Johnson, DO",DO,Cardiology,Oak Park,C,13
+845,1200342142,"Michael Zimmerman, DO",DO,Neurology,Evanston,C,13
+846,1051850463,"Eric Ellis, MD",MD,Neurology,Chicago,C,13
+847,1673920774,"Rachel Dunn, DO",DO,Cardiology,Oak Park,NP,13
+848,1129371531,"Sofia Nguyen, NP",NP,Internal Medicine,Schaumburg,B,13
+849,1560288001,"James Ellis, MD",MD,Neurology,Naperville,C,13
+850,1709710445,"David Dunn, NP",NP,Endocrinology,Naperville,C,13
+851,1538182330,"Robert Quinn, MD",MD,Neurology,Chicago,C,13
+852,1591703023,"Daniel Edwards, DO",DO,Internal Medicine,Schaumburg,NP,13
+853,1357563719,"Marcus Chen, MD",MD,Family Medicine,Schaumburg,B,13
+854,1148513586,"David Hughes, DO",DO,Family Medicine,Oak Park,C,13
+855,1205852286,"Brian Hughes, MD",MD,Sports Medicine (Internal Medicine),Naperville,NP,13
+856,1779408295,"Hannah Bennett, MD",MD,Psychiatry,Evanston,C,13
+857,1697454028,"Alyssa Diaz, MD",MD,Family Medicine,Detroit,C,14
+858,1238111032,"Jennifer Cohen, MD",MD,Psychiatry,Troy,B,14
+859,1293005128,"James Garcia, MD",MD,Internal Medicine,Troy,C,14
+860,1030631067,"Victor Anderson, MD",MD,Family Medicine,Troy,NP,14
+861,1349883202,"Daniel Ito, MD",MD,Family Medicine,Troy,NP,14
+862,1162152694,"Nina Vargas, MD",MD,Internal Medicine,Detroit,NP,14
+863,1856796181,"Kevin Hughes, NP",NP,Endocrinology,Troy,NP,14
+864,1341784562,"Hannah Cohen, MD",MD,Rheumatology,Ann Arbor,NP,14
+865,1257360943,"Derek Xu, MD",MD,Psychiatry,Southfield,C,14
+866,1460999898,"Tanya Ito, DO",DO,Neurology,Dearborn,A,14
+867,1277723145,"Derek Bennett, NP",NP,Endocrinology,Ann Arbor,C,14
+868,1892227817,"Aisha Anderson, MD",MD,Psychiatry,Southfield,NP,14
+869,1506630693,"Priya Patel, MD",MD,Psychiatry,Troy,B,14
+870,1357358573,"Emily Young, DO",DO,Family Medicine,Southfield,NP,14
+871,1538562041,"Derek Edwards, MD",MD,Psychiatry,Southfield,B,14
+872,1166294015,"Rachel Diaz, DO",DO,Endocrinology,Ann Arbor,NP,14
+873,1255942991,"Emily Nguyen, MD",MD,Psychiatry,Southfield,NP,14
+874,1874558096,"James Turner, NP",NP,Psychiatry,Detroit,NP,14
+875,1788022600,"Patricia Patel, DO",DO,Internal Medicine,Southfield,NP,14
+876,1344098037,"Maria Nguyen, DO",DO,Internal Medicine,Southfield,NP,14
+877,1791891347,"Rachel Hughes, MD",MD,Family Medicine,Detroit,B,14
+878,1271142882,"Hannah Singh, DO",DO,Family Medicine,Ann Arbor,A,14
+879,1273646575,"Sofia Young, NP",NP,Endocrinology,Detroit,B,14
+880,1860364799,"Omar Anderson, DO",DO,Psychiatry,Ann Arbor,C,14
+881,1492416836,"Maria Dunn, MD",MD,Endocrinology,Ann Arbor,C,14
+882,1798949417,"Marcus Johnson, MD",MD,Internal Medicine,Dearborn,NP,14
+883,1116374274,"Aisha Xu, MD",MD,Family Medicine,Ann Arbor,NP,14
+884,1405582749,"Rachel Cohen, MD",MD,Rheumatology,Southfield,NP,14
+885,1269222319,"Daniel Johnson, PA",PA,Family Medicine,Troy,C,14
+886,1241415506,"Alyssa Ellis, PA",PA,Sports Medicine (Internal Medicine),Ann Arbor,C,14
+887,1136628762,"Jason Anderson, NP",NP,Internal Medicine,Troy,NP,14
+888,1285061821,"Omar Hughes, MD",MD,Family Medicine,Ann Arbor,C,14
+889,1458950360,"Kevin Kim, MD",MD,Rheumatology,Detroit,B,14
+890,1342783870,"Daniel Bennett, DO",DO,Family Medicine,Ann Arbor,NP,14
+891,1896798350,"Tanya Nguyen, MD",MD,Internal Medicine,Detroit,NP,14
+892,1625355206,"Brian Brooks, MD",MD,Family Medicine,Ann Arbor,NP,14
+893,1239607445,"Sofia Ellis, DO",DO,Family Medicine,Southfield,NP,14
+894,1079251798,"Victor Johnson, NP",NP,Sports Medicine (Internal Medicine),Detroit,NP,14
+895,1003647996,"Daniel Ellis, DO",DO,Rheumatology,Ann Arbor,NP,14
+896,1674391756,"Tyler Vargas, PA",PA,Cardiology,Dearborn,NP,14
+897,1596283962,"Tyler Kim, MD",MD,Family Medicine,Ann Arbor,NP,14
+898,1246490357,"James Mitchell, DO",DO,Cardiology,Detroit,B,14
+899,1536355702,"Jennifer Xu, MD",MD,Internal Medicine,Ann Arbor,B,14
+900,1692904772,"Monica Mitchell, NP",NP,Neurology,Detroit,B,14
+901,1486504614,"David Anderson, DO",DO,Family Medicine,Detroit,NP,14
+902,1419896947,"Sofia Vargas, DO",DO,Rheumatology,Detroit,C,14
+903,1840783256,"Nina Hughes, DO",DO,Psychiatry,Dearborn,C,14
+904,1487460705,"Jason Reyes, NP",NP,Endocrinology,Dearborn,C,14
+905,1576687995,"Tanya Young, NP",NP,Endocrinology,Ann Arbor,C,14
+906,1735007692,"Robert Chen, MD",MD,Cardiology,Dearborn,B,14
+907,1748576501,"Victor Turner, DO",DO,Cardiology,Dearborn,C,14
+908,1751861338,"Hannah Singh, PA",PA,Pediatrics,Detroit,NP,14
+909,1876130222,"Linda Owens, PA",PA,Neurology,Detroit,NP,14
+910,1764589363,"Daniel Foster, DO",DO,Neurology,Dearborn,C,14
+911,1323854877,"Monica Young, PA",PA,Family Medicine,Detroit,A,14
+912,1341138956,"Omar Bennett, PA",PA,Family Medicine,Dearborn,C,14
+913,1582996084,"Victor Ellis, MD",MD,Neurology,Ann Arbor,NP,14
+914,1780224882,"Patricia Chen, MD",MD,Psychiatry,Ann Arbor,A,14
+915,1801939069,"Daniel Walker, DO",DO,Family Medicine,Dearborn,B,14
+916,1064674227,"Brian Dunn, MD",MD,Family Medicine,Southfield,NP,14
+917,1296229173,"Monica Patel, MD",MD,Endocrinology,Troy,NP,14
+918,1681380764,"Emily Chen, MD",MD,Cardiology,Ann Arbor,NP,14
+919,1232115329,"Alyssa Brooks, NP",NP,Psychiatry,Detroit,NP,14
+920,1326111938,"Omar Usman, MD",MD,Endocrinology,Detroit,A,14
+921,1021862402,"Rachel Ellis, MD",MD,Psychiatry,Southfield,C,14
+922,1772679828,"Carlos Mitchell, MD",MD,Sports Medicine (Internal Medicine),Dearborn,B,14
+923,1389448720,"James Bennett, MD",MD,Rheumatology,Dearborn,B,14
+924,1152024247,"Grace Young, MD",MD,Family Medicine,Dearborn,NP,14
+925,1162519480,"Jason Johnson, PA",PA,Sports Medicine (Internal Medicine),Dearborn,C,14
+926,1541630537,"Nina Turner, MD",MD,Psychiatry,Ann Arbor,NP,14
+927,1367239298,"Brian Chen, PA",PA,Family Medicine,Ann Arbor,NP,14
+928,1214018056,"Carlos Cohen, DO",DO,Endocrinology,Plymouth,NP,15
+929,1821593041,"Patricia Young, MD",MD,Family Medicine,Bloomington,NP,15
+930,1566215292,"Grace Kim, PA",PA,Neurology,Bloomington,B,15
+931,1262110467,"Jennifer Garcia, DO",DO,Family Medicine,St. Paul,NP,15
+932,1426280919,"David Xu, PA",PA,Endocrinology,St. Paul,NP,15
+933,1113950477,"Kevin Johnson, PA",PA,Cardiology,Minneapolis,NP,15
+934,1283058739,"Jennifer Dunn, DO",DO,Family Medicine,St. Paul,NP,15
+935,1731316904,"Jennifer Hughes, PA",PA,Rheumatology,Plymouth,B,15
+936,1353295337,"Derek Singh, DO",DO,Cardiology,Edina,C,15
+937,1640883805,"Michael Zimmerman, MD",MD,Internal Medicine,Edina,NP,15
+938,1120728514,"Jennifer Singh, NP",NP,Cardiology,Plymouth,B,15
+939,1734829332,"Sofia Kim, MD",MD,Family Medicine,Edina,NP,15
+940,1215727114,"Linda Ellis, NP",NP,Family Medicine,Edina,C,15
+941,1567732424,"Monica Bennett, NP",NP,Family Medicine,Minneapolis,NP,15
+942,1380001760,"Victor Xu, MD",MD,Internal Medicine,Minneapolis,NP,15
+943,1269582020,"Jennifer Garcia, MD",MD,Psychiatry,Plymouth,C,15
+944,1599759998,"Derek Patel, PA",PA,Psychiatry,Minneapolis,C,15
+945,1381475712,"James Owens, MD",MD,Cardiology,Plymouth,A,15
+946,1046043504,"Daniel Nguyen, MD",MD,Pediatrics,St. Paul,NP,15
+947,1214310142,"Hannah Diaz, PA",PA,Neurology,Bloomington,C,15
+948,1603372880,"Maria Zimmerman, MD",MD,Cardiology,Bloomington,B,15
+949,1231499003,"David Dunn, PA",PA,Pediatrics,Bloomington,NP,15
+950,1636076072,"David Chen, PA",PA,Internal Medicine,Minneapolis,NP,15
+951,1455318192,"Priya Bennett, NP",NP,Rheumatology,Edina,B,15
+952,1383824147,"Sofia Xu, DO",DO,Sports Medicine (Internal Medicine),St. Paul,NP,15
+953,1434918851,"Sofia Vargas, NP",NP,Internal Medicine,St. Paul,NP,15
+954,1666584000,"David Bennett, MD",MD,Psychiatry,St. Paul,C,15
+955,1325993903,"Linda Brooks, NP",NP,Internal Medicine,Bloomington,C,15
+956,1123659503,"Derek Young, DO",DO,Endocrinology,Minneapolis,C,15
+957,1280682066,"Maria Edwards, MD",MD,Neurology,Edina,NP,15
+958,1024949116,"Grace Zimmerman, DO",DO,Family Medicine,Bloomington,NP,15
+959,1812577729,"Michael Quinn, MD",MD,Psychiatry,Bloomington,NP,15
+960,1737508887,"Brian Young, NP",NP,Internal Medicine,Edina,C,15
+961,1382242609,"Monica Cohen, NP",NP,Endocrinology,Bloomington,C,15
+962,1690819425,"Sofia Chen, PA",PA,Internal Medicine,Plymouth,A,15
+963,1298748620,"Alyssa Usman, MD",MD,Neurology,Minneapolis,C,15
+964,1467098189,"Monica Kim, MD",MD,Internal Medicine,St. Paul,NP,15
+965,1887927672,"Robert Diaz, NP",NP,Neurology,St. Paul,B,15
+966,1268370420,"Aisha Foster, MD",MD,Endocrinology,St. Paul,NP,15
+967,1257872195,"Jason Garcia, MD",MD,Family Medicine,Bloomington,NP,15
+968,1289666876,"Emily Johnson, MD",MD,Family Medicine,Minneapolis,NP,15
+969,1122116587,"Omar Edwards, MD",MD,Family Medicine,Plymouth,C,15
+970,1777675219,"Priya Kim, MD",MD,Psychiatry,St. Paul,NP,15
+971,1627995693,"Nina Ellis, MD",MD,Pediatrics,Edina,B,15
+972,1711049150,"Michael Cohen, MD",MD,Internal Medicine,Edina,B,15
+973,1252346373,"Omar Nguyen, MD",MD,Psychiatry,Minneapolis,NP,15
+974,1552263570,"Kevin Singh, PA",PA,Endocrinology,Minneapolis,B,15
+975,1100907948,"Victor Bennett, MD",MD,Family Medicine,Minneapolis,B,15
+976,1318028760,"David Zimmerman, MD",MD,Psychiatry,Plymouth,NP,15
+977,1761313285,"Monica Dunn, MD",MD,Neurology,Edina,C,15
+978,1345544428,"Jennifer Walker, PA",PA,Cardiology,St. Paul,A,15
+979,1836267391,"Omar Diaz, PA",PA,Internal Medicine,Plymouth,NP,15
+980,1788466551,"Linda Lopez, MD",MD,Rheumatology,Minneapolis,B,15
+981,1855086458,"Grace Garcia, DO",DO,Psychiatry,Plymouth,C,15
+982,1873406254,"Priya Ito, DO",DO,Cardiology,Bloomington,NP,15
+983,1851531276,"Rachel Kim, MD",MD,Cardiology,Plymouth,NP,15
+984,1733034658,"Nina Anderson, MD",MD,Family Medicine,Bloomington,B,15
+985,1321905616,"Priya Diaz, MD",MD,Family Medicine,Bloomington,C,15
+986,1732930452,"Jennifer Nguyen, MD",MD,Cardiology,St. Paul,NP,15
+987,1492060689,"Derek Usman, MD",MD,Psychiatry,Minneapolis,A,15
+988,1355661023,"Nina Chen, MD",MD,Psychiatry,Bloomington,C,15
+989,1635142122,"Grace Ito, MD",MD,Family Medicine,Edina,NP,15
+990,1355059518,"Kevin Xu, NP",NP,Internal Medicine,Bloomington,NP,15
+991,1294327740,"Derek Dunn, MD",MD,Cardiology,Minneapolis,NP,15
+992,1549003687,"Monica Nguyen, PA",PA,Neurology,Bloomington,C,15
+993,1559349851,"Monica Young, DO",DO,Family Medicine,Bloomington,NP,15
+994,1142038493,"Brian Ellis, PA",PA,Family Medicine,Plymouth,B,15
+995,1820977508,"Michael Lopez, MD",MD,Pediatrics,Minneapolis,A,15
+996,1733463453,"Monica Diaz, DO",DO,Rheumatology,St. Paul,C,15
+997,1810406465,"Derek Reyes, MD",MD,Family Medicine,Plymouth,NP,15
+998,1608353556,"Omar Zimmerman, MD",MD,Internal Medicine,Grove City,NP,16
+999,1358910064,"Rachel Owens, DO",DO,Internal Medicine,Grove City,C,16
+1000,1801325813,"Robert Zimmerman, DO",DO,Neurology,Grove City,A,16
+1001,1380126046,"James Bennett, NP",NP,Psychiatry,Columbus,NP,16
+1002,1136119667,"Carlos Zimmerman, NP",NP,Family Medicine,Grove City,NP,16
+1003,1213119035,"Eric Cohen, NP",NP,Family Medicine,Columbus,NP,16
+1004,1399366618,"Aisha Owens, NP",NP,Pediatrics,Grove City,NP,16
+1005,1621812384,"Robert Bennett, MD",MD,Psychiatry,Grove City,C,16
+1006,1237625894,"Linda Nguyen, DO",DO,Family Medicine,Columbus,NP,16
+1007,1423490036,"David Cohen, DO",DO,Rheumatology,Hilliard,B,16
+1008,1861063337,"Nina Quinn, PA",PA,Family Medicine,Hilliard,NP,16
+1009,1078820496,"David Nguyen, MD",MD,Family Medicine,Hilliard,B,16
+1010,1560497109,"Tanya Ellis, MD",MD,Family Medicine,Westerville,C,16
+1011,1511985631,"Carlos Quinn, MD",MD,Internal Medicine,Hilliard,C,16
+1012,1664700486,"Jennifer Mitchell, MD",MD,Family Medicine,Dublin,NP,16
+1013,1197900367,"Sofia Lopez, DO",DO,Internal Medicine,Columbus,C,16
+1014,1775745554,"James Ito, PA",PA,Rheumatology,Grove City,NP,16
+1015,1013998218,"Monica Usman, MD",MD,Rheumatology,Columbus,NP,16
+1016,1322788134,"Kevin Edwards, MD",MD,Psychiatry,Hilliard,NP,16
+1017,1840785877,"Sofia Foster, DO",DO,Family Medicine,Hilliard,NP,16
+1018,1312643966,"Hannah Owens, NP",NP,Rheumatology,Grove City,C,16
+1019,1367508806,"Nina Patel, NP",NP,Endocrinology,Grove City,NP,16
+1020,1616474090,"Michael Vargas, NP",NP,Family Medicine,Grove City,NP,16
+1021,1604404643,"Carlos Foster, MD",MD,Internal Medicine,Hilliard,C,16
+1022,1556232262,"Victor Kim, MD",MD,Psychiatry,Dublin,NP,16
+1023,1137568819,"Monica Garcia, MD",MD,Family Medicine,Grove City,B,16
+1024,1884046578,"Daniel Mitchell, MD",MD,Endocrinology,Dublin,NP,16
+1025,1491796642,"Sofia Patel, MD",MD,Psychiatry,Westerville,NP,16
+1026,1281872231,"Robert Anderson, NP",NP,Rheumatology,Westerville,NP,16
+1027,1109152930,"Jason Ellis, MD",MD,Cardiology,Columbus,C,16
+1028,1345764385,"Hannah Ellis, MD",MD,Cardiology,Hilliard,NP,16
+1029,1067781615,"Monica Chen, MD",MD,Cardiology,Dublin,C,16
+1030,1199498581,"Eric Kim, MD",MD,Family Medicine,Grove City,NP,16
+1031,1365024021,"Sofia Hughes, MD",MD,Internal Medicine,Grove City,C,16
+1032,1457405738,"Aisha Lopez, PA",PA,Internal Medicine,Grove City,NP,16
+1033,1088588097,"Patricia Reyes, NP",NP,Family Medicine,Hilliard,NP,16
+1034,1794331279,"Rachel Turner, MD",MD,Psychiatry,Hilliard,NP,16
+1035,1010876477,"Jason Reyes, MD",MD,Psychiatry,Westerville,C,16
+1036,1101853158,"Priya Chen, MD",MD,Internal Medicine,Westerville,C,16
+1037,1543499962,"Marcus Brooks, MD",MD,Neurology,Grove City,B,16
+1038,1518790515,"Robert Diaz, MD",MD,Internal Medicine,Dublin,B,16
+1039,1018298977,"Patricia Vargas, MD",MD,Internal Medicine,Hilliard,B,16
+1040,1896021538,"Monica Vargas, MD",MD,Family Medicine,Dublin,B,16
+1041,1530641112,"Carlos Johnson, DO",DO,Rheumatology,Westerville,C,16
+1042,1017378587,"Alyssa Vargas, MD",MD,Rheumatology,Westerville,NP,16
+1043,1070182007,"Tyler Young, MD",MD,Cardiology,Westerville,C,16
+1044,1256713734,"Derek Zimmerman, MD",MD,Internal Medicine,Westerville,C,16
+1045,1083115950,"Linda Turner, MD",MD,Family Medicine,Columbus,B,16
+1046,1296145389,"Derek Nguyen, NP",NP,Endocrinology,Dublin,C,16
+1047,1302245074,"James Patel, DO",DO,Neurology,Hilliard,NP,16
+1048,1821392697,"Aisha Singh, NP",NP,Rheumatology,Hilliard,B,16
+1049,1829641175,"Alyssa Ito, MD",MD,Internal Medicine,Columbus,NP,16
+1050,1253868810,"Priya Vargas, MD",MD,Family Medicine,Westerville,B,16
+1051,1239609161,"Eric Garcia, MD",MD,Neurology,Dublin,NP,16
+1052,1476858508,"James Reyes, DO",DO,Family Medicine,Westerville,NP,16
+1053,1755393338,"James Diaz, MD",MD,Psychiatry,Westerville,A,16
+1054,1739438191,"Brian Foster, DO",DO,Psychiatry,Dublin,NP,16
+1055,1151895815,"Linda Hughes, MD",MD,Internal Medicine,Hilliard,A,16
+1056,1050442690,"Omar Lopez, MD",MD,Psychiatry,Hilliard,NP,16
+1057,1703034661,"David Anderson, NP",NP,Rheumatology,Dublin,NP,16
+1058,1367046336,"David Mitchell, NP",NP,Psychiatry,Dublin,NP,16
+1059,1879002673,"Eric Vargas, NP",NP,Pediatrics,Grove City,NP,16
+1060,1262229927,"Monica Foster, NP",NP,Pediatrics,Hilliard,NP,16
+1061,1783604788,"Victor Lopez, NP",NP,Internal Medicine,Columbus,NP,16
+1062,1052063911,"Grace Usman, NP",NP,Rheumatology,Hilliard,B,16
+1063,1830495485,"Tyler Usman, PA",PA,Psychiatry,Grove City,B,16
+1064,1238598168,"Tanya Owens, PA",PA,Internal Medicine,Grove City,C,16
+1065,1779618670,"Carlos Chen, MD",MD,Neurology,Columbus,NP,16
+1066,1566277580,"Victor Anderson, DO",DO,Family Medicine,Dublin,B,16
+1067,1467665474,"Brian Vargas, MD",MD,Endocrinology,Hilliard,NP,16
+1068,1509780874,"Aisha Owens, PA",PA,Internal Medicine,Grove City,NP,16
+1069,1487464726,"Derek Reyes, PA",PA,Internal Medicine,Florissant,C,17
+1070,1073254102,"Michael Brooks, NP",NP,Internal Medicine,St. Charles,B,17
+1071,1080888443,"Victor Foster, DO",DO,Neurology,Chesterfield,NP,17
+1072,1299967367,"Daniel Young, DO",DO,Cardiology,St. Louis,NP,17
+1073,1618467725,"Brian Chen, NP",NP,Rheumatology,St. Louis,NP,17
+1074,1780069839,"James Reyes, NP",NP,Cardiology,Florissant,NP,17
+1075,1393153723,"James Dunn, MD",MD,Internal Medicine,St. Louis,B,17
+1076,1290550429,"Priya Reyes, MD",MD,Psychiatry,Florissant,NP,17
+1077,1670456060,"Patricia Cohen, MD",MD,Internal Medicine,Florissant,NP,17
+1078,1633606211,"Marcus Singh, MD",MD,Family Medicine,Florissant,NP,17
+1079,1825330258,"Grace Edwards, MD",MD,Neurology,St. Louis,B,17
+1080,1348840148,"Maria Singh, MD",MD,Psychiatry,Florissant,NP,17
+1081,1792576397,"Robert Xu, PA",PA,Psychiatry,St. Louis,NP,17
+1082,1845478294,"Maria Quinn, MD",MD,Endocrinology,St. Louis,C,17
+1083,1136382556,"Tyler Patel, DO",DO,Internal Medicine,St. Louis,NP,17
+1084,1559907593,"Daniel Owens, DO",DO,Pediatrics,Clayton,B,17
+1085,1755926724,"Priya Walker, DO",DO,Psychiatry,Florissant,C,17
+1086,1503129723,"David Hughes, MD",MD,Pediatrics,Florissant,NP,17
+1087,1591831771,"Emily Zimmerman, DO",DO,Endocrinology,Chesterfield,C,17
+1088,1860417011,"Jason Diaz, MD",MD,Family Medicine,Chesterfield,NP,17
+1089,1372241855,"Victor Brooks, MD",MD,Family Medicine,St. Charles,B,17
+1090,1423696591,"Daniel Garcia, PA",PA,Psychiatry,St. Louis,NP,17
+1091,1773260593,"Tanya Nguyen, DO",DO,Endocrinology,Florissant,NP,17
+1092,1522611871,"Derek Johnson, PA",PA,Endocrinology,St. Charles,B,17
+1093,1043256554,"Marcus Vargas, PA",PA,Internal Medicine,Florissant,B,17
+1094,1367916004,"Emily Edwards, MD",MD,Neurology,Clayton,NP,17
+1095,1385069849,"Sofia Garcia, PA",PA,Family Medicine,St. Charles,NP,17
+1096,1404052985,"Tanya Dunn, MD",MD,Cardiology,St. Louis,NP,17
+1097,1752298054,"Jennifer Owens, DO",DO,Neurology,St. Louis,NP,17
+1098,1484310478,"Alyssa Bennett, DO",DO,Psychiatry,Chesterfield,C,17
+1099,1130253480,"Marcus Bennett, NP",NP,Internal Medicine,Chesterfield,C,17
+1100,1082782721,"Emily Nguyen, DO",DO,Family Medicine,Clayton,NP,17
+1101,1510582175,"Rachel Diaz, MD",MD,Internal Medicine,St. Louis,NP,17
+1102,1199741212,"Tanya Garcia, DO",DO,Family Medicine,Florissant,NP,17
+1103,1646877013,"Patricia Usman, MD",MD,Psychiatry,St. Louis,C,17
+1104,1713269981,"Emily Owens, NP",NP,Rheumatology,St. Charles,B,17
+1105,1437200758,"James Singh, MD",MD,Family Medicine,Chesterfield,NP,17
+1106,1375046298,"Daniel Patel, MD",MD,Family Medicine,Clayton,C,17
+1107,1738975278,"Sofia Ito, MD",MD,Psychiatry,St. Louis,NP,17
+1108,1452958935,"Emily Dunn, MD",MD,Family Medicine,St. Charles,B,17
+1109,1560892075,"Grace Brooks, MD",MD,Rheumatology,Florissant,NP,17
+1110,1765741740,"Marcus Garcia, PA",PA,Family Medicine,Florissant,B,17
+1111,1438244454,"Hannah Anderson, PA",PA,Neurology,St. Charles,NP,17
+1112,1318958532,"Rachel Brooks, NP",NP,Psychiatry,Clayton,NP,17
+1113,1876782715,"Alyssa Ellis, MD",MD,Internal Medicine,St. Charles,B,17
+1114,1319813870,"Derek Hughes, MD",MD,Rheumatology,Florissant,NP,17
+1115,1713994753,"Monica Vargas, NP",NP,Internal Medicine,Chesterfield,B,17
+1116,1033438443,"Victor Diaz, MD",MD,Family Medicine,Chesterfield,NP,17
+1117,1837684215,"Daniel Turner, NP",NP,Endocrinology,St. Charles,NP,17
+1118,1268801827,"Tanya Vargas, PA",PA,Neurology,St. Louis,C,17
+1119,1270834776,"Tyler Bennett, NP",NP,Psychiatry,Florissant,C,17
+1120,1762251722,"Victor Garcia, NP",NP,Psychiatry,Chesterfield,NP,17
+1121,1708588505,"Alyssa Quinn, DO",DO,Psychiatry,St. Charles,NP,17
+1122,1212527455,"Patricia Johnson, MD",MD,Family Medicine,Florissant,NP,17
+1123,1030491802,"Nina Singh, MD",MD,Internal Medicine,St. Charles,C,17
+1124,1252124994,"Robert Ito, NP",NP,Psychiatry,St. Louis,NP,17
+1125,1839441210,"Monica Ito, DO",DO,Internal Medicine,Florissant,NP,17
+1126,1058614206,"Rachel Nguyen, NP",NP,Psychiatry,Carmel,NP,18
+1127,1615453795,"Victor Hughes, MD",MD,Internal Medicine,Carmel,NP,18
+1128,1516048729,"Kevin Chen, PA",PA,Endocrinology,Indianapolis,A,18
+1129,1673472783,"Emily Owens, MD",MD,Psychiatry,Indianapolis,NP,18
+1130,1876156836,"Jason Ito, MD",MD,Internal Medicine,Carmel,C,18
+1131,1790593696,"Tyler Dunn, DO",DO,Family Medicine,Greenwood,NP,18
+1132,1181229964,"Kevin Turner, NP",NP,Neurology,Indianapolis,NP,18
+1133,1390987044,"Maria Anderson, PA",PA,Family Medicine,Fishers,NP,18
+1134,1058544875,"Michael Foster, NP",NP,Internal Medicine,Indianapolis,NP,18
+1135,1562664927,"Eric Diaz, NP",NP,Pediatrics,Carmel,B,18
+1136,1659917469,"Eric Xu, MD",MD,Psychiatry,Carmel,B,18
+1137,1537428290,"Nina Foster, MD",MD,Neurology,Noblesville,C,18
+1138,1616656187,"Omar Xu, DO",DO,Endocrinology,Greenwood,A,18
+1139,1135053629,"Patricia Cohen, DO",DO,Psychiatry,Indianapolis,B,18
+1140,1016364906,"Grace Vargas, PA",PA,Pediatrics,Indianapolis,C,18
+1141,1134516922,"Tyler Johnson, MD",MD,Sports Medicine (Internal Medicine),Indianapolis,C,18
+1142,1780455895,"Tanya Reyes, MD",MD,Family Medicine,Indianapolis,NP,18
+1143,1191312078,"Linda Singh, DO",DO,Cardiology,Greenwood,B,18
+1144,1876090825,"Tanya Quinn, MD",MD,Family Medicine,Carmel,C,18
+1145,1201463356,"Daniel Chen, DO",DO,Internal Medicine,Fishers,NP,18
+1146,1311129586,"Michael Hughes, MD",MD,Cardiology,Fishers,A,18
+1147,1748197022,"Jason Dunn, DO",DO,Internal Medicine,Indianapolis,B,18
+1148,1028423182,"Michael Turner, MD",MD,Cardiology,Fishers,C,18
+1149,1436208155,"Priya Zimmerman, NP",NP,Rheumatology,Greenwood,B,18
+1150,1457741723,"Kevin Chen, MD",MD,Cardiology,Fishers,NP,18
+1151,1836962411,"Emily Johnson, NP",NP,Pediatrics,Carmel,B,18
+1152,1891000175,"Derek Zimmerman, DO",DO,Endocrinology,Indianapolis,C,18
+1153,1619955854,"David Owens, NP",NP,Endocrinology,Carmel,C,18
+1154,1545078136,"Patricia Zimmerman, NP",NP,Psychiatry,Greenwood,NP,18
+1155,1169938187,"Kevin Diaz, NP",NP,Psychiatry,Noblesville,NP,18
+1156,1595599389,"Carlos Garcia, NP",NP,Rheumatology,Carmel,B,18
+1157,1452719839,"Alyssa Zimmerman, MD",MD,Family Medicine,Indianapolis,NP,18
+1158,1035796748,"Marcus Diaz, MD",MD,Neurology,Noblesville,NP,18
+1159,1685210013,"Carlos Bennett, PA",PA,Cardiology,Indianapolis,NP,18
+1160,1758223461,"Priya Dunn, MD",MD,Neurology,Indianapolis,NP,18
+1161,1240784911,"Nina Walker, MD",MD,Internal Medicine,Indianapolis,B,18
+1162,1730361272,"Aisha Turner, NP",NP,Rheumatology,Noblesville,NP,18
+1163,1285343207,"Sofia Ellis, NP",NP,Internal Medicine,Carmel,B,18
+1164,1691702428,"Grace Ellis, PA",PA,Family Medicine,Fishers,NP,18
+1165,1251218779,"David Turner, DO",DO,Psychiatry,Indianapolis,NP,18
+1166,1476364228,"Marcus Zimmerman, DO",DO,Neurology,Indianapolis,C,18
+1167,1218216673,"Maria Ito, MD",MD,Endocrinology,Fishers,NP,18
+1168,1447207974,"Patricia Quinn, NP",NP,Internal Medicine,Greenwood,NP,18
+1169,1669849680,"Carlos Lopez, PA",PA,Neurology,Noblesville,NP,18
+1170,1040027951,"Aisha Reyes, NP",NP,Internal Medicine,Greenwood,NP,18
+1171,1618061219,"Brian Nguyen, MD",MD,Neurology,Fishers,C,18
+1172,1281954475,"Derek Turner, MD",MD,Psychiatry,Noblesville,B,18
+1173,1182235020,"Marcus Brooks, PA",PA,Neurology,Greenwood,C,18
+1174,1471653435,"Daniel Foster, MD",MD,Pediatrics,Indianapolis,NP,18
+1175,1629405702,"Tyler Lopez, MD",MD,Neurology,Fishers,NP,18
+1176,1452346741,"David Young, NP",NP,Family Medicine,Noblesville,NP,18
+1177,1313355071,"Priya Ito, MD",MD,Neurology,Fishers,A,18
+1178,1867669188,"Aisha Chen, MD",MD,Internal Medicine,Indianapolis,B,18
+1179,1507592951,"Emily Patel, PA",PA,Internal Medicine,Noblesville,B,18
+1180,1066774882,"Robert Vargas, MD",MD,Internal Medicine,Carmel,NP,18
+1181,1152612661,"Marcus Lopez, PA",PA,Pediatrics,Indianapolis,B,18
+1182,1117075440,"Jennifer Patel, MD",MD,Rheumatology,Noblesville,NP,18
+1183,1372383818,"Tanya Xu, MD",MD,Neurology,Indianapolis,C,18
+1184,1631788288,"Michael Singh, MD",MD,Family Medicine,Indianapolis,B,18
+1185,1423411785,"Robert Garcia, DO",DO,Internal Medicine,Carmel,NP,18
+1186,1896808095,"Tanya Reyes, PA",PA,Family Medicine,Indianapolis,C,18
+1187,1260278092,"Kevin Chen, NP",NP,Neurology,Carmel,A,18
+1188,1836756073,"Marcus Anderson, NP",NP,Cardiology,Noblesville,C,18
+1189,1255067587,"Alyssa Kim, NP",NP,Family Medicine,Greenwood,C,18
+1190,1687715890,"Maria Brooks, MD",MD,Psychiatry,Indianapolis,NP,18
+1191,1236457295,"James Zimmerman, MD",MD,Pediatrics,Carmel,A,18
+1192,1360256016,"Priya Dunn, PA",PA,Internal Medicine,Indianapolis,NP,18
+1193,1692565757,"Victor Mitchell, DO",DO,Neurology,Carmel,NP,18
+1194,1721283917,"Jennifer Vargas, MD",MD,Endocrinology,Indianapolis,A,18
+1195,1820689676,"Sofia Cohen, DO",DO,Endocrinology,Indianapolis,C,18
+1196,1124583531,"Daniel Johnson, MD",MD,Internal Medicine,Fishers,NP,18
+1197,1041281929,"Emily Lopez, NP",NP,Pediatrics,Indianapolis,NP,18
+1198,1690694140,"Maria Turner, PA",PA,Sports Medicine (Internal Medicine),Dallas,NP,19
+1199,1489266974,"Hannah Johnson, PA",PA,Family Medicine,Irving,NP,19
+1200,1641672276,"David Diaz, NP",NP,Family Medicine,Dallas,C,19
+1201,1612999361,"Kevin Hughes, PA",PA,Psychiatry,Garland,B,19
+1202,1684917296,"Nina Hughes, MD",MD,Family Medicine,Garland,C,19
+1203,1272059587,"Tanya Zimmerman, DO",DO,Pediatrics,Plano,C,19
+1204,1701714062,"Priya Lopez, DO",DO,Internal Medicine,Irving,NP,19
+1205,1370145828,"Derek Lopez, DO",DO,Family Medicine,Dallas,NP,19
+1206,1803339358,"Nina Owens, PA",PA,Endocrinology,Irving,NP,19
+1207,1261363372,"Nina Xu, DO",DO,Endocrinology,Frisco,B,19
+1208,1106500063,"Jennifer Ito, DO",DO,Neurology,Irving,C,19
+1209,1583220134,"Linda Hughes, DO",DO,Psychiatry,Garland,NP,19
+1210,1352356823,"David Edwards, PA",PA,Internal Medicine,Plano,B,19
+1211,1297472567,"Jason Brooks, PA",PA,Rheumatology,Frisco,B,19
+1212,1868158409,"Daniel Brooks, MD",MD,Internal Medicine,Frisco,NP,19
+1213,1356857089,"Marcus Reyes, PA",PA,Neurology,Frisco,NP,19
+1214,1437893295,"Jennifer Ito, MD",MD,Pediatrics,Plano,B,19
+1215,1184647852,"David Johnson, PA",PA,Internal Medicine,Plano,NP,19
+1216,1881781854,"Brian Edwards, PA",PA,Family Medicine,Frisco,NP,19
+1217,1822532865,"Grace Quinn, DO",DO,Rheumatology,Frisco,NP,19
+1218,1413602161,"James Foster, NP",NP,Internal Medicine,Frisco,C,19
+1219,1423295067,"Tanya Nguyen, PA",PA,Endocrinology,Plano,C,19
+1220,1121367672,"Linda Mitchell, DO",DO,Family Medicine,Garland,B,19
+1221,1644792539,"James Mitchell, PA",PA,Psychiatry,Irving,NP,19
+1222,1449698701,"Patricia Xu, MD",MD,Endocrinology,Frisco,B,19
+1223,1843545013,"Marcus Patel, MD",MD,Cardiology,Dallas,C,19
+1224,1419995105,"Tanya Hughes, DO",DO,Internal Medicine,Plano,NP,19
+1225,1374413273,"Hannah Nguyen, MD",MD,Pediatrics,Irving,NP,19
+1226,1051170332,"Derek Mitchell, MD",MD,Psychiatry,Dallas,A,19
+1227,1683510456,"Alyssa Anderson, MD",MD,Internal Medicine,Plano,NP,19
+1228,1684876284,"Victor Turner, MD",MD,Sports Medicine (Internal Medicine),Frisco,B,19
+1229,1510711033,"Jennifer Foster, MD",MD,Internal Medicine,Irving,C,19
+1230,1788092618,"Aisha Xu, PA",PA,Internal Medicine,Plano,NP,19
+1231,1451351399,"Grace Turner, PA",PA,Pediatrics,Plano,B,19
+1232,1706918562,"Rachel Brooks, DO",DO,Neurology,Plano,NP,19
+1233,1761883276,"Alyssa Owens, MD",MD,Psychiatry,Plano,NP,19
+1234,1171117390,"Brian Walker, NP",NP,Family Medicine,Garland,C,19
+1235,1190575071,"Marcus Edwards, PA",PA,Internal Medicine,Garland,NP,19
+1236,1319396046,"Marcus Foster, NP",NP,Family Medicine,Irving,NP,19
+1237,1535572119,"Alyssa Turner, MD",MD,Rheumatology,Irving,NP,19
+1238,1195028627,"Tyler Reyes, NP",NP,Pediatrics,Plano,B,19
+1239,1539956166,"Patricia Edwards, PA",PA,Family Medicine,Dallas,C,19
+1240,1474664169,"Kevin Usman, PA",PA,Family Medicine,Frisco,C,19
+1241,1374655054,"Omar Chen, MD",MD,Internal Medicine,Dallas,C,19
+1242,1525068631,"James Walker, DO",DO,Internal Medicine,Irving,NP,19
+1243,1146185946,"Patricia Kim, MD",MD,Pediatrics,Frisco,C,19
+1244,1421974385,"Emily Diaz, MD",MD,Psychiatry,Dallas,C,19
+1245,1148651039,"Sofia Garcia, DO",DO,Family Medicine,Dallas,B,19
+1246,1369334701,"Priya Nguyen, MD",MD,Family Medicine,Dallas,C,19
+1247,1249118091,"Eric Quinn, NP",NP,Psychiatry,Irving,C,19
+1248,1281769378,"Jason Walker, MD",MD,Family Medicine,Frisco,NP,19
+1249,1152218856,"Michael Reyes, DO",DO,Internal Medicine,Plano,B,19
+1250,1806862722,"Robert Young, PA",PA,Psychiatry,Garland,NP,19
+1251,1506241705,"Omar Young, DO",DO,Sports Medicine (Internal Medicine),Plano,C,19
+1252,1794857900,"Rachel Singh, NP",NP,Neurology,Sugar Land,NP,20
+1253,1723501162,"Patricia Hughes, NP",NP,Neurology,Sugar Land,NP,20
+1254,1094324473,"Eric Dunn, NP",NP,Internal Medicine,Sugar Land,NP,20
+1255,1802094383,"Michael Brooks, DO",DO,Psychiatry,Pearland,NP,20
+1256,1464196997,"Tyler Anderson, PA",PA,Family Medicine,Sugar Land,C,20
+1257,1308773705,"Derek Owens, DO",DO,Neurology,Katy,NP,20
+1258,1892711438,"Rachel Dunn, MD",MD,Internal Medicine,Houston,NP,20
+1259,1519879537,"Carlos Reyes, PA",PA,Family Medicine,Houston,NP,20
+1260,1795972487,"Carlos Edwards, DO",DO,Family Medicine,Houston,B,20
+1261,1100658033,"Tyler Lopez, DO",DO,Pediatrics,Sugar Land,C,20
+1262,1761793252,"Victor Dunn, MD",MD,Rheumatology,Katy,NP,20
+1263,1108721358,"Nina Garcia, NP",NP,Rheumatology,Sugar Land,C,20
+1264,1133621279,"Michael Chen, DO",DO,Family Medicine,Pearland,C,20
+1265,1138358694,"Kevin Young, PA",PA,Psychiatry,The Woodlands,C,20
+1266,1079261038,"Aisha Lopez, MD",MD,Psychiatry,Sugar Land,NP,20
+1267,1093871388,"Jennifer Usman, NP",NP,Neurology,Katy,NP,20
+1268,1517771799,"Daniel Edwards, PA",PA,Internal Medicine,Katy,C,20
+1269,1394536586,"Rachel Bennett, PA",PA,Family Medicine,Katy,NP,20
+1270,1426536132,"Robert Bennett, DO",DO,Internal Medicine,Katy,NP,20
+1271,1258226143,"Patricia Lopez, DO",DO,Neurology,Houston,C,20
+1272,1020775283,"Victor Xu, PA",PA,Family Medicine,Katy,C,20
+1273,1410925502,"Jennifer Reyes, DO",DO,Pediatrics,Pearland,NP,20
+1274,1662237102,"Jason Brooks, NP",NP,Cardiology,Pearland,NP,20
+1275,1699023767,"Brian Ellis, NP",NP,Family Medicine,Sugar Land,B,20
+1276,1319602113,"Victor Ellis, PA",PA,Cardiology,Houston,NP,20
+1277,1525649487,"Carlos Singh, MD",MD,Neurology,The Woodlands,NP,20
+1278,1639359386,"Victor Owens, NP",NP,Internal Medicine,Houston,NP,20
+1279,1818724214,"Robert Turner, MD",MD,Pediatrics,Katy,B,20
+1280,1300139733,"Marcus Ito, NP",NP,Cardiology,The Woodlands,NP,20
+1281,1053285639,"Sofia Owens, MD",MD,Rheumatology,Katy,NP,20
+1282,1501456333,"Brian Mitchell, MD",MD,Pediatrics,Houston,NP,20
+1283,1142136361,"Tyler Owens, MD",MD,Endocrinology,The Woodlands,NP,20
+1284,1874949922,"Emily Vargas, DO",DO,Psychiatry,Sugar Land,NP,20
+1285,1734505646,"Victor Nguyen, MD",MD,Psychiatry,The Woodlands,NP,20
+1286,1695258295,"Daniel Mitchell, DO",DO,Family Medicine,Pearland,NP,20
+1287,1710236951,"Omar Usman, DO",DO,Rheumatology,Houston,NP,20
+1288,1166656671,"Grace Chen, NP",NP,Neurology,Katy,B,20
+1289,1532800661,"Tyler Ito, DO",DO,Psychiatry,Sugar Land,C,20
+1290,1621645617,"Alyssa Nguyen, PA",PA,Cardiology,Sugar Land,NP,20
+1291,1066752636,"Jason Xu, NP",NP,Neurology,Pearland,NP,20
+1292,1634907177,"Eric Anderson, MD",MD,Family Medicine,The Woodlands,NP,20
+1293,1130271397,"Alyssa Xu, DO",DO,Endocrinology,Katy,NP,20
+1294,1866732770,"Rachel Reyes, PA",PA,Family Medicine,Katy,NP,20
+1295,1891766223,"Kevin Mitchell, PA",PA,Internal Medicine,Sugar Land,NP,20
+1296,1601949082,"Michael Johnson, NP",NP,Family Medicine,The Woodlands,B,20
+1297,1812774650,"Monica Anderson, NP",NP,Rheumatology,Pearland,NP,20
+1298,1025728678,"Grace Bennett, MD",MD,Internal Medicine,Houston,NP,20
+1299,1641937281,"Nina Quinn, NP",NP,Psychiatry,Pearland,NP,20
+1300,1568224938,"Brian Singh, NP",NP,Internal Medicine,Pearland,C,20
+1301,1671309754,"Aisha Zimmerman, MD",MD,Endocrinology,The Woodlands,NP,20
+1302,1847235461,"Sofia Usman, PA",PA,Family Medicine,Houston,NP,20
+1303,1283400305,"Robert Foster, NP",NP,Neurology,Pearland,C,20
+1304,1198071900,"Brian Reyes, NP",NP,Psychiatry,Katy,A,20
+1305,1053274455,"Derek Dunn, PA",PA,Family Medicine,Katy,C,20
+1306,1188870013,"Kevin Anderson, MD",MD,Neurology,Katy,NP,20
+1307,1435488400,"Priya Quinn, MD",MD,Family Medicine,Pearland,B,20
+1308,1288465792,"Jason Hughes, NP",NP,Psychiatry,Houston,C,20
+1309,1539061072,"Hannah Kim, DO",DO,Pediatrics,Georgetown,NP,21
+1310,1522788091,"Alyssa Garcia, MD",MD,Psychiatry,Georgetown,NP,21
+1311,1003081330,"Michael Foster, MD",MD,Psychiatry,Cedar Park,NP,21
+1312,1441988550,"Omar Owens, NP",NP,Cardiology,San Marcos,C,21
+1313,1205102205,"Brian Lopez, MD",MD,Psychiatry,Austin,NP,21
+1314,1111359136,"Robert Singh, MD",MD,Endocrinology,San Marcos,C,21
+1315,1802569999,"Carlos Hughes, NP",NP,Rheumatology,San Marcos,C,21
+1316,1498203626,"Emily Patel, MD",MD,Internal Medicine,Austin,B,21
+1317,1580829150,"Marcus Reyes, NP",NP,Internal Medicine,Round Rock,A,21
+1318,1324944772,"Tyler Diaz, MD",MD,Rheumatology,Cedar Park,C,21
+1319,1098321369,"Aisha Singh, MD",MD,Psychiatry,Round Rock,B,21
+1320,1026205765,"Eric Reyes, MD",MD,Cardiology,Austin,C,21
+1321,1515880220,"Grace Diaz, NP",NP,Family Medicine,Austin,B,21
+1322,1883399944,"Emily Dunn, DO",DO,Neurology,Austin,NP,21
+1323,1570982259,"Maria Foster, DO",DO,Family Medicine,Georgetown,NP,21
+1324,1853179898,"Linda Foster, DO",DO,Psychiatry,Georgetown,B,21
+1325,1257479832,"James Johnson, PA",PA,Psychiatry,Round Rock,B,21
+1326,1259330092,"Linda Turner, NP",NP,Pediatrics,Georgetown,C,21
+1327,1825066376,"Emily Walker, PA",PA,Psychiatry,Cedar Park,C,21
+1328,1740184986,"Victor Quinn, MD",MD,Psychiatry,Round Rock,B,21
+1329,1273285241,"Kevin Usman, MD",MD,Internal Medicine,Cedar Park,B,21
+1330,1834139174,"Alyssa Anderson, NP",NP,Internal Medicine,Georgetown,C,21
+1331,1761213382,"Maria Hughes, MD",MD,Family Medicine,Cedar Park,NP,21
+1332,1443098654,"Tyler Turner, NP",NP,Pediatrics,San Marcos,C,21
+1333,1033551642,"Kevin Diaz, MD",MD,Psychiatry,Cedar Park,C,21
+1334,1394521875,"Hannah Diaz, NP",NP,Internal Medicine,Round Rock,C,21
+1335,1741237005,"Brian Young, MD",MD,Family Medicine,Austin,B,21
+1336,1838720029,"Robert Ito, PA",PA,Internal Medicine,Georgetown,NP,21
+1337,1819571386,"Alyssa Zimmerman, NP",NP,Endocrinology,Cedar Park,NP,21
+1338,1289367656,"Tyler Hughes, NP",NP,Internal Medicine,Austin,NP,21
+1339,1267969783,"Tanya Young, DO",DO,Internal Medicine,Austin,NP,21
+1340,1417489004,"Hannah Turner, MD",MD,Pediatrics,Round Rock,C,21
+1341,1761213183,"Derek Edwards, DO",DO,Psychiatry,Austin,C,21
+1342,1358819034,"Tyler Turner, DO",DO,Rheumatology,Austin,NP,21
+1343,1626481539,"Rachel Foster, PA",PA,Internal Medicine,San Marcos,NP,21
+1344,1242781818,"David Xu, DO",DO,Neurology,Georgetown,A,21
+1345,1769334112,"Emily Owens, DO",DO,Rheumatology,Austin,NP,21
+1346,1864347329,"Omar Johnson, MD",MD,Neurology,San Marcos,NP,21
+1347,1532195852,"Carlos Xu, MD",MD,Neurology,Austin,NP,21
+1348,1131544543,"Omar Patel, MD",MD,Psychiatry,Round Rock,NP,21
+1349,1799413854,"Tyler Chen, DO",DO,Psychiatry,Austin,NP,21
+1350,1322107129,"James Lopez, DO",DO,Family Medicine,Round Rock,NP,21
+1351,1831966409,"Eric Foster, NP",NP,Internal Medicine,Round Rock,NP,21
+1352,1799262276,"Aisha Xu, DO",DO,Family Medicine,Round Rock,NP,21
+1353,1126866452,"Brian Singh, MD",MD,Neurology,Georgetown,NP,21
+1354,1041565515,"Rachel Lopez, MD",MD,Rheumatology,San Marcos,B,21
+1355,1232398207,"Victor Lopez, DO",DO,Rheumatology,Austin,C,21
+1356,1013847223,"Hannah Ellis, DO",DO,Psychiatry,Georgetown,C,21
+1357,1625302513,"Hannah Bennett, PA",PA,Family Medicine,Austin,NP,21
+1358,1501996228,"Patricia Turner, MD",MD,Internal Medicine,Georgetown,C,21
+1359,1882128335,"Jason Turner, PA",PA,Cardiology,Georgetown,NP,21
+1360,1231058241,"David Garcia, MD",MD,Pediatrics,Austin,NP,21
+1361,1498701125,"Linda Young, MD",MD,Family Medicine,Phoenix,C,22
+1362,1557217266,"Sofia Usman, NP",NP,Family Medicine,Mesa,NP,22
+1363,1065731615,"Alyssa Reyes, DO",DO,Psychiatry,Tempe,C,22
+1364,1793755631,"Kevin Edwards, DO",DO,Pediatrics,Phoenix,NP,22
+1365,1644751569,"Brian Vargas, DO",DO,Cardiology,Chandler,C,22
+1366,1866700161,"Victor Usman, PA",PA,Neurology,Scottsdale,C,22
+1367,1869863425,"Robert Walker, MD",MD,Internal Medicine,Phoenix,B,22
+1368,1676061961,"Tanya Brooks, PA",PA,Family Medicine,Mesa,B,22
+1369,1470168785,"Eric Chen, NP",NP,Pediatrics,Phoenix,NP,22
+1370,1881510829,"Tanya Xu, NP",NP,Psychiatry,Tempe,C,22
+1371,1330610192,"David Johnson, MD",MD,Family Medicine,Mesa,A,22
+1372,1605783143,"Jennifer Ellis, MD",MD,Psychiatry,Tempe,B,22
+1373,1082404182,"Eric Mitchell, NP",NP,Internal Medicine,Chandler,NP,22
+1374,1783913046,"Alyssa Young, DO",DO,Internal Medicine,Phoenix,B,22
+1375,1789801665,"Eric Edwards, PA",PA,Psychiatry,Scottsdale,B,22
+1376,1571835122,"Daniel Edwards, MD",MD,Cardiology,Chandler,NP,22
+1377,1688785427,"Grace Anderson, DO",DO,Internal Medicine,Chandler,C,22
+1378,1666054894,"Hannah Owens, PA",PA,Family Medicine,Mesa,C,22
+1379,1607894189,"Rachel Garcia, DO",DO,Endocrinology,Mesa,NP,22
+1380,1381576980,"Sofia Anderson, MD",MD,Family Medicine,Tempe,B,22
+1381,1062215101,"Eric Zimmerman, NP",NP,Internal Medicine,Scottsdale,B,22
+1382,1523474960,"Sofia Nguyen, PA",PA,Family Medicine,Tempe,NP,22
+1383,1155129826,"Kevin Ito, MD",MD,Internal Medicine,Scottsdale,NP,22
+1384,1713293551,"Derek Kim, MD",MD,Internal Medicine,Tempe,A,22
+1385,1387496287,"David Zimmerman, DO",DO,Psychiatry,Chandler,NP,22
+1386,1126987594,"Rachel Quinn, PA",PA,Cardiology,Phoenix,NP,22
+1387,1647979010,"Nina Singh, NP",NP,Internal Medicine,Phoenix,C,22
+1388,1093424610,"Sofia Mitchell, MD",MD,Family Medicine,Chandler,NP,22
+1389,1410843108,"Nina Johnson, NP",NP,Internal Medicine,Scottsdale,NP,22
+1390,1138734140,"Tyler Xu, DO",DO,Neurology,Scottsdale,B,22
+1391,1853513996,"Marcus Cohen, MD",MD,Internal Medicine,Mesa,B,22
+1392,1844608754,"Daniel Patel, DO",DO,Family Medicine,Chandler,NP,22
+1393,1829298482,"Kevin Nguyen, NP",NP,Internal Medicine,Mesa,C,22
+1394,1408093643,"Eric Young, PA",PA,Endocrinology,Chandler,NP,22
+1395,1771569034,"Patricia Dunn, MD",MD,Psychiatry,Phoenix,B,22
+1396,1272712419,"Priya Anderson, PA",PA,Internal Medicine,Tempe,NP,22
+1397,1499963266,"Carlos Anderson, NP",NP,Endocrinology,Tempe,NP,22
+1398,1687438565,"Derek Walker, NP",NP,Psychiatry,Mesa,B,22
+1399,1833838248,"Jason Young, MD",MD,Family Medicine,Phoenix,B,22
+1400,1191181111,"Marcus Ellis, MD",MD,Neurology,Mesa,C,22
+1401,1017518829,"Robert Kim, DO",DO,Family Medicine,Mesa,NP,22
+1402,1396148677,"Tanya Turner, MD",MD,Psychiatry,Chandler,NP,22
+1403,1794758096,"Daniel Dunn, MD",MD,Psychiatry,Chandler,C,22
+1404,1194543395,"Carlos Johnson, NP",NP,Psychiatry,Tempe,NP,22
+1405,1771311148,"Sofia Mitchell, DO",DO,Internal Medicine,Tempe,NP,22
+1406,1079657061,"Nina Anderson, DO",DO,Cardiology,Phoenix,B,22
+1407,1278641551,"Maria Chen, DO",DO,Endocrinology,Scottsdale,NP,22
+1408,1557591703,"Omar Cohen, NP",NP,Sports Medicine (Internal Medicine),Chandler,B,22
+1409,1387734941,"Hannah Foster, MD",MD,Internal Medicine,Tempe,NP,22
+1410,1121784909,"Patricia Owens, DO",DO,Internal Medicine,Chandler,C,22
+1411,1133180311,"Rachel Xu, MD",MD,Family Medicine,Scottsdale,B,22
+1412,1553101768,"Jennifer Turner, NP",NP,Psychiatry,Phoenix,NP,22
+1413,1122059414,"Omar Turner, MD",MD,Psychiatry,Tempe,C,22
+1414,1843726673,"Hannah Hughes, NP",NP,Endocrinology,Scottsdale,B,22
+1415,1339548898,"Tyler Hughes, MD",MD,Cardiology,Chandler,NP,22
+1416,1289122588,"Victor Young, DO",DO,Family Medicine,Mesa,NP,22
+1417,1391461507,"Priya Brooks, NP",NP,Psychiatry,Scottsdale,NP,22
+1418,1398585069,"Derek Bennett, DO",DO,Family Medicine,Tempe,C,22
+1419,1674657665,"Nina Edwards, DO",DO,Family Medicine,Mesa,B,22
+1420,1458026760,"Brian Turner, NP",NP,Internal Medicine,Scottsdale,C,22
+1421,1255191687,"Emily Foster, NP",NP,Internal Medicine,Lakewood,NP,23
+1422,1404153121,"Carlos Mitchell, NP",NP,Internal Medicine,Littleton,NP,23
+1423,1101260336,"James Cohen, DO",DO,Endocrinology,Lakewood,NP,23
+1424,1453500444,"Priya Young, NP",NP,Family Medicine,Aurora,NP,23
+1425,1626625079,"Omar Bennett, NP",NP,Psychiatry,Littleton,B,23
+1426,1778064791,"Tanya Owens, DO",DO,Internal Medicine,Littleton,NP,23
+1427,1798254160,"Sofia Lopez, MD",MD,Family Medicine,Aurora,B,23
+1428,1311277596,"Rachel Mitchell, NP",NP,Internal Medicine,Aurora,C,23
+1429,1311313962,"Tyler Brooks, MD",MD,Psychiatry,Littleton,NP,23
+1430,1506427033,"James Patel, MD",MD,Neurology,Lakewood,NP,23
+1431,1046629060,"Carlos Hughes, PA",PA,Cardiology,Boulder,NP,23
+1432,1201880680,"Aisha Cohen, MD",MD,Neurology,Lakewood,B,23
+1433,1357880770,"Carlos Reyes, MD",MD,Psychiatry,Lakewood,NP,23
+1434,1620580166,"Carlos Ito, MD",MD,Rheumatology,Denver,NP,23
+1435,1058158271,"Hannah Dunn, MD",MD,Neurology,Littleton,B,23
+1436,1615527309,"Jason Bennett, PA",PA,Psychiatry,Denver,NP,23
+1437,1743484385,"Priya Johnson, DO",DO,Family Medicine,Aurora,NP,23
+1438,1429795896,"Eric Kim, PA",PA,Neurology,Aurora,NP,23
+1439,1498531569,"Daniel Ellis, NP",NP,Neurology,Boulder,NP,23
+1440,1529208805,"Rachel Johnson, NP",NP,Cardiology,Littleton,NP,23
+1441,1396748961,"Rachel Walker, NP",NP,Cardiology,Lakewood,NP,23
+1442,1744115132,"Grace Ellis, MD",MD,Pediatrics,Aurora,C,23
+1443,1354905771,"Linda Young, DO",DO,Rheumatology,Littleton,B,23
+1444,1449579737,"James Johnson, MD",MD,Pediatrics,Lakewood,C,23
+1445,1391175066,"Daniel Reyes, PA",PA,Psychiatry,Littleton,NP,23
+1446,1632139510,"Michael Brooks, MD",MD,Rheumatology,Boulder,B,23
+1447,1409938641,"Nina Diaz, DO",DO,Endocrinology,Littleton,NP,23
+1448,1543870061,"James Edwards, NP",NP,Family Medicine,Boulder,C,23
+1449,1446214459,"Jason Hughes, MD",MD,Cardiology,Aurora,NP,23
+1450,1104009456,"Monica Walker, NP",NP,Family Medicine,Littleton,NP,23
+1451,1420962718,"Tyler Zimmerman, DO",DO,Family Medicine,Aurora,NP,23
+1452,1597308464,"Carlos Quinn, PA",PA,Neurology,Denver,B,23
+1453,1355925228,"Jason Garcia, PA",PA,Family Medicine,Denver,C,23
+1454,1542435888,"Kevin Dunn, DO",DO,Endocrinology,Aurora,C,23
+1455,1841181919,"Grace Zimmerman, PA",PA,Cardiology,Denver,B,23
+1456,1343698145,"Emily Xu, MD",MD,Psychiatry,Lakewood,C,23
+1457,1463360739,"Tyler Edwards, PA",PA,Internal Medicine,Denver,A,23
+1458,1550853120,"David Walker, MD",MD,Rheumatology,Aurora,NP,23
+1459,1230407930,"Monica Ito, MD",MD,Sports Medicine (Internal Medicine),Littleton,NP,23
+1460,1382184371,"Tyler Mitchell, DO",DO,Pediatrics,Aurora,NP,23
+1461,1433058490,"Maria Usman, NP",NP,Cardiology,Littleton,NP,23
+1462,1851070793,"Aisha Dunn, PA",PA,Pediatrics,Lakewood,NP,23
+1463,1819835684,"Victor Usman, MD",MD,Sports Medicine (Internal Medicine),Lakewood,C,23
+1464,1057558924,"Jennifer Diaz, DO",DO,Family Medicine,Boulder,C,23
+1465,1499840727,"Jennifer Lopez, PA",PA,Family Medicine,Littleton,B,23
+1466,1799636970,"Linda Usman, NP",NP,Family Medicine,Littleton,C,23
+1467,1034806063,"Rachel Zimmerman, DO",DO,Internal Medicine,Aurora,C,23
+1468,1457045757,"Marcus Young, MD",MD,Internal Medicine,Boulder,NP,23
+1469,1898884472,"Sofia Reyes, DO",DO,Psychiatry,Littleton,NP,23
+1470,1245527728,"Emily Bennett, NP",NP,Cardiology,Littleton,A,23
+1471,1807381392,"Emily Bennett, MD",MD,Psychiatry,Lakewood,NP,23
+1472,1437722196,"Linda Johnson, PA",PA,Internal Medicine,Littleton,C,23
+1473,1210962446,"Omar Dunn, MD",MD,Psychiatry,Boulder,NP,23
+1474,1592776566,"Maria Lopez, NP",NP,Psychiatry,Aurora,B,23
+1475,1756178049,"Jennifer Quinn, MD",MD,Rheumatology,Littleton,NP,23
+1476,1348417407,"Brian Diaz, MD",MD,Internal Medicine,Littleton,NP,23
+1477,1851830272,"Nina Ellis, NP",NP,Cardiology,Boulder,A,23
+1478,1024052668,"Linda Xu, MD",MD,Internal Medicine,Lakewood,A,23
+1479,1615753520,"Omar Nguyen, NP",NP,Internal Medicine,Boulder,NP,23
+1480,1075898244,"Maria Bennett, NP",NP,Psychiatry,Denver,NP,23
+1481,1723665731,"Michael Walker, PA",PA,Family Medicine,Littleton,B,23
+1482,1216696394,"Emily Vargas, PA",PA,Rheumatology,Boulder,NP,23
+1483,1281430432,"Patricia Singh, NP",NP,Internal Medicine,Boulder,NP,23
+1484,1726747064,"James Anderson, DO",DO,Cardiology,Denver,C,23
+1485,1390049541,"Carlos Ellis, PA",PA,Internal Medicine,Aurora,NP,23
+1486,1201184052,"David Vargas, MD",MD,Internal Medicine,Oklahoma City,NP,24
+1487,1639078824,"James Brooks, MD",MD,Pediatrics,Midwest City,B,24
+1488,1459014529,"Victor Johnson, MD",MD,Psychiatry,Oklahoma City,NP,24
+1489,1363699145,"Grace Diaz, DO",DO,Pediatrics,Moore,A,24
+1490,1158900673,"Hannah Ito, MD",MD,Endocrinology,Oklahoma City,NP,24
+1491,1014979918,"Eric Mitchell, MD",MD,Sports Medicine (Internal Medicine),Norman,B,24
+1492,1119823401,"Nina Mitchell, MD",MD,Internal Medicine,Oklahoma City,NP,24
+1493,1546538522,"Hannah Lopez, NP",NP,Psychiatry,Moore,NP,24
+1494,1308136895,"Eric Brooks, MD",MD,Pediatrics,Midwest City,B,24
+1495,1762709768,"Priya Owens, DO",DO,Neurology,Edmond,NP,24
+1496,1856616212,"Grace Nguyen, MD",MD,Cardiology,Moore,C,24
+1497,1092218060,"David Patel, NP",NP,Family Medicine,Midwest City,B,24
+1498,1262226747,"Daniel Xu, NP",NP,Psychiatry,Norman,C,24
+1499,1682516296,"Daniel Chen, NP",NP,Family Medicine,Midwest City,NP,24
+1500,1719989814,"Jennifer Hughes, MD",MD,Neurology,Moore,NP,24
+1501,1233673517,"Rachel Kim, DO",DO,Cardiology,Midwest City,A,24
+1502,1141904263,"Rachel Ito, DO",DO,Internal Medicine,Norman,NP,24
+1503,1664179885,"Alyssa Garcia, NP",NP,Psychiatry,Norman,B,24
+1504,1410428032,"Alyssa Nguyen, NP",NP,Rheumatology,Midwest City,C,24
+1505,1580501264,"Rachel Cohen, NP",NP,Family Medicine,Moore,A,24
+1506,1784465908,"Aisha Diaz, PA",PA,Psychiatry,Norman,NP,24
+1507,1419851353,"Jason Mitchell, MD",MD,Neurology,Midwest City,NP,24
+1508,1483390712,"Kevin Lopez, DO",DO,Cardiology,Oklahoma City,B,24
+1509,1899663385,"Alyssa Edwards, PA",PA,Neurology,Moore,C,24
+1510,1788661523,"Tyler Vargas, MD",MD,Cardiology,Norman,NP,24
+1511,1549534644,"Carlos Bennett, DO",DO,Family Medicine,Moore,C,24
+1512,1735915849,"Sofia Reyes, MD",MD,Family Medicine,Edmond,C,24
+1513,1871740987,"Hannah Kim, PA",PA,Neurology,Edmond,NP,24
+1514,1277503697,"Kevin Walker, DO",DO,Psychiatry,Oklahoma City,NP,24
+1515,1475803662,"Tanya Diaz, MD",MD,Psychiatry,Oklahoma City,C,24
+1516,1623119175,"Carlos Kim, NP",NP,Psychiatry,Edmond,NP,24
+1517,1559824889,"Tyler Vargas, NP",NP,Neurology,Norman,NP,24
+1518,1805911145,"Nina Garcia, DO",DO,Neurology,Edmond,NP,24
+1519,1427412323,"Jason Anderson, PA",PA,Rheumatology,Moore,B,24
+1520,1186199752,"Victor Walker, NP",NP,Psychiatry,Edmond,C,24
+1521,1577771240,"James Foster, PA",PA,Psychiatry,Moore,NP,24
+1522,1182692920,"David Young, PA",PA,Internal Medicine,Moore,NP,24
+1523,1370930067,"Michael Mitchell, NP",NP,Psychiatry,Norman,NP,24
+1524,1341185681,"Jennifer Xu, PA",PA,Internal Medicine,Moore,NP,24
+1525,1432442025,"Patricia Bennett, MD",MD,Psychiatry,Oklahoma City,NP,24
+1526,1854873140,"Carlos Johnson, PA",PA,Pediatrics,Oklahoma City,NP,24
+1527,1504884463,"Priya Diaz, DO",DO,Psychiatry,Oklahoma City,NP,24
+1528,1600845010,"Patricia Mitchell, PA",PA,Psychiatry,Norman,NP,24
+1529,1522971913,"Brian Bennett, NP",NP,Cardiology,Edmond,C,24
+1530,1826431080,"Kevin Bennett, MD",MD,Family Medicine,Midwest City,NP,24
+1531,1252052186,"Tanya Lopez, MD",MD,Rheumatology,Norman,NP,24
+1532,1736847105,"Omar Ellis, MD",MD,Family Medicine,Moore,C,24
+1533,1606139164,"Brian Nguyen, DO",DO,Internal Medicine,Norman,B,24
+1534,1400380248,"Derek Chen, NP",NP,Internal Medicine,Oklahoma City,A,24
+1535,1037011716,"Priya Chen, DO",DO,Psychiatry,Moore,NP,24
+1536,1319174638,"Grace Anderson, MD",MD,Internal Medicine,Edmond,A,24
+1537,1868251920,"Grace Owens, MD",MD,Pediatrics,Moore,C,24
+1538,1661386976,"Tyler Cohen, NP",NP,Internal Medicine,Edmond,B,24
+1539,1679178665,"Priya Garcia, NP",NP,Sports Medicine (Internal Medicine),Midwest City,B,24
+1540,1060066928,"Emily Reyes, NP",NP,Psychiatry,Oklahoma City,NP,24
+1541,1674276660,"Michael Garcia, NP",NP,Internal Medicine,Norman,NP,24
+1542,1157436875,"Kevin Owens, PA",PA,Internal Medicine,Moore,B,24
+1543,1426058345,"Patricia Reyes, MD",MD,Family Medicine,Oklahoma City,B,24
+1544,1282710618,"Marcus Cohen, DO",DO,Cardiology,Midwest City,NP,24
+1545,1146182669,"Tyler Hughes, PA",PA,Family Medicine,Edmond,B,24
+1546,1662647553,"Patricia Young, PA",PA,Family Medicine,Oklahoma City,B,24
+1547,1045224567,"Michael Xu, DO",DO,Psychiatry,Edmond,NP,24
+1548,1773830115,"Jennifer Turner, DO",DO,Endocrinology,Midwest City,B,24
+1549,1258452934,"Linda Cohen, DO",DO,Family Medicine,Oklahoma City,C,24
+1550,1335815091,"Victor Edwards, NP",NP,Neurology,Midwest City,C,24
+1551,1331170511,"Derek Bennett, PA",PA,Family Medicine,Norman,NP,24
+1552,1322586310,"Emily Lopez, DO",DO,Cardiology,Norman,NP,24
+1553,1379628512,"Victor Foster, PA",PA,Psychiatry,Midwest City,NP,24
+1554,1868921334,"Marcus Nguyen, NP",NP,Cardiology,Norman,NP,24
+1555,1890679253,"Brian Usman, DO",DO,Family Medicine,Midwest City,C,24
+1556,1435674758,"Nina Dunn, DO",DO,Neurology,Oklahoma City,NP,24
+1557,1342468121,"Daniel Anderson, DO",DO,Neurology,Midwest City,C,24
+1558,1071288232,"Patricia Lopez, MD",MD,Internal Medicine,Glendale,NP,25
+1559,1228808969,"Alyssa Chen, PA",PA,Psychiatry,Glendale,A,25
+1560,1090012884,"Aisha Bennett, MD",MD,Internal Medicine,Glendale,NP,25
+1561,1599176588,"Linda Singh, MD",MD,Psychiatry,Los Angeles,B,25
+1562,1794506857,"Maria Quinn, PA",PA,Psychiatry,Torrance,C,25
+1563,1198279408,"Carlos Nguyen, DO",DO,Family Medicine,Pasadena,C,25
+1564,1305613314,"Hannah Usman, NP",NP,Family Medicine,Santa Monica,C,25
+1565,1609860689,"Tanya Zimmerman, NP",NP,Psychiatry,Santa Monica,B,25
+1566,1254211252,"Eric Quinn, DO",DO,Internal Medicine,Glendale,C,25
+1567,1512762885,"Omar Turner, NP",NP,Neurology,Los Angeles,B,25
+1568,1156722523,"Alyssa Bennett, NP",NP,Pediatrics,Glendale,NP,25
+1569,1322938251,"Jennifer Diaz, MD",MD,Endocrinology,Pasadena,B,25
+1570,1148983958,"Patricia Diaz, MD",MD,Internal Medicine,Santa Monica,NP,25
+1571,1791714596,"Robert Patel, DO",DO,Psychiatry,Torrance,NP,25
+1572,1212022418,"Victor Quinn, NP",NP,Family Medicine,Torrance,NP,25
+1573,1896066758,"Priya Bennett, MD",MD,Family Medicine,Santa Monica,C,25
+1574,1043555776,"Alyssa Edwards, DO",DO,Internal Medicine,Los Angeles,A,25
+1575,1678068366,"Marcus Mitchell, MD",MD,Internal Medicine,Glendale,B,25
+1576,1129453690,"Rachel Quinn, NP",NP,Endocrinology,Santa Monica,NP,25
+1577,1703874322,"Alyssa Xu, NP",NP,Psychiatry,Glendale,NP,25
+1578,1592108017,"Omar Lopez, PA",PA,Neurology,Glendale,B,25
+1579,1138374976,"Linda Cohen, MD",MD,Cardiology,Torrance,NP,25
+1580,1568687693,"Michael Nguyen, PA",PA,Cardiology,Santa Monica,NP,25
+1581,1202850659,"Grace Brooks, DO",DO,Internal Medicine,Santa Monica,C,25
+1582,1276419309,"Emily Edwards, DO",DO,Pediatrics,Pasadena,A,25
+1583,1673662517,"Marcus Garcia, MD",MD,Family Medicine,Los Angeles,NP,25
+1584,1823917851,"Daniel Diaz, NP",NP,Neurology,Glendale,B,25
+1585,1792704625,"James Xu, MD",MD,Family Medicine,Santa Monica,A,25
+1586,1152529078,"Eric Ito, DO",DO,Internal Medicine,Glendale,B,25
+1587,1837650627,"Monica Quinn, PA",PA,Psychiatry,Torrance,NP,25
+1588,1146420307,"Monica Chen, DO",DO,Endocrinology,Glendale,C,25
+1589,1712411029,"Rachel Quinn, MD",MD,Internal Medicine,Los Angeles,B,25
+1590,1268759200,"Derek Zimmerman, NP",NP,Psychiatry,Pasadena,A,25
+1591,1584843847,"Carlos Lopez, DO",DO,Rheumatology,Pasadena,NP,25
+1592,1241803339,"Daniel Cohen, NP",NP,Pediatrics,Torrance,B,25
+1593,1441872178,"Tanya Kim, NP",NP,Internal Medicine,Glendale,NP,25
+1594,1725200177,"Eric Hughes, DO",DO,Psychiatry,Santa Monica,NP,25
+1595,1057357725,"Sofia Owens, DO",DO,Psychiatry,Glendale,C,25
+1596,1895855729,"Tyler Cohen, MD",MD,Family Medicine,Santa Monica,C,25
+1597,1692470261,"Tyler Foster, DO",DO,Internal Medicine,Glendale,NP,25
+1598,1703890070,"Tyler Usman, DO",DO,Family Medicine,Glendale,C,25
+1599,1691463167,"Robert Xu, DO",DO,Family Medicine,Torrance,A,25
+1600,1376485001,"Derek Young, PA",PA,Family Medicine,Torrance,C,25
+1601,1781592653,"Emily Edwards, PA",PA,Family Medicine,Torrance,C,25
+1602,1028932248,"Nina Xu, MD",MD,Psychiatry,Los Angeles,NP,25
+1603,1798408742,"Nina Quinn, DO",DO,Neurology,Glendale,B,25
+1604,1401579356,"Alyssa Chen, MD",MD,Internal Medicine,Glendale,C,25
+1605,1636930724,"Eric Patel, NP",NP,Psychiatry,Santa Monica,NP,25
+1606,1672109085,"David Diaz, MD",MD,Rheumatology,Torrance,B,25
+1607,1703588707,"Tanya Mitchell, DO",DO,Psychiatry,Glendale,C,25
+1608,1645631513,"Daniel Kim, NP",NP,Psychiatry,Santa Monica,B,25
+1609,1070372457,"Maria Anderson, MD",MD,Family Medicine,Pasadena,NP,25
+1610,1638156883,"Linda Edwards, MD",MD,Endocrinology,Torrance,NP,25
+1611,1555829065,"Omar Kim, DO",DO,Endocrinology,Glendale,NP,25
+1612,1645919416,"Aisha Walker, PA",PA,Psychiatry,Torrance,NP,25
+1613,1030706078,"David Zimmerman, NP",NP,Sports Medicine (Internal Medicine),Santa Monica,NP,25
+1614,1434151751,"Linda Lopez, NP",NP,Psychiatry,Pasadena,B,25
+1615,1800535539,"Rachel Ellis, PA",PA,Family Medicine,Santa Monica,NP,25
+1616,1377454276,"Emily Zimmerman, MD",MD,Family Medicine,Los Angeles,NP,25
+1617,1630031442,"Jennifer Johnson, DO",DO,Endocrinology,Los Angeles,NP,25
+1618,1093799805,"Nina Nguyen, PA",PA,Endocrinology,Los Angeles,C,25
+1619,1088234234,"Robert Singh, NP",NP,Cardiology,Pasadena,B,25
+1620,1589156578,"Eric Xu, NP",NP,Family Medicine,Santa Monica,C,25
+1621,1671337370,"Jason Ito, DO",DO,Internal Medicine,Los Angeles,NP,25
+1622,1073912900,"Eric Young, DO",DO,Psychiatry,Torrance,C,25
+1623,1543523421,"Tanya Vargas, NP",NP,Cardiology,Santa Monica,NP,25
+1624,1263656127,"Derek Ellis, MD",MD,Family Medicine,Glendale,C,25
+1625,1400562346,"Jennifer Lopez, NP",NP,Pediatrics,Glendale,NP,25
+1626,1110856176,"Carlos Chen, DO",DO,Cardiology,Los Angeles,NP,25
+1627,1496105136,"Patricia Foster, MD",MD,Pediatrics,Los Angeles,C,25
+1628,1492424850,"Rachel Patel, NP",NP,Endocrinology,Pasadena,NP,25
+1629,1616198761,"Jason Ito, NP",NP,Internal Medicine,Santa Monica,NP,25
+1630,1729195695,"Hannah Mitchell, PA",PA,Psychiatry,San Diego,B,26
+1631,1785999449,"Grace Patel, DO",DO,Psychiatry,Escondido,NP,26
+1632,1239617904,"Michael Lopez, DO",DO,Cardiology,Carlsbad,NP,26
+1633,1309113739,"Maria Edwards, NP",NP,Internal Medicine,Carlsbad,NP,26
+1634,1271056374,"Linda Diaz, MD",MD,Internal Medicine,Escondido,C,26
+1635,1838799530,"Eric Ito, PA",PA,Internal Medicine,Escondido,NP,26
+1636,1276284949,"Marcus Patel, PA",PA,Psychiatry,Carlsbad,NP,26
+1637,1653772589,"Sofia Brooks, PA",PA,Internal Medicine,Carlsbad,B,26
+1638,1791866140,"Aisha Reyes, PA",PA,Neurology,San Diego,C,26
+1639,1721396512,"Maria Ito, PA",PA,Neurology,Carlsbad,A,26
+1640,1291670712,"Derek Diaz, PA",PA,Sports Medicine (Internal Medicine),Carlsbad,C,26
+1641,1606046618,"Monica Patel, PA",PA,Neurology,Chula Vista,B,26
+1642,1312360380,"Monica Walker, MD",MD,Neurology,Chula Vista,C,26
+1643,1267175562,"Nina Walker, DO",DO,Family Medicine,La Jolla,NP,26
+1644,1862064081,"Marcus Singh, DO",DO,Psychiatry,Carlsbad,NP,26
+1645,1074695602,"Michael Bennett, DO",DO,Family Medicine,La Jolla,NP,26
+1646,1869748160,"Daniel Lopez, NP",NP,Psychiatry,San Diego,NP,26
+1647,1873950527,"Emily Dunn, NP",NP,Internal Medicine,Escondido,NP,26
+1648,1155440285,"Monica Anderson, PA",PA,Neurology,La Jolla,NP,26
+1649,1048878081,"Sofia Walker, PA",PA,Rheumatology,San Diego,NP,26
+1650,1391604684,"David Quinn, NP",NP,Sports Medicine (Internal Medicine),La Jolla,NP,26
+1651,1393210494,"Patricia Edwards, DO",DO,Psychiatry,Carlsbad,C,26
+1652,1147341537,"Rachel Bennett, NP",NP,Family Medicine,Escondido,B,26
+1653,1371319432,"Victor Edwards, DO",DO,Pediatrics,San Diego,NP,26
+1654,1041877289,"Alyssa Foster, DO",DO,Internal Medicine,Chula Vista,NP,26
+1655,1092700161,"Hannah Foster, PA",PA,Internal Medicine,San Diego,B,26
+1656,1557639283,"Tanya Patel, NP",NP,Family Medicine,Carlsbad,NP,26
+1657,1096472239,"Nina Foster, NP",NP,Psychiatry,Carlsbad,C,26
+1658,1743507467,"Kevin Mitchell, DO",DO,Family Medicine,La Jolla,NP,26
+1659,1068477242,"Carlos Reyes, NP",NP,Neurology,Chula Vista,NP,26
+1660,1886304551,"Rachel Anderson, NP",NP,Cardiology,Escondido,NP,26
+1661,1692609296,"Brian Walker, MD",MD,Psychiatry,Carlsbad,B,26
+1662,1485657090,"Nina Diaz, MD",MD,Cardiology,Chula Vista,C,26
+1663,1321881928,"Nina Young, PA",PA,Endocrinology,Carlsbad,NP,26
+1664,1398144695,"Michael Anderson, NP",NP,Family Medicine,La Jolla,C,26
+1665,1648121870,"Robert Dunn, DO",DO,Family Medicine,La Jolla,NP,26
+1666,1165394635,"Patricia Nguyen, NP",NP,Neurology,Carlsbad,NP,26
+1667,1301923443,"Michael Zimmerman, NP",NP,Family Medicine,Carlsbad,NP,26
+1668,1392814266,"Tanya Johnson, NP",NP,Family Medicine,Chula Vista,NP,26
+1669,1890940978,"Robert Vargas, DO",DO,Sports Medicine (Internal Medicine),Chula Vista,NP,26
+1670,1387953784,"Daniel Hughes, DO",DO,Psychiatry,La Jolla,NP,26
+1671,1218827042,"Aisha Ellis, PA",PA,Neurology,Escondido,C,26
+1672,1154552154,"Robert Anderson, DO",DO,Endocrinology,Escondido,NP,26
+1673,1675150804,"Tanya Singh, MD",MD,Family Medicine,Escondido,B,26
+1674,1270425449,"Patricia Kim, DO",DO,Internal Medicine,La Jolla,A,26
+1675,1689385897,"Linda Vargas, MD",MD,Family Medicine,San Diego,NP,26
+1676,1412304574,"Monica Dunn, DO",DO,Cardiology,Carlsbad,C,26
+1677,1211642692,"Brian Cohen, DO",DO,Internal Medicine,San Diego,B,26
+1678,1670067305,"Daniel Owens, MD",MD,Internal Medicine,La Jolla,NP,26
+1679,1752040396,"Hannah Anderson, NP",NP,Neurology,San Diego,B,26
+1680,1213269432,"Patricia Young, NP",NP,Family Medicine,Carlsbad,A,26
+1681,1276326591,"Robert Patel, NP",NP,Cardiology,Carlsbad,B,26
+1682,1603163493,"Linda Anderson, PA",PA,Family Medicine,San Diego,A,26
+1683,1820907112,"Jason Johnson, DO",DO,Endocrinology,Escondido,B,26
+1684,1166896850,"Tanya Johnson, DO",DO,Sports Medicine (Internal Medicine),Berkeley,NP,27
+1685,1812960763,"Sofia Hughes, DO",DO,Pediatrics,Oakland,C,27
+1686,1369434712,"Priya Mitchell, PA",PA,Cardiology,Oakland,NP,27
+1687,1533182646,"Tyler Nguyen, DO",DO,Family Medicine,Walnut Creek,B,27
+1688,1704016602,"Victor Vargas, PA",PA,Psychiatry,Oakland,C,27
+1689,1741245535,"Marcus Ellis, NP",NP,Internal Medicine,Walnut Creek,C,27
+1690,1778739930,"Marcus Owens, DO",DO,Family Medicine,San Mateo,C,27
+1691,1828919826,"Linda Owens, MD",MD,Family Medicine,Berkeley,C,27
+1692,1626392033,"Tanya Singh, DO",DO,Psychiatry,San Mateo,NP,27
+1693,1440975575,"Priya Chen, PA",PA,Internal Medicine,Oakland,NP,27
+1694,1522642002,"Derek Johnson, NP",NP,Family Medicine,Berkeley,NP,27
+1695,1485410050,"Sofia Owens, NP",NP,Neurology,Walnut Creek,NP,27
+1696,1156594589,"Eric Bennett, NP",NP,Endocrinology,Oakland,B,27
+1697,1024951337,"Emily Quinn, MD",MD,Pediatrics,San Mateo,B,27
+1698,1152130319,"Marcus Johnson, DO",DO,Internal Medicine,Oakland,C,27
+1699,1178369847,"Nina Singh, DO",DO,Neurology,San Mateo,NP,27
+1700,1029578589,"Aisha Owens, MD",MD,Pediatrics,San Mateo,C,27
+1701,1676375787,"Tanya Kim, DO",DO,Internal Medicine,San Francisco,NP,27
+1702,1311843728,"Tyler Quinn, PA",PA,Neurology,San Francisco,B,27
+1703,1707712260,"Carlos Turner, PA",PA,Psychiatry,Berkeley,C,27
+1704,1183971628,"Eric Reyes, NP",NP,Neurology,Oakland,C,27
+1705,1752274741,"Eric Brooks, NP",NP,Endocrinology,Walnut Creek,C,27
+1706,1313726783,"Priya Brooks, PA",PA,Endocrinology,Berkeley,NP,27
+1707,1749280110,"Eric Cohen, DO",DO,Endocrinology,Walnut Creek,B,27
+1708,1123754470,"James Mitchell, MD",MD,Family Medicine,Oakland,C,27
+1709,1736443136,"Marcus Owens, NP",NP,Internal Medicine,San Mateo,C,27
+1710,1625577610,"Rachel Ito, NP",NP,Cardiology,San Mateo,C,27
+1711,1313471099,"Rachel Mitchell, DO",DO,Family Medicine,San Francisco,NP,27
+1712,1763586880,"Jennifer Ellis, PA",PA,Psychiatry,San Francisco,A,27
+1713,1842758635,"Jason Chen, NP",NP,Internal Medicine,San Mateo,NP,27
+1714,1408549810,"David Reyes, DO",DO,Pediatrics,Oakland,C,27
+1715,1201358456,"Monica Edwards, PA",PA,Rheumatology,Oakland,A,27
+1716,1878134787,"David Chen, DO",DO,Cardiology,San Mateo,NP,27
+1717,1368309284,"Aisha Walker, DO",DO,Internal Medicine,San Francisco,NP,27
+1718,1282840129,"Marcus Diaz, DO",DO,Family Medicine,Berkeley,NP,27
+1719,1536697546,"Priya Lopez, NP",NP,Internal Medicine,San Mateo,C,27
+1720,1180045478,"David Turner, PA",PA,Cardiology,Berkeley,NP,27
+1721,1113759782,"Victor Hughes, DO",DO,Endocrinology,Oakland,C,27
+1722,1703163072,"Derek Cohen, DO",DO,Cardiology,Walnut Creek,C,27
+1723,1349416395,"Grace Xu, NP",NP,Family Medicine,San Francisco,NP,27
+1724,1183857523,"Robert Xu, MD",MD,Family Medicine,Walnut Creek,C,27
+1725,1705122790,"Nina Singh, PA",PA,Neurology,San Mateo,NP,27
+1726,1275612778,"Rachel Hughes, DO",DO,Internal Medicine,Oakland,NP,27
+1727,1857988399,"David Cohen, PA",PA,Pediatrics,San Mateo,NP,27
+1728,1879659669,"Maria Anderson, NP",NP,Cardiology,Walnut Creek,NP,27
+1729,1610918795,"James Turner, PA",PA,Internal Medicine,Berkeley,NP,27
+1730,1132360483,"Patricia Zimmerman, DO",DO,Cardiology,San Mateo,NP,27
+1731,1270600826,"Priya Mitchell, DO",DO,Psychiatry,Oakland,B,27
+1732,1247252570,"Brian Owens, NP",NP,Pediatrics,Walnut Creek,NP,27
+1733,1196109366,"Monica Ellis, DO",DO,Pediatrics,Walnut Creek,NP,27
+1734,1010867392,"Daniel Reyes, DO",DO,Internal Medicine,Berkeley,C,27
+1735,1292684086,"Linda Nguyen, NP",NP,Endocrinology,Walnut Creek,C,27
+1736,1581750584,"James Anderson, PA",PA,Internal Medicine,Walnut Creek,NP,27
+1737,1570502579,"Victor Quinn, PA",PA,Neurology,Berkeley,NP,27
+1738,1019329765,"Monica Walker, DO",DO,Family Medicine,Oakland,C,27
+1739,1676681981,"Carlos Vargas, NP",NP,Internal Medicine,San Mateo,B,27
+1740,1196905138,"Hannah Johnson, NP",NP,Internal Medicine,Berkeley,NP,27
+1741,1623586575,"Jennifer Vargas, PA",PA,Internal Medicine,Berkeley,A,27
+1742,1683375579,"Michael Hughes, PA",PA,Pediatrics,Berkeley,B,27
+1743,1582588390,"Carlos Lopez, MD",MD,Internal Medicine,Walnut Creek,NP,27
+1744,1101689125,"James Vargas, NP",NP,Cardiology,Walnut Creek,C,27
+1745,1157463309,"Jennifer Edwards, NP",NP,Cardiology,San Francisco,NP,27
+1746,1258154608,"Carlos Dunn, NP",NP,Psychiatry,San Mateo,NP,27
+1747,1582613960,"Daniel Vargas, PA",PA,Family Medicine,San Francisco,A,27
+1748,1038387693,"David Hughes, PA",PA,Psychiatry,San Francisco,C,27
+1749,1658140051,"Jennifer Brooks, PA",PA,Neurology,San Mateo,NP,27
+1750,1067505408,"Linda Reyes, DO",DO,Endocrinology,San Mateo,NP,27
+1751,1018443639,"Priya Usman, NP",NP,Neurology,San Mateo,NP,27
+1752,1250147388,"Grace Nguyen, NP",NP,Cardiology,Oakland,NP,27
+1753,1834840447,"Victor Reyes, DO",DO,Rheumatology,Oakland,NP,27
+1754,1111818724,"Robert Hughes, DO",DO,Neurology,Oakland,C,27
+1755,1336322789,"Tyler Anderson, MD",MD,Family Medicine,San Mateo,NP,27
+1756,1479718821,"Aisha Zimmerman, DO",DO,Rheumatology,San Francisco,NP,27
+1757,1202718785,"Michael Mitchell, PA",PA,Cardiology,Walnut Creek,NP,27
+1758,1818555568,"Victor Nguyen, PA",PA,Internal Medicine,Walnut Creek,B,27
+1759,1351698204,"Grace Zimmerman, NP",NP,Psychiatry,Walnut Creek,NP,27
+1760,1331662772,"Jennifer Chen, DO",DO,Neurology,Berkeley,NP,27
+1761,1065947209,"Rachel Kim, PA",PA,Internal Medicine,Seattle,NP,28
+1762,1013694043,"Grace Walker, DO",DO,Internal Medicine,Kirkland,B,28
+1763,1708858277,"Omar Dunn, DO",DO,Psychiatry,Bellevue,C,28
+1764,1799516289,"Michael Ito, DO",DO,Family Medicine,Tacoma,NP,28
+1765,1794906769,"Nina Mitchell, DO",DO,Internal Medicine,Seattle,B,28
+1766,1580923730,"Eric Mitchell, DO",DO,Neurology,Kirkland,NP,28
+1767,1396729996,"David Singh, PA",PA,Internal Medicine,Seattle,A,28
+1768,1489565151,"Michael Cohen, NP",NP,Psychiatry,Everett,NP,28
+1769,1035694683,"James Walker, MD",MD,Psychiatry,Seattle,NP,28
+1770,1499511677,"Brian Lopez, DO",DO,Psychiatry,Bellevue,A,28
+1771,1752173219,"Daniel Garcia, NP",NP,Family Medicine,Kirkland,NP,28
+1772,1164693385,"Victor Ito, DO",DO,Family Medicine,Tacoma,A,28
+1773,1155266950,"Linda Foster, PA",PA,Internal Medicine,Kirkland,B,28
+1774,1216507606,"Carlos Owens, MD",MD,Internal Medicine,Everett,NP,28
+1775,1260924679,"Robert Foster, PA",PA,Internal Medicine,Seattle,B,28
+1776,1397200982,"Sofia Chen, DO",DO,Psychiatry,Kirkland,NP,28
+1777,1607177067,"Marcus Usman, DO",DO,Psychiatry,Tacoma,C,28
+1778,1267458357,"Jason Ellis, NP",NP,Family Medicine,Seattle,NP,28
+1779,1292232519,"Aisha Ito, PA",PA,Sports Medicine (Internal Medicine),Seattle,NP,28
+1780,1603893190,"Rachel Young, NP",NP,Psychiatry,Seattle,A,28
+1781,1088100319,"Priya Patel, NP",NP,Family Medicine,Tacoma,C,28
+1782,1642475634,"James Young, MD",MD,Family Medicine,Everett,NP,28
+1783,1049634832,"Omar Mitchell, DO",DO,Internal Medicine,Kirkland,NP,28
+1784,1642998819,"Patricia Owens, NP",NP,Endocrinology,Bellevue,C,28
+1785,1273780477,"James Usman, NP",NP,Pediatrics,Everett,NP,28
+1786,1610796311,"Omar Quinn, PA",PA,Neurology,Tacoma,NP,28
+1787,1376978467,"Victor Zimmerman, PA",PA,Internal Medicine,Everett,NP,28
+1788,1203643313,"Tanya Diaz, NP",NP,Neurology,Everett,NP,28
+1789,1781796375,"Nina Turner, NP",NP,Family Medicine,Kirkland,NP,28
+1790,1640418896,"Patricia Owens, MD",MD,Neurology,Kirkland,NP,28
+1791,1552580413,"Monica Cohen, DO",DO,Neurology,Kirkland,C,28
+1792,1342787894,"Monica Nguyen, DO",DO,Psychiatry,Everett,C,28
+1793,1001520790,"Michael Hughes, NP",NP,Cardiology,Bellevue,NP,28
+1794,1289657965,"Carlos Foster, PA",PA,Endocrinology,Bellevue,B,28
+1795,1701903543,"Rachel Foster, NP",NP,Psychiatry,Everett,NP,28
+1796,1287335038,"Priya Young, DO",DO,Family Medicine,Kirkland,C,28
+1797,1702615691,"Grace Kim, DO",DO,Neurology,Bellevue,NP,28
+1798,1277193817,"Derek Ellis, NP",NP,Internal Medicine,Seattle,NP,28
+1799,1217839350,"Michael Kim, DO",DO,Internal Medicine,Tacoma,C,28
+1800,1074829418,"Derek Xu, DO",DO,Neurology,Everett,NP,28
+1801,1759721284,"Patricia Kim, PA",PA,Family Medicine,Bellevue,NP,28
+1802,1017391225,"Hannah Cohen, DO",DO,Neurology,Bellevue,C,28
+1803,1049190136,"David Garcia, PA",PA,Cardiology,Everett,A,28
+1804,1163006376,"Hannah Edwards, NP",NP,Pediatrics,Bellevue,A,28
+1805,1847064168,"Hannah Vargas, NP",NP,Endocrinology,Bellevue,NP,28
+1806,1664348395,"Eric Patel, PA",PA,Sports Medicine (Internal Medicine),Bellevue,NP,28
+1807,1362127808,"Marcus Bennett, DO",DO,Rheumatology,Tacoma,C,28
+1808,1693633486,"Derek Brooks, PA",PA,Family Medicine,Tacoma,B,28
+1809,1831403730,"Eric Brooks, DO",DO,Family Medicine,Everett,C,28
+1810,1021971093,"Grace Turner, DO",DO,Neurology,Everett,NP,28
+1811,1589864314,"Linda Chen, MD",MD,Neurology,Kirkland,NP,28
+1812,1457752642,"Kevin Patel, NP",NP,Internal Medicine,Kirkland,NP,28
+1813,1739986582,"Rachel Usman, DO",DO,Family Medicine,Tacoma,C,28
+1814,1602970538,"Aisha Lopez, DO",DO,Internal Medicine,Kirkland,NP,28
+1815,1179790733,"Maria Ellis, MD",MD,Family Medicine,Tacoma,NP,28
+1816,1731512354,"Rachel Garcia, MD",MD,Neurology,Bellevue,NP,28
+1817,1707873024,"Marcus Chen, NP",NP,Endocrinology,Kirkland,NP,28
+1818,1870214796,"Priya Johnson, PA",PA,Cardiology,Tacoma,NP,28
+1819,1104898554,"Nina Cohen, DO",DO,Rheumatology,Everett,A,28
+1820,1505618863,"Aisha Chen, DO",DO,Family Medicine,Tacoma,A,28
+1821,1754428343,"Michael Nguyen, NP",NP,Internal Medicine,Seattle,C,28
+1822,1789487187,"Patricia Ito, DO",DO,Neurology,Tacoma,NP,28
+1823,1460596309,"Tyler Patel, PA",PA,Psychiatry,Seattle,C,28
+1824,1512241714,"Priya Nguyen, NP",NP,Internal Medicine,Bellevue,NP,28
+1825,1689861192,"Maria Cohen, PA",PA,Psychiatry,Bellevue,NP,28
+1826,1889189922,"Emily Hughes, DO",DO,Neurology,Seattle,NP,28
+1827,1024003052,"Marcus Foster, DO",DO,Cardiology,Seattle,NP,28
+1828,1601720441,"Tanya Chen, MD",MD,Internal Medicine,Everett,A,28
+1829,1540764552,"Aisha Bennett, NP",NP,Pediatrics,Seattle,C,28
+1830,1221990949,"Sofia Bennett, PA",PA,Family Medicine,Bellevue,C,28
+1831,1475955000,"Jason Patel, NP",NP,Pediatrics,Everett,NP,28
+1832,1649138435,"Linda Mitchell, PA",PA,Psychiatry,Seattle,B,28
+1833,1402814365,"Victor Usman, DO",DO,Pediatrics,Seattle,NP,28
+1834,1028943241,"Marcus Kim, MD",MD,Pediatrics,Everett,NP,28
+1835,1009673257,"Tanya Vargas, DO",DO,Psychiatry,Seattle,C,28
+1836,1127451000,"Hannah Quinn, NP",NP,Psychiatry,Tacoma,B,28
+1837,1491436389,"Alyssa Chen, NP",NP,Psychiatry,Tacoma,B,28
+1838,1337017940,"Jason Vargas, MD",MD,Family Medicine,Portland,NP,29
+1839,1044438708,"Monica Reyes, NP",NP,Family Medicine,Hillsboro,NP,29
+1840,1489787812,"Tanya Singh, NP",NP,Rheumatology,Portland,NP,29
+1841,1067269320,"Marcus Lopez, DO",DO,Internal Medicine,Beaverton,C,29
+1842,1380130425,"Eric Bennett, PA",PA,Family Medicine,Gresham,B,29
+1843,1852722108,"Priya Singh, PA",PA,Family Medicine,Hillsboro,NP,29
+1844,1550379476,"Brian Foster, PA",PA,Neurology,Portland,NP,29
+1845,1134356998,"James Chen, PA",PA,Rheumatology,Hillsboro,NP,29
+1846,1279375471,"Daniel Bennett, PA",PA,Pediatrics,Hillsboro,NP,29
+1847,1014880850,"Tyler Ellis, NP",NP,Family Medicine,Gresham,A,29
+1848,1207026882,"Monica Quinn, DO",DO,Psychiatry,Beaverton,NP,29
+1849,1379335969,"Patricia Johnson, DO",DO,Psychiatry,Beaverton,B,29
+1850,1605974820,"Patricia Reyes, PA",PA,Psychiatry,Hillsboro,NP,29
+1851,1625777496,"James Chen, NP",NP,Internal Medicine,Hillsboro,B,29
+1852,1082560046,"Jason Foster, NP",NP,Cardiology,Hillsboro,NP,29
+1853,1554455377,"Tanya Cohen, PA",PA,Sports Medicine (Internal Medicine),Portland,C,29
+1854,1801048498,"Brian Walker, DO",DO,Internal Medicine,Lake Oswego,NP,29
+1855,1633142060,"Monica Young, NP",NP,Psychiatry,Beaverton,NP,29
+1856,1615265397,"David Ellis, NP",NP,Psychiatry,Beaverton,NP,29
+1857,1101624186,"Tanya Owens, MD",MD,Internal Medicine,Gresham,B,29
+1858,1591350212,"Patricia Lopez, PA",PA,Pediatrics,Gresham,A,29
+1859,1594199520,"James Brooks, NP",NP,Neurology,Portland,NP,29
+1860,1382077927,"Marcus Dunn, NP",NP,Internal Medicine,Beaverton,B,29
+1861,1754702672,"Robert Walker, NP",NP,Family Medicine,Beaverton,C,29
+1862,1882494479,"Hannah Garcia, PA",PA,Endocrinology,Beaverton,NP,29
+1863,1647943690,"Alyssa Brooks, DO",DO,Neurology,Gresham,C,29
+1864,1035030922,"Marcus Zimmerman, PA",PA,Family Medicine,Hillsboro,NP,29
+1865,1043038157,"Nina Hughes, NP",NP,Psychiatry,Lake Oswego,B,29
+1866,1776035786,"Kevin Cohen, PA",PA,Pediatrics,Lake Oswego,C,29
+1867,1675886711,"Marcus Cohen, PA",PA,Neurology,Portland,C,29
+1868,1527460152,"Daniel Foster, PA",PA,Psychiatry,Hillsboro,NP,29
+1869,1143645670,"Nina Reyes, PA",PA,Cardiology,Lake Oswego,NP,29
+1870,1748358058,"Sofia Cohen, NP",NP,Endocrinology,Lake Oswego,NP,29
+1871,1374772672,"Patricia Bennett, PA",PA,Family Medicine,Portland,C,29
+1872,1180357457,"Monica Quinn, MD",MD,Pediatrics,Hillsboro,NP,29
+1873,1072990774,"Maria Mitchell, DO",DO,Family Medicine,Beaverton,B,29
+1874,1237909240,"Rachel Lopez, PA",PA,Cardiology,Hillsboro,C,29
+1875,1294172507,"Jason Mitchell, PA",PA,Psychiatry,Lake Oswego,NP,29
+1876,1368979344,"Monica Singh, MD",MD,Psychiatry,Portland,A,29
+1877,1565064902,"Priya Cohen, NP",NP,Cardiology,Gresham,B,29
+1878,1889056781,"Jason Nguyen, PA",PA,Pediatrics,Lake Oswego,NP,29
+1879,1060869365,"Jason Owens, PA",PA,Family Medicine,Beaverton,B,29
+1880,1527007550,"Carlos Diaz, NP",NP,Cardiology,Beaverton,A,29
+1881,1449507922,"Sofia Johnson, PA",PA,Neurology,Gresham,NP,29
+1882,1075882807,"Eric Zimmerman, DO",DO,Endocrinology,Lake Oswego,NP,29
+1883,1342799899,"Marcus Walker, DO",DO,Internal Medicine,Portland,B,29
+1884,1261980281,"Kevin Kim, NP",NP,Neurology,Lake Oswego,NP,29
+1885,1080054615,"Aisha Mitchell, PA",PA,Internal Medicine,Lake Oswego,NP,29
+1886,1827664801,"Carlos Quinn, NP",NP,Internal Medicine,Lake Oswego,NP,29
+1887,1455926243,"Priya Lopez, PA",PA,Family Medicine,Portland,C,29
+1888,1613715647,"Jason Patel, DO",DO,Cardiology,Portland,B,29
+1889,1551621933,"Grace Dunn, DO",DO,Psychiatry,Hillsboro,C,29
+1890,1562564853,"Hannah Brooks, MD",MD,Internal Medicine,Lake Oswego,C,29
+1891,1614974500,"Hannah Anderson, DO",DO,Internal Medicine,Portland,C,29
+1892,1006980099,"Rachel Kim, NP",NP,Neurology,Lake Oswego,C,29
+1893,1579730482,"Priya Vargas, PA",PA,Endocrinology,Hillsboro,C,29
+1894,1504300004,"Eric Johnson, PA",PA,Psychiatry,Las Vegas,B,30
+1895,1648036411,"Hannah Singh, MD",MD,Internal Medicine,Henderson,C,30
+1896,1358440660,"Aisha Cohen, NP",NP,Family Medicine,Summerlin,C,30
+1897,1747181788,"Hannah Garcia, NP",NP,Psychiatry,Las Vegas,NP,30
+1898,1108050315,"Tyler Walker, DO",DO,Internal Medicine,Summerlin,NP,30
+1899,1412069822,"Sofia Young, DO",DO,Neurology,Las Vegas,NP,30
+1900,1756860802,"Priya Nguyen, DO",DO,Family Medicine,Las Vegas,NP,30
+1901,1884460140,"Aisha Diaz, MD",MD,Cardiology,Summerlin,NP,30
+1902,1501750694,"Kevin Ellis, PA",PA,Pediatrics,Henderson,B,30
+1903,1790952499,"Kevin Foster, NP",NP,Pediatrics,North Las Vegas,C,30
+1904,1038962185,"Linda Cohen, NP",NP,Pediatrics,North Las Vegas,NP,30
+1905,1322464085,"Hannah Foster, DO",DO,Psychiatry,Las Vegas,B,30
+1906,1644838316,"Aisha Vargas, NP",NP,Family Medicine,Las Vegas,B,30
+1907,1658727661,"Tanya Reyes, DO",DO,Cardiology,Henderson,NP,30
+1908,1163119380,"Alyssa Johnson, DO",DO,Family Medicine,Boulder City,NP,30
+1909,1248959957,"Maria Young, DO",DO,Cardiology,Las Vegas,C,30
+1910,1603190275,"Emily Lopez, PA",PA,Cardiology,North Las Vegas,C,30
+1911,1800475064,"Alyssa Singh, DO",DO,Endocrinology,Boulder City,B,30
+1912,1781531975,"Rachel Reyes, DO",DO,Internal Medicine,North Las Vegas,B,30
+1913,1580330802,"Hannah Xu, NP",NP,Neurology,Boulder City,B,30
+1914,1747048740,"Robert Usman, MD",MD,Sports Medicine (Internal Medicine),Boulder City,B,30
+1915,1851740026,"Priya Nguyen, PA",PA,Family Medicine,Las Vegas,NP,30
+1916,1367156190,"Daniel Patel, PA",PA,Psychiatry,Boulder City,C,30
+1917,1114994159,"Emily Diaz, NP",NP,Cardiology,Las Vegas,NP,30
+1918,1282600847,"Daniel Zimmerman, PA",PA,Rheumatology,Summerlin,NP,30
+1919,1560466447,"Jennifer Singh, DO",DO,Internal Medicine,Henderson,NP,30
+1920,1586871499,"Robert Chen, NP",NP,Family Medicine,Las Vegas,B,30
+1921,1398427180,"David Dunn, DO",DO,Family Medicine,Henderson,C,30
+1922,1559039738,"James Foster, MD",MD,Cardiology,Las Vegas,B,30
+1923,1193296374,"Omar Ito, NP",NP,Internal Medicine,Las Vegas,B,30
+1924,1833541115,"Omar Singh, DO",DO,Psychiatry,North Las Vegas,NP,30
+1925,1178979085,"Priya Xu, NP",NP,Psychiatry,Henderson,NP,30
+1926,1870095265,"Omar Walker, DO",DO,Pediatrics,Henderson,C,30
+1927,1332676010,"Alyssa Diaz, NP",NP,Internal Medicine,North Las Vegas,C,30
+1928,1166612334,"Eric Owens, DO",DO,Neurology,Henderson,NP,30
+1929,1067050191,"Jason Young, NP",NP,Endocrinology,Las Vegas,C,30
+1930,1079321945,"Emily Mitchell, NP",NP,Rheumatology,North Las Vegas,NP,30
+1931,1111634623,"Derek Diaz, MD",MD,Internal Medicine,Summerlin,NP,30
+1932,1484643429,"Alyssa Turner, DO",DO,Internal Medicine,Boulder City,B,30
+1933,1820899136,"James Cohen, NP",NP,Cardiology,Henderson,NP,30
+1934,1508320970,"Aisha Ito, DO",DO,Pediatrics,Las Vegas,C,30
+1935,1484262249,"Omar Vargas, NP",NP,Pediatrics,Boulder City,NP,30
+1936,1682882261,"Alyssa Ito, DO",DO,Internal Medicine,Boulder City,NP,30
+1937,1067374528,"Rachel Xu, NP",NP,Internal Medicine,North Las Vegas,NP,30
+1938,1735184043,"Linda Bennett, NP",NP,Endocrinology,Henderson,NP,30
+1939,1096808613,"Nina Dunn, MD",MD,Internal Medicine,Henderson,NP,30
+1940,1437014108,"Michael Bennett, NP",NP,Family Medicine,Summerlin,NP,30
+1941,1162170353,"Sofia Johnson, DO",DO,Internal Medicine,Las Vegas,NP,30
+1942,1408006033,"Carlos Xu, NP",NP,Internal Medicine,North Las Vegas,NP,30
+1943,1409160155,"Tanya Cohen, NP",NP,Family Medicine,Summerlin,NP,30
+1944,1825070672,"Alyssa Ellis, DO",DO,Internal Medicine,Summerlin,C,30
+1945,1588592458,"Aisha Owens, DO",DO,Neurology,Las Vegas,B,30
+1946,1159301256,"Carlos Kim, PA",PA,Sports Medicine (Internal Medicine),Las Vegas,A,30
+1947,1438174775,"Emily Young, NP",NP,Neurology,Henderson,NP,30
+1948,1741740901,"Brian Ito, DO",DO,Endocrinology,Las Vegas,NP,30
+1949,1821531000,"Jason Kim, NP",NP,Cardiology,North Las Vegas,C,30
+1950,1823629921,"Hannah Nguyen, NP",NP,Internal Medicine,Summerlin,B,30
+1951,1185506876,"Tyler Lopez, PA",PA,Internal Medicine,North Las Vegas,C,30
+1952,1890673925,"Jason Bennett, DO",DO,Internal Medicine,Henderson,C,30
+1953,1067753274,"Jennifer Foster, NP",NP,Rheumatology,North Las Vegas,C,30
+1954,1394017878,"Michael Owens, PA",PA,Family Medicine,Summerlin,B,30
+1955,1295758120,"Monica Foster, MD",MD,Family Medicine,North Las Vegas,NP,30
+1956,1253428783,"Robert Diaz, PA",PA,Family Medicine,Boulder City,B,30
+1957,1606213569,"Monica Garcia, DO",DO,Pediatrics,Summerlin,C,30
+1958,1271634807,"Victor Quinn, DO",DO,Internal Medicine,Henderson,NP,30
+1959,1359887303,"Priya Ellis, PA",PA,Cardiology,Henderson,A,30
+1960,1017546654,"Marcus Anderson, DO",DO,Family Medicine,Las Vegas,B,30
+1961,1698299342,"Sofia Quinn, PA",PA,Endocrinology,Henderson,C,30
+1962,1361648355,"Omar Kim, PA",PA,Rheumatology,Summerlin,NP,30
+1963,1756171053,"Robert Owens, PA",PA,Rheumatology,Las Vegas,C,30

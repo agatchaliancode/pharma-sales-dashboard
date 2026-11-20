@@ -1,0 +1,394 @@
+createOrReplace
+
+	ref table fact_trx_weekly
+
+
+		measure 'Total TRx' =
+				SUM ( fact_trx_weekly[trx] )
+			formatString: #,0
+
+
+		measure 'Latest Week' =
+				CALCULATE ( MAX ( fact_trx_weekly[week_ending_date] ), ALL ( fact_trx_weekly ) )
+			formatString: m/d/yyyy
+
+
+		measure 'Latest Call Date' =
+				CALCULATE ( MAX ( fact_calls[call_date] ), ALL ( fact_calls ) )
+			formatString: m/d/yyyy
+
+
+		measure 'Curr 13 Wks TRx' =
+				CALCULATE ( [Total TRx], DATESINPERIOD ( dim_date[date_key], [Latest Week], -91, DAY ) )
+			formatString: #,0
+
+
+		measure 'Prior 13 Wks TRx' =
+				CALCULATE ( [Total TRx], DATESINPERIOD ( dim_date[date_key], [Latest Week] - 91, -91, DAY ) )
+			formatString: #,0
+
+
+		measure 'TRx Chg 13 Wks' =
+				[Curr 13 Wks TRx] - [Prior 13 Wks TRx]
+			formatString: #,0;-#,0;0
+
+
+		measure '% Chg 13 Wks' =
+				DIVIDE ( [TRx Chg 13 Wks], [Prior 13 Wks TRx] )
+			formatString: 0.0%
+
+
+		measure 'YTD TRx' =
+				VAR lw = [Latest Week]
+				VAR yearStart = DATE ( YEAR ( lw ), 1, 1 )
+				RETURN
+				    CALCULATE ( [Total TRx], DATESBETWEEN ( dim_date[date_key], yearStart, lw ) )
+			formatString: #,0
+
+
+		measure 'LY YTD TRx' =
+				VAR lyEnd = EDATE ( [Latest Week], -12 )
+				VAR lyStart = DATE ( YEAR ( lyEnd ), 1, 1 )
+				RETURN
+				    CALCULATE ( [Total TRx], DATESBETWEEN ( dim_date[date_key], lyStart, lyEnd ) )
+			formatString: #,0
+
+
+		measure '% Chg YoY' =
+				DIVIDE ( [YTD TRx] - [LY YTD TRx], [LY YTD TRx] )
+			formatString: 0.0%
+
+
+		measure 'Terr Count Region' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    CALCULATE ( DISTINCTCOUNT ( dim_territory[territory_id] ), ALL ( dim_territory ), rgn )
+			formatString: #,0
+
+
+		measure 'Region Avg TRx' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    DIVIDE ( CALCULATE ( [Total TRx], ALL ( dim_territory ), rgn ), [Terr Count Region] )
+			formatString: #,0
+
+
+		measure 'Nation Avg TRx' =
+				DIVIDE (
+				    CALCULATE ( [Total TRx], ALL ( dim_territory ) ),
+				    CALCULATE ( DISTINCTCOUNT ( dim_territory[territory_id] ), ALL ( dim_territory ) )
+				)
+			formatString: #,0
+
+
+		measure 'Region Avg Curr 13' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    DIVIDE ( CALCULATE ( [Curr 13 Wks TRx], ALL ( dim_territory ), rgn ), [Terr Count Region] )
+			formatString: #,0
+
+
+		measure 'Nation Avg Curr 13' =
+				DIVIDE (
+				    CALCULATE ( [Curr 13 Wks TRx], ALL ( dim_territory ) ),
+				    CALCULATE ( DISTINCTCOUNT ( dim_territory[territory_id] ), ALL ( dim_territory ) )
+				)
+			formatString: #,0
+
+
+		measure 'Window Start' =
+				VAR d = [Latest Call Date]
+				RETURN
+				    IF (
+				        SELECTEDVALUE ( 'Reach Window'[Window], "8 wk" ) = "QTD",
+				        DATE ( YEAR ( d ), 3 * ( QUARTER ( d ) - 1 ) + 1, 1 ),
+				        d - 55
+				    )
+			formatString: m/d/yyyy
+
+
+		measure 'Priority HCPs' =
+				CALCULATE ( DISTINCTCOUNT ( dim_hcp[hcp_id] ), KEEPFILTERS ( dim_hcp[priority_tier] <> "NP" ) )
+			formatString: #,0
+
+
+		measure 'Reached HCPs' =
+				CALCULATE (
+				    DISTINCTCOUNT ( fact_calls[hcp_id] ),
+				    DATESBETWEEN ( dim_date[date_key], [Window Start], [Latest Call Date] ),
+				    KEEPFILTERS ( dim_hcp[priority_tier] <> "NP" )
+				)
+			formatString: #,0
+
+
+		measure 'Calls in Window' =
+				CALCULATE (
+				    COUNTROWS ( fact_calls ),
+				    DATESBETWEEN ( dim_date[date_key], [Window Start], [Latest Call Date] ),
+				    KEEPFILTERS ( dim_hcp[priority_tier] <> "NP" )
+				)
+			formatString: #,0
+
+
+		measure 'Reach %' =
+				DIVIDE ( [Reached HCPs], [Priority HCPs] )
+			formatString: 0.0%
+
+
+		measure 'Avg Frequency' =
+				DIVIDE ( [Calls in Window], [Reached HCPs] )
+			formatString: 0.0
+
+
+		measure 'Region Reach %' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    CALCULATE ( [Reach %], ALL ( dim_territory ), rgn )
+			formatString: 0.0%
+
+
+		measure 'Nation Reach %' =
+				CALCULATE ( [Reach %], ALL ( dim_territory ) )
+			formatString: 0.0%
+
+
+		measure 'Region Avg Frequency' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    CALCULATE ( [Avg Frequency], ALL ( dim_territory ), rgn )
+			formatString: 0.0
+
+
+		measure 'Nation Avg Frequency' =
+				CALCULATE ( [Avg Frequency], ALL ( dim_territory ) )
+			formatString: 0.0
+
+
+		measure 'Lifetime TRx Before Window' =
+				VAR cutoff = [Latest Week] - 91
+				RETURN
+				    CALCULATE ( [Total TRx], dim_date[date_key] <= cutoff )
+			formatString: #,0
+
+
+		measure 'Last Call Date' =
+				CALCULATE ( MAX ( fact_calls[call_date] ), ALL ( dim_date ) )
+			formatString: m/d/yyyy
+
+
+		measure 'Calls 8 Wks' =
+				CALCULATE ( COUNTROWS ( fact_calls ), DATESINPERIOD ( dim_date[date_key], [Latest Call Date], -56, DAY ) )
+			formatString: #,0
+
+
+		measure 'Show Row' =
+				VAR selView  = SELECTEDVALUE ( 'Writer View'[View], "New Writers" )
+				VAR curr     = [Curr 13 Wks TRx]
+				VAR chg      = [TRx Chg 13 Wks]
+				VAR rowLimit = 10
+				VAR rnkTop   = RANKX ( ALLSELECTED ( dim_hcp ), [Curr 13 Wks TRx], , DESC, DENSE )
+				VAR rnkGain  = RANKX ( ALLSELECTED ( dim_hcp ), [TRx Chg 13 Wks], , DESC, DENSE )
+				VAR rnkDec   = RANKX ( ALLSELECTED ( dim_hcp ), [TRx Chg 13 Wks], , ASC, DENSE )
+				RETURN
+				    SWITCH (
+				        selView,
+				        "New Writers", IF ( curr > 0 && [Lifetime TRx Before Window] = 0, 1, 0 ),
+				        "Top Writers", IF ( curr > 0 && rnkTop <= rowLimit, 1, 0 ),
+				        "Gainers",     IF ( chg > 0 && rnkGain <= rowLimit, 1, 0 ),
+				        "Decliners",   IF ( chg < 0 && rnkDec <= rowLimit, 1, 0 ),
+				        0
+				    )
+			formatString: 0
+
+
+		measure 'Terr Count Nation' =
+				CALCULATE ( DISTINCTCOUNT ( dim_territory[territory_id] ), ALL ( dim_territory ) )
+			formatString: #,0
+
+
+		measure 'Region Avg Prior 13' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    DIVIDE ( CALCULATE ( [Prior 13 Wks TRx], ALL ( dim_territory ), rgn ), [Terr Count Region] )
+			formatString: #,0
+
+
+		measure 'Nation Avg Prior 13' =
+				DIVIDE ( CALCULATE ( [Prior 13 Wks TRx], ALL ( dim_territory ) ), [Terr Count Nation] )
+			formatString: #,0
+
+
+		measure 'Region Avg YTD' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    DIVIDE ( CALCULATE ( [YTD TRx], ALL ( dim_territory ), rgn ), [Terr Count Region] )
+			formatString: #,0
+
+
+		measure 'Nation Avg YTD' =
+				DIVIDE ( CALCULATE ( [YTD TRx], ALL ( dim_territory ) ), [Terr Count Nation] )
+			formatString: #,0
+
+
+		measure 'Region Avg LY YTD' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    DIVIDE ( CALCULATE ( [LY YTD TRx], ALL ( dim_territory ), rgn ), [Terr Count Region] )
+			formatString: #,0
+
+
+		measure 'Nation Avg LY YTD' =
+				DIVIDE ( CALCULATE ( [LY YTD TRx], ALL ( dim_territory ) ), [Terr Count Nation] )
+			formatString: #,0
+
+
+		measure 'Cmp Curr 13' =
+				SWITCH (
+				        SELECTEDVALUE ( 'Comparison Level'[Level] ),
+				        "Territory", [Curr 13 Wks TRx],
+				        "Region (Avg)", [Region Avg Curr 13],
+				        "Nation (Avg)", [Nation Avg Curr 13]
+				    )
+			formatString: #,0
+
+
+		measure 'Cmp % Chg 13' =
+				VAR cur   = SWITCH (
+				        SELECTEDVALUE ( 'Comparison Level'[Level] ),
+				        "Territory", [Curr 13 Wks TRx],
+				        "Region (Avg)", [Region Avg Curr 13],
+				        "Nation (Avg)", [Nation Avg Curr 13]
+				    )
+				VAR prior = SWITCH (
+				        SELECTEDVALUE ( 'Comparison Level'[Level] ),
+				        "Territory", [Prior 13 Wks TRx],
+				        "Region (Avg)", [Region Avg Prior 13],
+				        "Nation (Avg)", [Nation Avg Prior 13]
+				    )
+				RETURN
+				    DIVIDE ( cur - prior, prior )
+			formatString: 0.0%
+
+
+		measure 'Cmp YTD' =
+				SWITCH (
+				        SELECTEDVALUE ( 'Comparison Level'[Level] ),
+				        "Territory", [YTD TRx],
+				        "Region (Avg)", [Region Avg YTD],
+				        "Nation (Avg)", [Nation Avg YTD]
+				    )
+			formatString: #,0
+
+
+		measure 'Cmp % Chg YoY' =
+				VAR cur = SWITCH (
+				        SELECTEDVALUE ( 'Comparison Level'[Level] ),
+				        "Territory", [YTD TRx],
+				        "Region (Avg)", [Region Avg YTD],
+				        "Nation (Avg)", [Nation Avg YTD]
+				    )
+				VAR ly  = SWITCH (
+				        SELECTEDVALUE ( 'Comparison Level'[Level] ),
+				        "Territory", [LY YTD TRx],
+				        "Region (Avg)", [Region Avg LY YTD],
+				        "Nation (Avg)", [Nation Avg LY YTD]
+				    )
+				RETURN
+				    DIVIDE ( cur - ly, ly )
+			formatString: 0.0%
+
+
+		measure 'Goal Quarter Start' =
+				DATE ( YEAR ( [Latest Week] ), 3 * ( QUARTER ( [Latest Week] ) - 1 ) + 1, 1 )
+			formatString: m/d/yyyy
+
+
+		measure 'Quarter Goal' =
+				VAR qStart = [Goal Quarter Start]
+				RETURN
+				    CALCULATE ( SUM ( fact_quota[trx_goal] ), REMOVEFILTERS ( dim_date ), fact_quota[quarter_start_date] = qStart )
+			formatString: #,0
+
+
+		measure 'QTD TRx' =
+				VAR qStart = [Goal Quarter Start]
+				RETURN
+				    CALCULATE ( [Total TRx], DATESBETWEEN ( dim_date[date_key], qStart, [Latest Week] ) )
+			formatString: #,0
+
+
+		measure '% to Goal' =
+				DIVIDE ( [QTD TRx], [Quarter Goal] )
+			formatString: 0.0%
+
+
+		measure 'Quarter Elapsed %' =
+				VAR qStart = [Goal Quarter Start]
+				VAR qEnd   = EOMONTH ( qStart, 2 )
+				VAR lw     = [Latest Week]
+				RETURN
+				    DIVIDE ( lw - qStart + 1, qEnd - qStart + 1 )
+			formatString: 0%
+
+
+		measure 'Pace Index' =
+				DIVIDE ( [% to Goal], [Quarter Elapsed %] )
+			formatString: 0%
+
+
+		measure 'Gap to Goal' =
+				[Quarter Goal] - [QTD TRx]
+			formatString: #,0;-#,0;0
+
+
+		measure 'Region % to Goal' =
+				VAR rgn = VALUES ( dim_territory[region_name] )
+				RETURN
+				    DIVIDE ( CALCULATE ( [QTD TRx], ALL ( dim_territory ), rgn ), CALCULATE ( [Quarter Goal], ALL ( dim_territory ), rgn ) )
+			formatString: 0.0%
+
+
+		measure 'Nation % to Goal' =
+				DIVIDE ( CALCULATE ( [QTD TRx], ALL ( dim_territory ) ), CALCULATE ( [Quarter Goal], ALL ( dim_territory ) ) )
+			formatString: 0.0%
+
+
+		measure 'Attainment % by Quarter' =
+				DIVIDE ( [Total TRx], SUM ( fact_quota[trx_goal] ) )
+			formatString: 0.0%
+
+
+		measure 'Pace Color' =
+				VAR p = [Pace Index]
+				RETURN
+				    SWITCH (
+				        TRUE (),
+				        ISBLANK ( p ), BLANK (),
+				        p >= 1,   "#2E9E6B",
+				        p >= 0.9, "#F2A900",
+				        "#D64545"
+				    )
+
+
+		measure 'Reach Title' =
+				"Priority HCP Reach (" & IF ( SELECTEDVALUE ( 'Reach Window'[Window], "8 wk" ) = "QTD", "QTD", "8 Week" ) & ")"
+
+
+		measure 'Freq Title' =
+				"Priority HCP Avg. Frequency (" & IF ( SELECTEDVALUE ( 'Reach Window'[Window], "8 wk" ) = "QTD", "QTD", "8 Week" ) & ")"
+
+	ref table data_refresh
+
+		measure 'Latest Monthly Data' =
+				LOOKUPVALUE ( data_refresh[latest_data_date], data_refresh[dataset_name], "Monthly Data" )
+			formatString: m/d/yyyy
+
+
+		measure 'Latest Prelim Data' =
+				LOOKUPVALUE ( data_refresh[latest_data_date], data_refresh[dataset_name], "Prelim Data" )
+			formatString: m/d/yyyy
+
+
+		measure 'Latest Call Data' =
+				LOOKUPVALUE ( data_refresh[latest_data_date], data_refresh[dataset_name], "Call Data" )
+			formatString: m/d/yyyy

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pharma Sales Dashboard | Anthony Gatchalian</title>
+<style>
+:root{--bg:#f4f4f4;--card:#fff;--ink:#222;--mut:#666;--blue:#a9b6dc;--gold:#f2c45a;--line:#3b82c4;--g:#2e9e6b;--a:#f2a900;--r:#d64545}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.35 "Segoe UI",system-ui,sans-serif}
+.wrap{max-width:1400px;margin:0 auto;padding:12px 16px}
+header{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;border-bottom:2px solid var(--line);padding-bottom:10px}
+header img{height:64px}.sl{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end}
+.sl label{display:flex;flex-direction:column;font-size:12px;font-weight:600;gap:3px}
+select,input[type=date]{font:inherit;padding:5px 8px;border:1px solid #bbb;border-radius:3px;background:var(--gold);min-width:130px}
+input[type=date]{background:#fff;min-width:0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:12px 0;padding-bottom:12px;border-bottom:2px solid var(--line)}
+.k,.p{background:var(--card);border:1px solid #e2e2e2;border-radius:6px;padding:10px 12px}
+.k span{display:block;font-size:12px;color:var(--mut)}.k b{font-size:24px}
+.grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:10px;margin-bottom:10px}
+.bot{display:grid;grid-template-columns:minmax(300px,.8fr) 1.7fr;gap:10px}
+.p h3{margin:0 0 6px;font-size:15px;display:flex;justify-content:space-between;align-items:center}
+.cv{position:relative;height:260px}
+.tg button,.vw button{border:1px solid #bbb;background:#fff;padding:5px 12px;cursor:pointer;font:inherit;font-size:12px}
+.tg button.on,.vw button.on{background:#333;color:#fff}.tg button:first-child{border-radius:3px 0 0 3px}.tg button:last-child{border-radius:0 3px 3px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}th{text-align:left;border-bottom:1px solid #999;padding:4px 6px;white-space:nowrap}
+td{padding:4px 6px;border-bottom:1px solid #eee}td.n,th.n{text-align:right}
+.up{background:#3fa58c;color:#fff}.dn{background:#e0707f;color:#fff}
+.wr{display:flex;gap:10px}.vw{display:flex;flex-direction:column;gap:6px}.vw button{padding:14px 10px;min-width:96px;font-weight:600}
+.tw{overflow:auto;max-height:340px;flex:1}
+footer{margin-top:10px;font-size:12px;color:var(--mut);display:flex;flex-wrap:wrap;gap:6px 18px}footer a{color:var(--line)}
+@media(max-width:1000px){.grid,.bot{grid-template-columns:1fr}.wr{flex-direction:column}.vw{flex-direction:row;flex-wrap:wrap}}
+</style></head><body><div class="wrap">
+<header><img src="assets/logo.png" alt="FAME - Field Analytics Made Easy">
+<div class="sl">
+<label>Region<select id="region"></select></label><label>Territory<select id="terr"></select></label>
+<label>Product<select id="prod"></select></label>
+<label>Trend range<span><input type="date" id="from"> <input type="date" id="to"></span></label></div></header>
+<div class="cards" id="cards"></div>
+<div class="grid">
+<div class="p"><h3>Preliminary TRx</h3><div class="cv"><canvas id="c1"></canvas></div></div>
+<div class="p"><h3 id="t2">Priority HCP Reach</h3><div class="cv"><canvas id="c2"></canvas></div></div>
+<div class="p"><h3><span id="t3">Priority HCP Avg. Frequency</span><span class="tg" id="win"><button data-v="8wk" class="on">8 wk</button><button data-v="QTD">QTD</button></span></h3><div class="cv"><canvas id="c3"></canvas></div></div></div>
+<div class="bot"><div class="p"><h3>TRx vs. Region &amp; Nation</h3><table id="cmp"></table></div>
+<div class="p wr"><div class="vw" id="vw"></div><div class="tw"><table id="wt"></table></div></div></div>
+<footer id="foot"></footer></div>
+<script src="vendor/chart.umd.js"></script><script src="model.js"></script>
+<script>
+const GITHUB_URL=""; // optional: your repo link, shown in the footer
+const $=id=>document.getElementById(id),n0=x=>Math.round(x).toLocaleString("en-US"),pc=(x,d=1)=>x==null?"":(x*100).toFixed(d)+"%";
+const dt=s=>s?new Date(s+"T00:00").toLocaleDateString("en-US"):"";
+fetch("data.json").then(r=>r.json()).then(D=>{
+const M=Model(D),T=D.territories,S={region:"",terr:"",prod:0,from:"2025-01-01",to:"2026-10-31",win:"8wk",view:"New Writers"};
+const opt=(el,items,all)=>{el.innerHTML=`<option value="">${all}</option>`+items.map(([v,l])=>`<option value="${v}">${l}</option>`).join("")};
+opt($("region"),[...new Set(T.map(t=>t.region))].map(r=>[r,r]),"All");opt($("prod"),D.products.map((p,i)=>[i+1,p]),"All");
+const fillT=()=>{opt($("terr"),T.filter(t=>!S.region||t.region===S.region).map(t=>[t.id,t.name]),"All");$("terr").value=S.terr};
+fillT();$("from").value=S.from;$("to").value=S.to;$("from").min=$("to").min="2024-01-01";$("from").max=$("to").max=D.weeks.at(-1);
+$("vw").innerHTML=["New Writers","Top Writers","Gainers","Decliners"].map(v=>`<button class="${v===S.view?"on":""}">${v}</button>`).join("");
+const qs=new Date(D.quarterStart+"T00:00"),ql="Q"+(qs.getMonth()/3+1)+" "+qs.getFullYear();
+const ds=(l,d,c,x)=>({label:l,data:d,borderColor:c,backgroundColor:c,pointBackgroundColor:c,pointStyle:x.ps,pointRadius:x.pr||5,borderWidth:2,borderDash:x.dash||[],tension:.25,...x.o});
+const opts={responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{usePointStyle:true}}}};
+const c1=new Chart($("c1"),{type:"line",data:{labels:[],datasets:[]},options:{...opts,scales:{y:{beginAtZero:true}}}});
+const mk=pct=>new Chart(document.getElementById(pct?"c2":"c3"),{type:"bar",data:{labels:["A","B","C"],datasets:[]},options:{...opts,scales:{y:{beginAtZero:true,max:pct?1:undefined,ticks:{callback:v=>pct?v*100+"%":v}}}}});
+const c2=mk(1),c3=mk(0);
+const mixed=(ch,k,key,t)=>{const r=R=>R.map(x=>x[key]);ch.data.datasets=[
+{type:"bar",label:"Territory",data:r(t.terr),backgroundColor:"#a9b6dc",order:3},
+{type:"line",label:"Region (Avg)",data:r(t.region),showLine:false,pointStyle:"rectRot",pointRadius:8,backgroundColor:"#f2c45a",borderColor:"#f2c45a",order:1},
+{type:"line",label:"Nation (Avg)",data:r(t.nation),showLine:false,pointStyle:"rect",pointRadius:7,backgroundColor:"#000",borderColor:"#000",order:0}];ch.update()};
+function render(){
+const R=M.compute(S),G=R.goals,g=G.terr,pace=g.pct==null?null:g.pct/G.elapsed,col=pace==null?"":pace>=1?"var(--g)":pace>=.9?"var(--a)":"var(--r)";
+const k=[[ql+" Goal",n0(g.g)],["QTD TRx",n0(g.q)],["% to Goal",pc(g.pct)],["Gap to Goal",n0(g.g-g.q)],["Pace Index",`<b style="color:${col}">${pc(pace,0)}</b>`,1],["Quarter Elapsed",pc(G.elapsed,0)],["Region % to Goal",pc(G.region.pct)],["Nation % to Goal",pc(G.nation.pct)]];
+$("cards").innerHTML=k.map(([l,v,raw])=>`<div class="k"><span>${l}</span>${raw?v:`<b>${v}</b>`}</div>`).join("");
+const tr=R.trend,mn=tr.months.map(m=>new Date(m+"-01T00:00").toLocaleDateString("en-US",{month:"short",year:"2-digit"}));
+c1.data.labels=mn;c1.data.datasets=[ds("Territory",tr.terr,"#a9b6dc",{ps:"circle",dash:[5,4]}),ds("Region (Avg)",tr.region,"#f2c45a",{ps:"rectRot",pr:6}),ds("Nation (Avg)",tr.nation,"#000",{ps:"rect",dash:[2,3]})];c1.update();
+const w=S.win==="QTD"?"QTD":"8 Week";$("t2").textContent=`Priority HCP Reach (${w})`;$("t3").textContent=`Priority HCP Avg. Frequency (${w})`;
+mixed(c2,0,"reach",R.rc);mixed(c3,0,"freq",R.rc);
+const cell=v=>v==null?"":`<td class="n ${v>=0?"up":"dn"}">${pc(v)}</td>`;
+$("cmp").innerHTML="<tr><th></th><th class=n>Curr 13 Wks</th><th class=n>% Chg 13 Wks</th><th class=n>YTD</th><th class=n>% Chg YoY</th></tr>"+R.cmp.map(r=>`<tr><td>${r.n}</td><td class=n>${n0(r.c)}</td>${cell(r.chg)}<td class=n>${n0(r.y)}</td>${cell(r.yoy)}</tr>`).join("");
+$("wt").innerHTML="<tr><th>HCP Name</th><th>City</th><th>Specialty</th><th>Priority</th><th>Last Call</th><th class=n>TRx Curr 13 Wks</th><th class=n>+/- 13 Wks</th><th class=n>Calls 8 Wks</th></tr>"+
+(R.writers.map(r=>`<tr><td>${r.name}</td><td>${r.city}</td><td>${r.spec}</td><td>${r.tier}</td><td>${dt(r.lc)}</td><td class=n>${r.cur}</td><td class="n ${r.chg>0?"up":r.chg<0?"dn":""}">${r.chg}</td><td class=n>${r.c8||""}</td></tr>`).join("")||"<tr><td colspan=8>No HCPs match this view.</td></tr>");
+}
+const on=(id,f)=>$(id).addEventListener("change",e=>{f(e.target.value);render()});
+on("region",v=>{S.region=v;S.terr="";fillT()});on("terr",v=>S.terr=v);on("prod",v=>S.prod=+v);on("from",v=>S.from=v||S.from);on("to",v=>S.to=v||S.to);
+$("win").onclick=e=>{if(!e.target.dataset.v)return;S.win=e.target.dataset.v;[...$("win").children].forEach(b=>b.classList.toggle("on",b===e.target));render()};
+$("vw").onclick=e=>{if(e.target.tagName!=="BUTTON")return;S.view=e.target.textContent;[...$("vw").children].forEach(b=>b.classList.toggle("on",b===e.target));render()};
+$("foot").innerHTML=`<span>Final data through ${dt(D.asOf.final)} · preliminary through ${dt(D.asOf.prelim)} · calls through ${dt(D.asOf.calls)}</span><span>Synthetic sample data. Products and HCPs are fictional.</span><a href="https://anthony.microversesoln.com/">&larr; Portfolio</a>`+(GITHUB_URL?`<a href="${GITHUB_URL}">Source on GitHub</a>`:"");
+render()});
+</script></body></html>

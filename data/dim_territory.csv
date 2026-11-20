@@ -1,0 +1,31 @@
+territory_id,territory_code,territory_name,region_id,region_name
+1,NO01,Boston MA,1,Northeast
+2,NO02,New York NY,1,Northeast
+3,NO03,Long Island NY,1,Northeast
+4,NO04,Philadelphia PA,1,Northeast
+5,NO05,Pittsburgh PA,1,Northeast
+6,NO06,Newark NJ,1,Northeast
+7,SO07,Atlanta GA,2,Southeast
+8,SO08,Miami FL,2,Southeast
+9,SO09,Tampa FL,2,Southeast
+10,SO10,Charlotte NC,2,Southeast
+11,SO11,Nashville TN,2,Southeast
+12,SO12,Orlando FL,2,Southeast
+13,MI13,Chicago IL,3,Midwest
+14,MI14,Detroit MI,3,Midwest
+15,MI15,Minneapolis MN,3,Midwest
+16,MI16,Columbus OH,3,Midwest
+17,MI17,St. Louis MO,3,Midwest
+18,MI18,Indianapolis IN,3,Midwest
+19,SO19,Dallas TX,4,Southwest
+20,SO20,Houston TX,4,Southwest
+21,SO21,Austin TX,4,Southwest
+22,SO22,Phoenix AZ,4,Southwest
+23,SO23,Denver CO,4,Southwest
+24,SO24,Oklahoma City OK,4,Southwest
+25,WE25,Los Angeles CA,5,West
+26,WE26,San Diego CA,5,West
+27,WE27,San Francisco CA,5,West
+28,WE28,Seattle WA,5,West
+29,WE29,Portland OR,5,West
+30,WE30,Las Vegas NV,5,West
