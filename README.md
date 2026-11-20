@@ -7,7 +7,7 @@ A commercial analytics dashboard for a pharma field sales team, built twice from
 
 ![Dashboard overview](screenshots/dashboard-overview.png)
 
-**Live demo:** (https://pharma-sales-dashboard-web.vercel.app/) &nbsp;|&nbsp; **Portfolio:** https://anthony.microversesoln.com/
+**Live demo:** (https://pharma-sales.microversesoln.com/) &nbsp;|&nbsp; **Portfolio:** https://anthony.microversesoln.com/
 
 > All data is synthetic. The products (Neurovia, Cardiolex), HCPs, reps and territories are fictional.
 
